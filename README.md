@@ -75,6 +75,33 @@ arithmetic — is appended to `forward-test-1.md` in this repository.
 
 ---
 
+## Forward Test 1-B — companion, registered the same day (calibrated)
+
+Forward Test 1's protocol disclosed that the engine's party-conditional spread is
+compressed. Investigating that — using only 2019 and 2025 gold data, none from 2026 — found
+that the engine *ranks* respondents well (AUC 0.896 against real per-person answers) while
+its *probabilities* are systematically compressed, and that a two-parameter monotone
+calibration corrects it: held-out party error 20.25 → 5.63 points, and the same correction
+transports to a different survey from a different era with no refitting.
+
+FT1-B registers that correction as a falsifiable prediction **on the same poll**, so one
+published result adjudicates the uncorrected and corrected engine. **Forward Test 1 is
+unchanged and will be scored exactly as registered** — its file and hash are untouched.
+
+| Cut | FT1 (raw) | FT1-B (calibrated) |
+|---|---|---|
+| Approve / Disapprove / Net | 33.6 / 55.8 / −22.2 | **34.9 / 54.5 / −19.7** |
+| Party: Dem / Ind / Rep | 24.1 / 31.4 / 46.3 | **9.8 / 27.3 / 70.4** |
+| Sex: Male / Female | 36.0 / 31.4 | **41.2 / 29.1** |
+| Age: 18-29 / 30-44 / 45-64 / 65+ | 32.3 / 33.3 / 34.4 / 34.3 | **31.3 / 34.0 / 37.3 / 36.9** |
+| Race: White / Black / Hispanic | 35.6 / 27.2 / 31.8 | **40.6 / 17.1 / 29.6** |
+
+The registered claim: FT1-B's party error beats FT1's, and lands within 12 points. Details,
+bars, and the full disclosure are in `forward-test-1b.md`; the forecast is
+`forecast-ft1b.json`.
+
+---
+
 ## What is not here
 
 The model, adapters, and harness source are not published; the panel microdata is not
