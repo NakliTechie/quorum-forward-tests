@@ -61,8 +61,14 @@ approval topline within ±5 points.
 | `anchor-2026-08-13.txt` | the era-context paragraph given to the model |
 | `SHA256SUMS` | hashes of all three |
 
-**How to verify us:** the commit that added these files is timestamped by GitHub and
-predates the target poll's field dates. Check `SHA256SUMS` against the files; check the
+**Registration mechanism.** This repository *is* the registration. The three registered
+artifacts — `forward-test-1.md`, `forecast-ft1.json`, `anchor-2026-08-13.txt` — are
+immutable once committed: their hashes in `SHA256SUMS` will never change, and any
+correction appears as a new dated file rather than an edit. (This README is the living
+front page and is excluded from `SHA256SUMS` for that reason.)
+
+**How to verify us:** the commit that added the registered artifacts is timestamped by
+GitHub and predates the target poll's field dates. Check `SHA256SUMS` against the files; check the
 field dates on the published *Economist*/YouGov toplines; then compare the numbers above to
 what the poll actually reported. When it publishes, the verdict — pass or fail, with the
 arithmetic — is appended to `forward-test-1.md` in this repository.
