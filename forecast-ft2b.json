@@ -1,0 +1,101 @@
+{
+  "topline": {
+    "Approve": 34.1,
+    "Disapprove": 55.5,
+    "Net": -21.4,
+    "Not sure": 10.4
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Approve": 10.8,
+        "Disapprove": 76.6,
+        "Net": -65.8,
+        "Not sure": 12.7
+      },
+      "Ind": {
+        "Approve": 28.3,
+        "Disapprove": 61.2,
+        "Net": -32.9,
+        "Not sure": 10.4
+      },
+      "Rep": {
+        "Approve": 65.1,
+        "Disapprove": 27.4,
+        "Net": 37.7,
+        "Not sure": 7.4
+      }
+    },
+    "sex": {
+      "Female": {
+        "Approve": 28.4,
+        "Disapprove": 61.0,
+        "Net": -32.6,
+        "Not sure": 10.7
+      },
+      "Male": {
+        "Approve": 40.3,
+        "Disapprove": 49.6,
+        "Net": -9.2,
+        "Not sure": 10.1
+      }
+    },
+    "age": {
+      "18-29": {
+        "Approve": 31.0,
+        "Disapprove": 57.8,
+        "Net": -26.8,
+        "Not sure": 11.1
+      },
+      "30-44": {
+        "Approve": 33.4,
+        "Disapprove": 56.0,
+        "Net": -22.6,
+        "Not sure": 10.6
+      },
+      "45-64": {
+        "Approve": 36.0,
+        "Disapprove": 53.8,
+        "Net": -17.8,
+        "Not sure": 10.1
+      },
+      "65+": {
+        "Approve": 35.8,
+        "Disapprove": 54.4,
+        "Net": -18.6,
+        "Not sure": 9.8
+      }
+    },
+    "race": {
+      "Black": {
+        "Approve": 18.6,
+        "Disapprove": 69.3,
+        "Net": -50.7,
+        "Not sure": 12.1
+      },
+      "Hispanic": {
+        "Approve": 29.4,
+        "Disapprove": 59.4,
+        "Net": -29.9,
+        "Not sure": 11.2
+      },
+      "Other": {
+        "Approve": 29.7,
+        "Disapprove": 59.3,
+        "Net": -29.6,
+        "Not sure": 10.9
+      },
+      "White": {
+        "Approve": 39.1,
+        "Disapprove": 51.1,
+        "Net": -12.0,
+        "Not sure": 9.8
+      }
+    }
+  },
+  "calibration": {
+    "a": 3.6133,
+    "b": 1.3759,
+    "fit_on": "Pew ATP W161 (Feb 2025) + Nationscape (2019-20) approval gold, pooled; no 2026 data"
+  }
+}
