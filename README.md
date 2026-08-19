@@ -10,7 +10,63 @@ That is what this repository is for.
 
 ---
 
-## Forward Test 1 — registered 2026-08-13
+## Scoreboard
+
+| Forecast | Registered | Target | Scored | Verdict |
+|---|---|---|---|---|
+| FT1 (raw engine) | 2026-08-13, pre-field | Economist/YouGov, fielded Aug 14–17 | 2026-08-19 | **PASS** — 3/3 bars |
+| FT1-B (calibrated) | 2026-08-13, pre-field | same wave | 2026-08-19 | **PASS** — 4/4 bars + head-to-head claim upheld |
+| FT2 (raw engine) | 2026-08-17, pre-field | next E/YouGov wave (expected to field ~Aug 21–24) | — | registered, pending |
+| FT2-B (calibrated) | 2026-08-17, pre-field | same wave | — | registered, pending |
+
+**Running tally: 8 of 8 registered pass/fail claims hit.** A miss, when it comes, appears
+in this table at the same prominence. One scored wave is one wave: a full quarter of
+registered forecasts (weekly waves, a second polling house, ~40+ scored quantities) is
+planned before any broader claim is made.
+
+## Forward Test 1 — scored result in full
+
+Published poll: *Economist*/YouGov, fielded August 14–17 2026, n = 1,611
+([toplines](https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_8q3E3LQ.pdf) ·
+[crosstabs](https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_jNjXIL6.pdf),
+table 31). Every cell we forecast, against what the poll printed — errors shown so nobody
+has to compute them:
+
+| Quantity | Published | FT1-B calibrated (err) | FT1 raw (err) |
+|---|---|---|---|
+| **Approve** | **35.0** | **34.9 (−0.1)** | 33.6 (−1.4) |
+| Disapprove | 61.0 | 54.5 (−6.5) | 55.8 (−5.2) |
+| Not sure | 3.0 | 10.6 (+7.6) | 10.6 (+7.6) |
+| **Net** | **−26** | **−19.7 (+6.3)** | −22.2 (+3.8) |
+| Men | 39 | 41.2 (+2.2) | 36.0 (−3.0) |
+| Women | 32 | 29.1 (−2.9) | 31.4 (−0.6) |
+| Age 18–29 | 30 | 31.3 (+1.3) | 32.3 (+2.3) |
+| Age 30–44 | 27 | 34.0 (+7.0) | 33.3 (+6.3) |
+| Age 45–64 | 40 | 37.3 (−2.7) | 34.4 (−5.6) |
+| Age 65+ | 43 | 36.9 (−6.1) | 34.3 (−8.7) |
+| White | 39 | 40.6 (+1.6) | 35.6 (−3.4) |
+| Black | 22 | 17.1 (−4.9) | 27.2 (+5.2) |
+| Hispanic | 34 | 29.6 (−4.4) | 31.8 (−2.2) |
+| Democrats | 4 | **9.8 (+5.8)** | 24.1 (+20.1) |
+| Independents | 21 | **27.3 (+6.3)** | 31.4 (+10.4) |
+| Republicans | 80 | **70.4 (−9.6)** | 46.3 (−33.7) |
+
+Bars (declared before fielding; averages, so single cells above may exceed them):
+topline ±5 → **0.1 / 1.4**, both pass · net ±8 → **6.3 / 3.8**, both pass ·
+sex/age/race 9-cell MAE ≤ 6 → **3.68 / 4.14**, both pass · party MAE ≤ 12, registered
+for the calibrated engine only → **7.23**, pass (raw party was published unregistered
+and missed by 21.4 — that gap is what the calibration exists to fix, and the
+head-to-head claim that it would was itself registered, and upheld).
+
+Read the verdict's fine print in `forward-test-1.md`, including two things we surface
+ourselves: the engine over-predicts "Not sure" (10.6 vs 3), and simply copying the
+previous week's poll is a strong naive baseline on topline and net (persistence:
+2.0 / 3.0) — a benchmark that exists only for questions already polled weekly, which is
+why an already-polled question is the proving ground and not the product.
+
+---
+
+## Forward Test 1 — the registration, as frozen 2026-08-13 2026-08-13
 
 **Target:** the next *Economist*/YouGov weekly poll to begin fielding after the registration
 timestamp (expected on or about 14–17 August 2026), presidential job approval question:
@@ -99,6 +155,17 @@ unchanged and will be scored exactly as registered** — its file and hash are u
 The registered claim: FT1-B's party error beats FT1's, and lands within 12 points. Details,
 bars, and the full disclosure are in `forward-test-1b.md`; the forecast is
 `forecast-ft1b.json`.
+
+---
+
+## Forward Test 2 — registered 2026-08-17 (pending)
+
+Same frozen method, same bars, next wave: raw (FT2) and calibrated (FT2-B) forecasts of
+the first *Economist*/YouGov poll to begin fielding after the registration push, expected
+to field on or about August 21–24, 2026. Registered before fielding, with a fresh dated
+era anchor (`anchor-2026-08-17.txt`, no polling numbers) and hashes in `SHA256SUMS`.
+Protocol and forecasts: `forward-test-2.md`, `forecast-ft2.json`, `forecast-ft2b.json`.
+The verdict lands here when the wave publishes.
 
 ---
 
