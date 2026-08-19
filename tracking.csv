@@ -1,0 +1,10 @@
+kind,label,field_end,approve,disapprove,n,source
+published,Jul 17-20,2026-07-20,36,60,1602,yougov.com/en-us/articles/55210 (55211 for figures)
+published,Jul 25-27,2026-07-27,34,62,1559,yougov.com/en-us/articles/55261
+published,Jul 31-Aug 3,2026-08-03,36,60,,yougov.com articles Aug 3 wave (Newsweek digest 12311248)
+published,Aug 7-10,2026-08-10,33,62,1589,yougov.com/en-us/articles/55343
+published,Aug 14-17,2026-08-17,35,61,1611,yougov.com/en-us/articles/55390 toplines Q31
+forecast_scored,FT1-B calibrated (PASS),2026-08-17,34.9,54.5,,registered 2026-08-13 pre-field; scored 2026-08-19
+forecast_scored_raw,FT1 raw (PASS),2026-08-17,33.6,55.8,,registered 2026-08-13 pre-field; scored 2026-08-19
+forecast_pending,FT2-B calibrated,2026-08-24,34.1,55.5,,registered 2026-08-17 pre-field; target fields ~Aug 21-24
+forecast_pending_raw,FT2 raw,2026-08-24,33.3,56.3,,registered 2026-08-17 pre-field

@@ -13,6 +13,13 @@ here at the same prominence. One scored wave is one wave: a quarter of registere
 forecasts (weekly waves, a second polling house, 40+ scored quantities) runs before any
 broader claim is made.
 
+![Published Economist/YouGov approval vs Quorum's registered pre-field forecasts](tracking.png)
+
+*The series so far: published waves (lines) against every registered forecast (diamonds —
+filled = scored, open = wave pending; large = calibrated engine, small = raw). The chart
+shows the misses too: our disapprove runs visibly low (the "Not sure" over-hedge named in
+the verdict). Data + sources: [`tracking.csv`](tracking.csv); one row appends per wave.*
+
 ---
 
 ## Scoreboard
