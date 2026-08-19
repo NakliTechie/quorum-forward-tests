@@ -8,23 +8,50 @@ question, using an open-weight language model conditioned on real demographic fr
 only way to know whether such a thing works is to make it commit in advance, in public.
 That is what this repository is for.
 
+**Running tally: 8 of 8 registered pass/fail claims hit.** A miss, when it comes, appears
+here at the same prominence. One scored wave is one wave: a quarter of registered
+forecasts (weekly waves, a second polling house, 40+ scored quantities) runs before any
+broader claim is made.
+
 ---
 
 ## Scoreboard
 
-| Forecast | Registered | Target | Scored | Verdict |
-|---|---|---|---|---|
-| FT1 (raw engine) | 2026-08-13, pre-field | Economist/YouGov, fielded Aug 14–17 | 2026-08-19 | **PASS** — 3/3 bars |
-| FT1-B (calibrated) | 2026-08-13, pre-field | same wave | 2026-08-19 | **PASS** — 4/4 bars + head-to-head claim upheld |
-| FT2 (raw engine) | 2026-08-17, pre-field | next E/YouGov wave (expected to field ~Aug 21–24) | — | registered, pending |
-| FT2-B (calibrated) | 2026-08-17, pre-field | same wave | — | registered, pending |
+One row per engine per wave; rows are appended as waves register and score, newest last.
+Every verdict links to the frozen protocol carrying its arithmetic.
 
-**Running tally: 8 of 8 registered pass/fail claims hit.** A miss, when it comes, appears
-in this table at the same prominence. One scored wave is one wave: a full quarter of
-registered forecasts (weekly waves, a second polling house, ~40+ scored quantities) is
-planned before any broader claim is made.
+### The Economist/YouGov — presidential approval · weekly
 
-## Forward Test 1 — scored result in full
+| Wave (fielded) | Registered | Engine | Result | Verdict | Detail |
+|---|---|---|---|---|---|
+| Aug 14–17, 2026 | Aug 13, pre-field | raw | 3/3 bars (topline −1.4 · net +3.8 · 9-cell 4.14) | **PASS** | [protocol + verdict](forward-test-1.md) |
+| Aug 14–17, 2026 | Aug 13, pre-field | calibrated | 4/4 bars (topline −0.1 · party MAE 7.23) + head-to-head upheld | **PASS** | [protocol + verdict](forward-test-1b.md) |
+| ~Aug 21–24, 2026 (awaiting field) | Aug 17, pre-field | raw + calibrated | bars declared | *pending* | [protocol](forward-test-2.md) |
+
+### Gallup — satisfaction with the way things are going · monthly
+
+| Poll (fields) | Registered | Engine | Result | Verdict | Detail |
+|---|---|---|---|---|---|
+| September 2026 (~Sept 1–19) | *registration due before fielding* | raw + calibrated | — | *upcoming* | — |
+
+### Coming next — each gated on the published entry rule
+
+A question family enters this scoreboard only after passing a validation diagnostic on
+real per-person data (correct party ordering and adequate discrimination), and the rule
+is applied before any forecast is made — families that fail are named, not skipped
+silently (economic evaluation currently fails it and is excluded).
+
+- **Direction of country** and the **generic House ballot** (same weekly poll) — entry
+  diagnostics scheduled; added only on a pass.
+- **Trump favorability** (same weekly poll) — candidate, diagnostic scheduled.
+- **The November 3, 2026 midterm** — a registered national House-margin forecast before
+  Election Day, turnout assumptions disclosed at registration.
+- **Consumer sentiment** — currently excluded (economic family); enters only if a
+  published in-family repair passes its own pre-declared test.
+
+---
+
+## Latest scored wave, in full
 
 Published poll: *Economist*/YouGov, fielded August 14–17 2026, n = 1,611
 ([toplines](https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_8q3E3LQ.pdf) ·
@@ -65,6 +92,12 @@ previous week's poll is a strong naive baseline on topline and net (persistence:
 why an already-polled question is the proving ground and not the product.
 
 ---
+
+## Registration record — frozen artifacts
+
+Everything below is the registration history, immutable once committed: hashes live in
+`SHA256SUMS`, corrections appear as new dated files, never edits. (This README is the
+living front page and is excluded from `SHA256SUMS`.)
 
 ## Forward Test 1 — the registration, as frozen 2026-08-13 2026-08-13
 
@@ -162,10 +195,9 @@ bars, and the full disclosure are in `forward-test-1b.md`; the forecast is
 
 Same frozen method, same bars, next wave: raw (FT2) and calibrated (FT2-B) forecasts of
 the first *Economist*/YouGov poll to begin fielding after the registration push, expected
-to field on or about August 21–24, 2026. Registered before fielding, with a fresh dated
-era anchor (`anchor-2026-08-17.txt`, no polling numbers) and hashes in `SHA256SUMS`.
-Protocol and forecasts: `forward-test-2.md`, `forecast-ft2.json`, `forecast-ft2b.json`.
-The verdict lands here when the wave publishes.
+to field on or about August 21–24, 2026. Fresh dated era anchor
+(`anchor-2026-08-17.txt`, no polling numbers), hashes in `SHA256SUMS`. Protocol and
+forecasts: `forward-test-2.md`, `forecast-ft2.json`, `forecast-ft2b.json`.
 
 ---
 
