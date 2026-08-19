@@ -89,4 +89,24 @@ FT1 on party; topline breaking the FT1 bars it currently meets.
 - The calibration is monotone: it changes no individual's rank, only the mapping from the
   engine's probability to a population rate.
 
-*Registered 2026-08-13. Verdict appended here when the target wave publishes.*
+*Registered 2026-08-13.*
+
+## Verdict
+
+**PASS — scored 2026-08-19 against the Economist/YouGov poll fielded August 14-17, 2026**
+(same target, sources, and committed scorer as Forward Test 1's verdict; inputs and
+output published beside this file: `published-2026-08-14-17.json`,
+`score-ft1-2026-08-19.json`).
+
+| Registered quantity | Forecast | Published | Error | Bar | Result |
+|---|---|---|---|---|---|
+| Topline Approve | 34.9 | 35.0 | −0.1 | ≤ 5 | **pass** |
+| Net (Approve − Disapprove) | −19.7 | −26.0 | +6.3 | ≤ 8 | **pass** |
+| Sex/age/race 9-cell MAE | — | — | 3.68 | ≤ 6 | **pass** |
+| Party MAE (Dem/Ind/Rep) — registered | 9.8 / 27.3 / 70.4 | 4.0 / 21.0 / 80.0 | +5.8 / +6.3 / −9.6 | MAE ≤ 12 | **pass** (7.23) |
+| Head-to-head claim: calibrated party MAE < raw | 7.23 | vs 21.4 | — | — | **claim upheld** |
+
+The calibration was fitted on 2019 and 2025 approval gold only — no 2026 data — and cut
+the party error by two-thirds out-of-era, exactly the transport-within-family claim it
+registered.
+

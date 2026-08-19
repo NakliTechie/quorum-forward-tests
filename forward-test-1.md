@@ -73,4 +73,48 @@ From the target wave's published toplines and crosstabs, among U.S. adult citize
 
 ## Verdict (to be appended when the target wave publishes)
 
-*(empty at registration)*
+**PASS — scored 2026-08-19 against the Economist/YouGov poll fielded August 14-17, 2026**
+(n = 1,611; toplines question 31; tab report table 31, page 45;
+[article](https://yougov.com/en-us/articles/55390-democrats-midterms-lead-war-military-iran-cuba-august-14-17-2026-economist-yougov-poll) ·
+[toplines PDF](https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_8q3E3LQ.pdf) ·
+[tabs PDF](https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_jNjXIL6.pdf)).
+This is the first wave that began fielding after this document's public timestamp, i.e.
+the registered target. Scored by the scorer committed before publication
+(`score_forward_test.py`); inputs and output published beside this file
+(`published-2026-08-14-17.json`, `score-ft1-2026-08-19.json`).
+
+| Registered quantity | Forecast | Published | Error | Bar | Result |
+|---|---|---|---|---|---|
+| Topline Approve | 33.6 | 35.0 | −1.4 | ≤ 5 | **pass** |
+| Net (Approve − Disapprove) | −22.2 | −26.0 | +3.8 | ≤ 8 | **pass** |
+| Sex/age/race 9-cell MAE | — | — | 4.14 | ≤ 6 | **pass** |
+
+9-cell detail (forecast − published): Male −3.0, Female −0.6; 18-29 +2.3, 30-44 +6.3,
+45-64 −5.6, 65+ −8.7; White −3.4, Black +5.2, Hispanic −2.2.
+
+**Party cuts (exploratory, never scored, published as pledged):** forecast 24.1 / 31.4 /
+46.3 (Dem/Ind/Rep) vs published 4.0 / 21.0 / 80.0 — MAE 21.4. This is the raw engine's
+party compression, disclosed at registration and the reason the calibrated companion
+(Forward Test 1-B) exists; its registered party cuts are scored in `forward-test-1b.md`.
+
+### Context: the persistence benchmark (added at scoring, before publication)
+
+Presidential approval is polled weekly, so the cheapest possible "forecast" is last
+week's wave. For honesty we state it ourselves: the previous Economist/YouGov wave
+(fielded Aug 7-10: 33 approve / 62 disapprove / net −29; party Dem 4 / Rep 79) predicts
+this wave with topline error 2.0, net error 3.0, and near-zero party error. On net,
+persistence beats both of our forecasts; on topline, ours edge it. Persistence, however,
+is not a simulation — it is the fielded poll re-used, and it exists only for questions
+already being polled every week. Quorum's engine consumed no 2026 polling data (the
+anchor is sha-pinned and number-free; calibration was fitted on 2019 and 2025 gold), and
+its product surface is questions with no last-week's-number to copy. Approval is the
+proving ground because gold exists to score against; the persistence column is published
+so readers can see exactly how informative that proving ground is. A visible imperfection
+inside the pass, also stated: the forecast put 10.6% in "Not sure" against a published 3%,
+so disapproval came in 5-6 points low and the net bar absorbed it — the engine over-hedges,
+and that is now a tracked defect, not a hidden one.
+
+Disclosures carried through: the era anchor's factual error (war onset month) disclosed
+in Forward Test 2's registration stands; the test passed with the frozen, erroneous
+anchor in place.
+
