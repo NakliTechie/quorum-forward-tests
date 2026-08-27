@@ -1,0 +1,148 @@
+{
+ "published": {
+  "wave": "Economist/YouGov August 21-24 2026",
+  "field_dates": "2026-08-21/2026-08-24",
+  "n": 1536,
+  "source": {
+   "article": "https://yougov.com/en-us/articles/55436-likely-voters-data-centers-woke-and-more-august-21-24-2026-economist-yougov-poll",
+   "toplines_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_U8xI6DT.pdf",
+   "tabs_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_v7iliA1.pdf",
+   "toplines_question": 17,
+   "tabs_table": "17 (page 31)",
+   "note": "article headline cites n=1611 adult citizens; tab report table 17 shows n=1536 \u2014 table numbers used as printed"
+  },
+  "topline": {
+   "Approve": 36.0,
+   "Disapprove": 57.0,
+   "Not sure": 7.0
+  },
+  "party": {
+   "Dem": 2.0,
+   "Ind": 25.0,
+   "Rep": 80.0
+  },
+  "sex": {
+   "Male": 41.0,
+   "Female": 31.0
+  },
+  "age": {
+   "18-29": 29.0,
+   "30-44": 30.0,
+   "45-64": 41.0,
+   "65+": 40.0
+  },
+  "race": {
+   "White": 43.0,
+   "Black": 16.0,
+   "Hispanic": 30.0
+  }
+ },
+ "raw": {
+  "label": "raw (registered)",
+  "topline": {
+   "approve_pred": 33.3,
+   "approve_gold": 36.0,
+   "approve_error": -2.7,
+   "net_pred": -23.0,
+   "net_gold": -21.0,
+   "net_error": -2.0
+  },
+  "subgroups": {
+   "sex": {
+    "mae": 2.9,
+    "cells": {
+     "Male": -5.5,
+     "Female": 0.3
+    }
+   },
+   "age": {
+    "mae": 4.85,
+    "cells": {
+     "18-29": 3.2,
+     "30-44": 3.0,
+     "45-64": -7.1,
+     "65+": -6.1
+    }
+   },
+   "race": {
+    "mae": 7.2,
+    "cells": {
+     "White": -8.0,
+     "Black": 11.9,
+     "Hispanic": 1.7
+    }
+   }
+  },
+  "subgroup_mae_9cell": 5.2,
+  "party": {
+   "cells": {
+    "Dem": 22.8,
+    "Ind": 6.7,
+    "Rep": -36.1
+   },
+   "mae": 21.9,
+   "registered": false
+  },
+  "bars": {
+   "topline_approve": true,
+   "net": true,
+   "subgroup_mae": true
+  },
+  "verdict": "PASS"
+ },
+ "calibrated": {
+  "label": "calibrated (registered)",
+  "topline": {
+   "approve_pred": 34.1,
+   "approve_gold": 36.0,
+   "approve_error": -1.9,
+   "net_pred": -21.4,
+   "net_gold": -21.0,
+   "net_error": -0.4
+  },
+  "subgroups": {
+   "sex": {
+    "mae": 1.65,
+    "cells": {
+     "Male": -0.7,
+     "Female": -2.6
+    }
+   },
+   "age": {
+    "mae": 3.65,
+    "cells": {
+     "18-29": 2.0,
+     "30-44": 3.4,
+     "45-64": -5.0,
+     "65+": -4.2
+    }
+   },
+   "race": {
+    "mae": 2.37,
+    "cells": {
+     "White": -3.9,
+     "Black": 2.6,
+     "Hispanic": -0.6
+    }
+   }
+  },
+  "subgroup_mae_9cell": 2.78,
+  "party": {
+   "cells": {
+    "Dem": 8.8,
+    "Ind": 3.3,
+    "Rep": -14.9
+   },
+   "mae": 9.0,
+   "registered": true
+  },
+  "bars": {
+   "topline_approve": true,
+   "net": true,
+   "subgroup_mae": true,
+   "party": true
+  },
+  "verdict": "PASS"
+ },
+ "head_to_head_claim_upheld": true
+}

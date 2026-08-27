@@ -58,3 +58,26 @@ sources that day; **no polling numbers**); calibration parameters identical to F
 ## Verdict
 
 *(appended when the target wave publishes)*
+
+## Verdict (scored 2026-08-27, target published 2026-08-26)
+
+**PASS + PASS — every registered bar, both engines** (target: Aug 21-24 wave, published
+36 approve / 57 disapprove / net −21; tab report table 17; scored by the committed
+scorer `scripts/score_ft.py` in the main repo, identity-gated against FT1's record;
+full score JSON: `score-ft2-2026-08-27.json`).
+
+| Quantity (bar) | FT2 raw | FT2-B calibrated |
+|---|---|---|
+| Topline approve error (≤5) | −2.7 | **−1.9** |
+| Net error (≤8) | −2.0 | **−0.4** |
+| 9-cell sex/age/race MAE (≤6) | 5.2 | **2.78** |
+| Party MAE (≤12, calibrated only) | 21.9 (exploratory, unregistered) | **9.0** |
+| Head-to-head (calibrated party < raw) | — | **UPHELD** |
+
+Published beside the verdict, per standing rule: the persistence benchmark (previous
+wave 35/61 re-used) scores topline error 1.0 and net error 5.0 — better than our
+calibrated topline again, worse than our net. And one advance prediction FAILED: the
+FT3 protocol's disclosure 5 (from the eight-wave backtest) predicted the calibrated arm
+would underperform raw on the topline; this wave it outperformed (−1.9 vs −2.7). The
+falsifiable prediction was wrong here and is reported as such. The calibrated Rep cell
+carries the wave's largest party miss (−14.9: predicted 65.1 vs published 80).

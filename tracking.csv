@@ -8,3 +8,5 @@ forecast_scored,FT1-B calibrated (PASS),2026-08-17,34.9,54.5,,registered 2026-08
 forecast_scored_raw,FT1 raw (PASS),2026-08-17,33.6,55.8,,registered 2026-08-13 pre-field; scored 2026-08-19
 forecast_pending,FT2-B calibrated,2026-08-24,34.1,55.5,,registered 2026-08-17 pre-field; target fields ~Aug 21-24
 forecast_pending_raw,FT2 raw,2026-08-24,33.3,56.3,,registered 2026-08-17 pre-field
+FT2,2026-08-17,2026-08-21/24,PASS,raw -2.7 net -2.0 9cell 5.2
+FT2-B,2026-08-17,2026-08-21/24,PASS,cal -1.9 net -0.4 9cell 2.78 party 9.0 H2H-upheld
