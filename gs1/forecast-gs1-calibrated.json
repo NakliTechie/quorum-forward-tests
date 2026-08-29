@@ -1,0 +1,158 @@
+{
+  "topline": {
+    "Satisfied": 48.7,
+    "Dissatisfied": 51.3,
+    "Positive": 48.7,
+    "Negative": 51.3,
+    "Net": -2.6,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Satisfied": 19.6,
+        "Dissatisfied": 80.4,
+        "Positive": 19.6,
+        "Negative": 80.4,
+        "Net": -60.8,
+        "_n_cells": 988,
+        "_weight_share": 0.2863
+      },
+      "Ind": {
+        "Satisfied": 41.0,
+        "Dissatisfied": 59.0,
+        "Positive": 41.0,
+        "Negative": 59.0,
+        "Net": -18.0,
+        "_n_cells": 913,
+        "_weight_share": 0.2835
+      },
+      "Rep": {
+        "Satisfied": 87.2,
+        "Dissatisfied": 12.8,
+        "Positive": 87.2,
+        "Negative": 12.8,
+        "Net": 74.4,
+        "_n_cells": 765,
+        "_weight_share": 0.2852
+      }
+    },
+    "sex": {
+      "Female": {
+        "Satisfied": 42.8,
+        "Dissatisfied": 57.2,
+        "Positive": 42.8,
+        "Negative": 57.2,
+        "Net": -14.4,
+        "_n_cells": 1557,
+        "_weight_share": 0.505
+      },
+      "Male": {
+        "Satisfied": 55.2,
+        "Dissatisfied": 44.8,
+        "Positive": 55.2,
+        "Negative": 44.8,
+        "Net": 10.4,
+        "_n_cells": 1568,
+        "_weight_share": 0.4826
+      }
+    },
+    "age": {
+      "18-29": {
+        "Satisfied": 44.5,
+        "Dissatisfied": 55.5,
+        "Positive": 44.5,
+        "Negative": 55.5,
+        "Net": -11.0,
+        "_n_cells": 615,
+        "_weight_share": 0.1975
+      },
+      "30-44": {
+        "Satisfied": 47.1,
+        "Dissatisfied": 52.9,
+        "Positive": 47.1,
+        "Negative": 52.9,
+        "Net": -5.8,
+        "_n_cells": 1022,
+        "_weight_share": 0.3351
+      },
+      "45-64": {
+        "Satisfied": 51.6,
+        "Dissatisfied": 48.4,
+        "Positive": 51.6,
+        "Negative": 48.4,
+        "Net": 3.2,
+        "_n_cells": 784,
+        "_weight_share": 0.2404
+      },
+      "65+": {
+        "Satisfied": 51.7,
+        "Dissatisfied": 48.3,
+        "Positive": 51.7,
+        "Negative": 48.3,
+        "Net": 3.4,
+        "_n_cells": 727,
+        "_weight_share": 0.2225
+      }
+    },
+    "race": {
+      "Black": {
+        "Satisfied": 27.5,
+        "Dissatisfied": 72.5,
+        "Positive": 27.5,
+        "Negative": 72.5,
+        "Net": -45.0,
+        "_n_cells": 437,
+        "_weight_share": 0.1125
+      },
+      "Hispanic": {
+        "Satisfied": 41.3,
+        "Dissatisfied": 58.7,
+        "Positive": 41.3,
+        "Negative": 58.7,
+        "Net": -17.4,
+        "_n_cells": 585,
+        "_weight_share": 0.1714
+      },
+      "Other": {
+        "Satisfied": 43.2,
+        "Dissatisfied": 56.8,
+        "Positive": 43.2,
+        "Negative": 56.8,
+        "Net": -13.6,
+        "_n_cells": 574,
+        "_weight_share": 0.1156
+      },
+      "White": {
+        "Satisfied": 55.8,
+        "Dissatisfied": 44.2,
+        "Positive": 55.8,
+        "Negative": 44.2,
+        "Net": 11.6,
+        "_n_cells": 1574,
+        "_weight_share": 0.6005
+      }
+    }
+  },
+  "instrument": {
+    "key": "gallup_satisfaction",
+    "question": "In general, are you satisfied or dissatisfied with the way things are going in the United States at this time?",
+    "options": [
+      "Satisfied",
+      "Dissatisfied"
+    ],
+    "provenance": "reconstructed (wording quoted in Gallup trend pages)"
+  },
+  "calibration": {
+    "a": 3.2448,
+    "b": 2.0482,
+    "family": "satisfaction_W161"
+  },
+  "anchor_sha256": "a2583e02d9303639a02011d37466f3c5a39c8fdfd643b3ce946d5ca095093fd9",
+  "anchor_text": "Context: Today is August 29, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a preliminary peace agreement was reached in June, but intermittent fighting has continued since. Gasoline averages $4.09 a gallon nationally; inflation is 3.4% over the past year while average wages grew 3.2%. The 2026 midterm congressional elections are in November.",
+  "frame": {
+    "source": "Pew Research Center's American Trends Panel, Wave 161 (Feb 2025) demographic microdata with survey weights",
+    "n_profiles": 3170
+  }
+}

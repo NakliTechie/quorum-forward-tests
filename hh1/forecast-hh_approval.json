@@ -1,0 +1,199 @@
+{
+  "topline": {
+    "Strongly approve": 18.0,
+    "Somewhat approve": 19.3,
+    "Somewhat disapprove": 26.4,
+    "Strongly disapprove": 29.7,
+    "Don't Know/Not Sure": 6.5,
+    "Positive": 37.3,
+    "Negative": 56.1,
+    "Net": -18.8,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Strongly approve": 13.5,
+        "Somewhat approve": 14.9,
+        "Somewhat disapprove": 24.0,
+        "Strongly disapprove": 40.5,
+        "Don't Know/Not Sure": 7.0,
+        "Positive": 28.4,
+        "Negative": 64.5,
+        "Net": -36.1,
+        "_n_cells": 988,
+        "_weight_share": 0.3333
+      },
+      "Ind": {
+        "Strongly approve": 15.8,
+        "Somewhat approve": 18.6,
+        "Somewhat disapprove": 29.7,
+        "Strongly disapprove": 29.2,
+        "Don't Know/Not Sure": 6.7,
+        "Positive": 34.4,
+        "Negative": 58.9,
+        "Net": -24.5,
+        "_n_cells": 913,
+        "_weight_share": 0.2828
+      },
+      "Rep": {
+        "Strongly approve": 24.2,
+        "Somewhat approve": 24.0,
+        "Somewhat disapprove": 25.9,
+        "Strongly disapprove": 20.0,
+        "Don't Know/Not Sure": 5.9,
+        "Positive": 48.2,
+        "Negative": 45.9,
+        "Net": 2.3,
+        "_n_cells": 765,
+        "_weight_share": 0.3535
+      }
+    },
+    "sex": {
+      "Female": {
+        "Strongly approve": 16.7,
+        "Somewhat approve": 18.2,
+        "Somewhat disapprove": 26.7,
+        "Strongly disapprove": 32.2,
+        "Don't Know/Not Sure": 6.2,
+        "Positive": 34.9,
+        "Negative": 58.9,
+        "Net": -24.0,
+        "_n_cells": 1557,
+        "_weight_share": 0.5062
+      },
+      "Male": {
+        "Strongly approve": 19.4,
+        "Somewhat approve": 20.5,
+        "Somewhat disapprove": 26.2,
+        "Strongly disapprove": 27.1,
+        "Don't Know/Not Sure": 6.9,
+        "Positive": 39.9,
+        "Negative": 53.3,
+        "Net": -13.4,
+        "_n_cells": 1568,
+        "_weight_share": 0.485
+      }
+    },
+    "age": {
+      "18-29": {
+        "Strongly approve": 17.1,
+        "Somewhat approve": 18.7,
+        "Somewhat disapprove": 26.7,
+        "Strongly disapprove": 30.1,
+        "Don't Know/Not Sure": 7.3,
+        "Positive": 35.8,
+        "Negative": 56.8,
+        "Net": -21.0,
+        "_n_cells": 615,
+        "_weight_share": 0.1827
+      },
+      "30-44": {
+        "Strongly approve": 17.9,
+        "Somewhat approve": 19.2,
+        "Somewhat disapprove": 26.4,
+        "Strongly disapprove": 29.8,
+        "Don't Know/Not Sure": 6.7,
+        "Positive": 37.1,
+        "Negative": 56.2,
+        "Net": -19.1,
+        "_n_cells": 1022,
+        "_weight_share": 0.3209
+      },
+      "45-64": {
+        "Strongly approve": 18.5,
+        "Somewhat approve": 19.7,
+        "Somewhat disapprove": 26.2,
+        "Strongly disapprove": 29.1,
+        "Don't Know/Not Sure": 6.4,
+        "Positive": 38.2,
+        "Negative": 55.3,
+        "Net": -17.1,
+        "_n_cells": 784,
+        "_weight_share": 0.25
+      },
+      "65+": {
+        "Strongly approve": 18.4,
+        "Somewhat approve": 19.6,
+        "Somewhat disapprove": 26.3,
+        "Strongly disapprove": 29.9,
+        "Don't Know/Not Sure": 5.9,
+        "Positive": 38.0,
+        "Negative": 56.2,
+        "Net": -18.2,
+        "_n_cells": 727,
+        "_weight_share": 0.2425
+      }
+    },
+    "race": {
+      "Black": {
+        "Strongly approve": 14.5,
+        "Somewhat approve": 16.0,
+        "Somewhat disapprove": 25.1,
+        "Strongly disapprove": 37.1,
+        "Don't Know/Not Sure": 7.3,
+        "Positive": 30.5,
+        "Negative": 62.2,
+        "Net": -31.7,
+        "_n_cells": 437,
+        "_weight_share": 0.1072
+      },
+      "Hispanic": {
+        "Strongly approve": 16.5,
+        "Somewhat approve": 18.3,
+        "Somewhat disapprove": 26.5,
+        "Strongly disapprove": 31.5,
+        "Don't Know/Not Sure": 7.1,
+        "Positive": 34.8,
+        "Negative": 58.0,
+        "Net": -23.2,
+        "_n_cells": 585,
+        "_weight_share": 0.1615
+      },
+      "Other": {
+        "Strongly approve": 16.8,
+        "Somewhat approve": 18.5,
+        "Somewhat disapprove": 26.9,
+        "Strongly disapprove": 31.2,
+        "Don't Know/Not Sure": 6.7,
+        "Positive": 35.3,
+        "Negative": 58.1,
+        "Net": -22.8,
+        "_n_cells": 574,
+        "_weight_share": 0.1158
+      },
+      "White": {
+        "Strongly approve": 19.2,
+        "Somewhat approve": 20.3,
+        "Somewhat disapprove": 26.5,
+        "Strongly disapprove": 27.7,
+        "Don't Know/Not Sure": 6.3,
+        "Positive": 39.5,
+        "Negative": 54.2,
+        "Net": -14.7,
+        "_n_cells": 1574,
+        "_weight_share": 0.6154
+      }
+    }
+  },
+  "instrument": {
+    "key": "hh_approval",
+    "question": "Do you disapprove or approve of the job Donald J. Trump is doing as President of the United States?",
+    "options": [
+      "Strongly approve",
+      "Somewhat approve",
+      "Somewhat disapprove",
+      "Strongly disapprove",
+      "Don't Know/Not Sure"
+    ],
+    "provenance": "verbatim (HH topline decks Apr/May/Jul 2026, question M3ALT, Table 14 p.16; disapprove-first question wording as printed; docs/harvard-harris-recon.md)"
+  },
+  "calibration": "raw",
+  "anchor_sha256": "a2583e02d9303639a02011d37466f3c5a39c8fdfd643b3ce946d5ca095093fd9",
+  "anchor_text": "Context: Today is August 29, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a preliminary peace agreement was reached in June, but intermittent fighting has continued since. Gasoline averages $4.09 a gallon nationally; inflation is 3.4% over the past year while average wages grew 3.2%. The 2026 midterm congressional elections are in November.",
+  "frame": {
+    "source": "Pew Research Center's American Trends Panel, Wave 161 (Feb 2025) demographic microdata with survey weights",
+    "n_profiles": 3170
+  }
+}

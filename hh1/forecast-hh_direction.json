@@ -1,0 +1,169 @@
+{
+  "topline": {
+    "Right track": 24.5,
+    "Wrong track": 46.1,
+    "Don't know / Unsure": 29.3,
+    "Positive": 24.5,
+    "Negative": 46.1,
+    "Net": -21.6,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Right track": 18.5,
+        "Wrong track": 50.3,
+        "Don't know / Unsure": 31.1,
+        "Positive": 18.5,
+        "Negative": 50.3,
+        "Net": -31.8,
+        "_n_cells": 988,
+        "_weight_share": 0.3333
+      },
+      "Ind": {
+        "Right track": 21.7,
+        "Wrong track": 48.0,
+        "Don't know / Unsure": 30.4,
+        "Positive": 21.7,
+        "Negative": 48.0,
+        "Net": -26.3,
+        "_n_cells": 913,
+        "_weight_share": 0.2828
+      },
+      "Rep": {
+        "Right track": 32.7,
+        "Wrong track": 40.7,
+        "Don't know / Unsure": 26.6,
+        "Positive": 32.7,
+        "Negative": 40.7,
+        "Net": -8.0,
+        "_n_cells": 765,
+        "_weight_share": 0.3535
+      }
+    },
+    "sex": {
+      "Female": {
+        "Right track": 23.3,
+        "Wrong track": 47.0,
+        "Don't know / Unsure": 29.7,
+        "Positive": 23.3,
+        "Negative": 47.0,
+        "Net": -23.7,
+        "_n_cells": 1557,
+        "_weight_share": 0.5062
+      },
+      "Male": {
+        "Right track": 25.9,
+        "Wrong track": 45.2,
+        "Don't know / Unsure": 28.9,
+        "Positive": 25.9,
+        "Negative": 45.2,
+        "Net": -19.3,
+        "_n_cells": 1568,
+        "_weight_share": 0.485
+      }
+    },
+    "age": {
+      "18-29": {
+        "Right track": 23.8,
+        "Wrong track": 46.5,
+        "Don't know / Unsure": 29.8,
+        "Positive": 23.8,
+        "Negative": 46.5,
+        "Net": -22.7,
+        "_n_cells": 615,
+        "_weight_share": 0.1827
+      },
+      "30-44": {
+        "Right track": 24.5,
+        "Wrong track": 46.1,
+        "Don't know / Unsure": 29.4,
+        "Positive": 24.5,
+        "Negative": 46.1,
+        "Net": -21.6,
+        "_n_cells": 1022,
+        "_weight_share": 0.3209
+      },
+      "45-64": {
+        "Right track": 25.2,
+        "Wrong track": 45.7,
+        "Don't know / Unsure": 29.1,
+        "Positive": 25.2,
+        "Negative": 45.7,
+        "Net": -20.5,
+        "_n_cells": 784,
+        "_weight_share": 0.25
+      },
+      "65+": {
+        "Right track": 24.5,
+        "Wrong track": 46.3,
+        "Don't know / Unsure": 29.2,
+        "Positive": 24.5,
+        "Negative": 46.3,
+        "Net": -21.8,
+        "_n_cells": 727,
+        "_weight_share": 0.2425
+      }
+    },
+    "race": {
+      "Black": {
+        "Right track": 19.6,
+        "Wrong track": 49.4,
+        "Don't know / Unsure": 31.1,
+        "Positive": 19.6,
+        "Negative": 49.4,
+        "Net": -29.8,
+        "_n_cells": 437,
+        "_weight_share": 0.1072
+      },
+      "Hispanic": {
+        "Right track": 22.8,
+        "Wrong track": 47.2,
+        "Don't know / Unsure": 30.0,
+        "Positive": 22.8,
+        "Negative": 47.2,
+        "Net": -24.4,
+        "_n_cells": 585,
+        "_weight_share": 0.1615
+      },
+      "Other": {
+        "Right track": 23.3,
+        "Wrong track": 47.0,
+        "Don't know / Unsure": 29.7,
+        "Positive": 23.3,
+        "Negative": 47.0,
+        "Net": -23.7,
+        "_n_cells": 574,
+        "_weight_share": 0.1158
+      },
+      "White": {
+        "Right track": 26.1,
+        "Wrong track": 45.1,
+        "Don't know / Unsure": 28.8,
+        "Positive": 26.1,
+        "Negative": 45.1,
+        "Net": -19.0,
+        "_n_cells": 1574,
+        "_weight_share": 0.6154
+      }
+    }
+  },
+  "instrument": {
+    "key": "hh_direction",
+    "question": "In general, do you think the country is on the right track or is it off on the wrong track?",
+    "options": [
+      "Right track",
+      "Wrong track",
+      "Don't know / Unsure"
+    ],
+    "provenance": "verbatim (HH toplines Apr/May/Jul 2026, question M1, Table 10 p.12; right-track/wrong-track form, NOT 'right direction'; docs/harvard-harris-recon.md)"
+  },
+  "calibration": "raw",
+  "anchor_sha256": "a2583e02d9303639a02011d37466f3c5a39c8fdfd643b3ce946d5ca095093fd9",
+  "anchor_text": "Context: Today is August 29, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a preliminary peace agreement was reached in June, but intermittent fighting has continued since. Gasoline averages $4.09 a gallon nationally; inflation is 3.4% over the past year while average wages grew 3.2%. The 2026 midterm congressional elections are in November.",
+  "frame": {
+    "source": "Pew Research Center's American Trends Panel, Wave 161 (Feb 2025) demographic microdata with survey weights",
+    "n_profiles": 3170
+  }
+}

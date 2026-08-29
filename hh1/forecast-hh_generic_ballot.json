@@ -1,0 +1,154 @@
+{
+  "topline": {
+    "Democrat": 46.6,
+    "Republican": 53.4,
+    "Positive": 46.6,
+    "Negative": 53.4,
+    "Net": -6.8,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Democrat": 64.0,
+        "Republican": 36.0,
+        "Positive": 64.0,
+        "Negative": 36.0,
+        "Net": 28.0,
+        "_n_cells": 988,
+        "_weight_share": 0.3333
+      },
+      "Ind": {
+        "Democrat": 51.4,
+        "Republican": 48.6,
+        "Positive": 51.4,
+        "Negative": 48.6,
+        "Net": 2.8,
+        "_n_cells": 913,
+        "_weight_share": 0.2828
+      },
+      "Rep": {
+        "Democrat": 26.1,
+        "Republican": 73.9,
+        "Positive": 26.1,
+        "Negative": 73.9,
+        "Net": -47.8,
+        "_n_cells": 765,
+        "_weight_share": 0.3535
+      }
+    },
+    "sex": {
+      "Female": {
+        "Democrat": 48.8,
+        "Republican": 51.2,
+        "Positive": 48.8,
+        "Negative": 51.2,
+        "Net": -2.4,
+        "_n_cells": 1557,
+        "_weight_share": 0.5062
+      },
+      "Male": {
+        "Democrat": 44.1,
+        "Republican": 55.9,
+        "Positive": 44.1,
+        "Negative": 55.9,
+        "Net": -11.8,
+        "_n_cells": 1568,
+        "_weight_share": 0.485
+      }
+    },
+    "age": {
+      "18-29": {
+        "Democrat": 50.0,
+        "Republican": 50.0,
+        "Positive": 50.0,
+        "Negative": 50.0,
+        "Net": 0.0,
+        "_n_cells": 615,
+        "_weight_share": 0.1827
+      },
+      "30-44": {
+        "Democrat": 47.7,
+        "Republican": 52.3,
+        "Positive": 47.7,
+        "Negative": 52.3,
+        "Net": -4.6,
+        "_n_cells": 1022,
+        "_weight_share": 0.3209
+      },
+      "45-64": {
+        "Democrat": 44.9,
+        "Republican": 55.1,
+        "Positive": 44.9,
+        "Negative": 55.1,
+        "Net": -10.2,
+        "_n_cells": 784,
+        "_weight_share": 0.25
+      },
+      "65+": {
+        "Democrat": 44.4,
+        "Republican": 55.6,
+        "Positive": 44.4,
+        "Negative": 55.6,
+        "Net": -11.2,
+        "_n_cells": 727,
+        "_weight_share": 0.2425
+      }
+    },
+    "race": {
+      "Black": {
+        "Democrat": 59.6,
+        "Republican": 40.4,
+        "Positive": 59.6,
+        "Negative": 40.4,
+        "Net": 19.2,
+        "_n_cells": 437,
+        "_weight_share": 0.1072
+      },
+      "Hispanic": {
+        "Democrat": 51.8,
+        "Republican": 48.2,
+        "Positive": 51.8,
+        "Negative": 48.2,
+        "Net": 3.6,
+        "_n_cells": 585,
+        "_weight_share": 0.1615
+      },
+      "Other": {
+        "Democrat": 49.5,
+        "Republican": 50.5,
+        "Positive": 49.5,
+        "Negative": 50.5,
+        "Net": -1.0,
+        "_n_cells": 574,
+        "_weight_share": 0.1158
+      },
+      "White": {
+        "Democrat": 42.5,
+        "Republican": 57.5,
+        "Positive": 42.5,
+        "Negative": 57.5,
+        "Net": -15.0,
+        "_n_cells": 1574,
+        "_weight_share": 0.6154
+      }
+    }
+  },
+  "instrument": {
+    "key": "hh_generic_ballot",
+    "question": "If the congressional election were held today would you be more likely to vote for a Democrat or a Republican for Congress?",
+    "options": [
+      "Democrat",
+      "Republican"
+    ],
+    "provenance": "verbatim (HH toplines, question CON2026B; two published rows summing to 100, no undecided \u2014 forced-choice convention declared; docs/harvard-harris-recon.md)"
+  },
+  "calibration": "raw",
+  "anchor_sha256": "a2583e02d9303639a02011d37466f3c5a39c8fdfd643b3ce946d5ca095093fd9",
+  "anchor_text": "Context: Today is August 29, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a preliminary peace agreement was reached in June, but intermittent fighting has continued since. Gasoline averages $4.09 a gallon nationally; inflation is 3.4% over the past year while average wages grew 3.2%. The 2026 midterm congressional elections are in November.",
+  "frame": {
+    "source": "Pew Research Center's American Trends Panel, Wave 161 (Feb 2025) demographic microdata with survey weights",
+    "n_profiles": 3170
+  }
+}

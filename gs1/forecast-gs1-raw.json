@@ -1,0 +1,154 @@
+{
+  "topline": {
+    "Satisfied": 35.7,
+    "Dissatisfied": 64.3,
+    "Positive": 35.7,
+    "Negative": 64.3,
+    "Net": -28.6,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Satisfied": 25.6,
+        "Dissatisfied": 74.4,
+        "Positive": 25.6,
+        "Negative": 74.4,
+        "Net": -48.8,
+        "_n_cells": 988,
+        "_weight_share": 0.2863
+      },
+      "Ind": {
+        "Satisfied": 32.3,
+        "Dissatisfied": 67.7,
+        "Positive": 32.3,
+        "Negative": 67.7,
+        "Net": -35.4,
+        "_n_cells": 913,
+        "_weight_share": 0.2835
+      },
+      "Rep": {
+        "Satisfied": 50.5,
+        "Dissatisfied": 49.5,
+        "Positive": 50.5,
+        "Negative": 49.5,
+        "Net": 1.0,
+        "_n_cells": 765,
+        "_weight_share": 0.2852
+      }
+    },
+    "sex": {
+      "Female": {
+        "Satisfied": 33.3,
+        "Dissatisfied": 66.7,
+        "Positive": 33.3,
+        "Negative": 66.7,
+        "Net": -33.4,
+        "_n_cells": 1557,
+        "_weight_share": 0.505
+      },
+      "Male": {
+        "Satisfied": 38.4,
+        "Dissatisfied": 61.6,
+        "Positive": 38.4,
+        "Negative": 61.6,
+        "Net": -23.2,
+        "_n_cells": 1568,
+        "_weight_share": 0.4826
+      }
+    },
+    "age": {
+      "18-29": {
+        "Satisfied": 34.0,
+        "Dissatisfied": 66.0,
+        "Positive": 34.0,
+        "Negative": 66.0,
+        "Net": -32.0,
+        "_n_cells": 615,
+        "_weight_share": 0.1975
+      },
+      "30-44": {
+        "Satisfied": 35.1,
+        "Dissatisfied": 64.9,
+        "Positive": 35.1,
+        "Negative": 64.9,
+        "Net": -29.8,
+        "_n_cells": 1022,
+        "_weight_share": 0.3351
+      },
+      "45-64": {
+        "Satisfied": 37.0,
+        "Dissatisfied": 63.0,
+        "Positive": 37.0,
+        "Negative": 63.0,
+        "Net": -26.0,
+        "_n_cells": 784,
+        "_weight_share": 0.2404
+      },
+      "65+": {
+        "Satisfied": 36.8,
+        "Dissatisfied": 63.2,
+        "Positive": 36.8,
+        "Negative": 63.2,
+        "Net": -26.4,
+        "_n_cells": 727,
+        "_weight_share": 0.2225
+      }
+    },
+    "race": {
+      "Black": {
+        "Satisfied": 28.1,
+        "Dissatisfied": 71.9,
+        "Positive": 28.1,
+        "Negative": 71.9,
+        "Net": -43.8,
+        "_n_cells": 437,
+        "_weight_share": 0.1125
+      },
+      "Hispanic": {
+        "Satisfied": 32.9,
+        "Dissatisfied": 67.1,
+        "Positive": 32.9,
+        "Negative": 67.1,
+        "Net": -34.2,
+        "_n_cells": 585,
+        "_weight_share": 0.1714
+      },
+      "Other": {
+        "Satisfied": 33.4,
+        "Dissatisfied": 66.6,
+        "Positive": 33.4,
+        "Negative": 66.6,
+        "Net": -33.2,
+        "_n_cells": 574,
+        "_weight_share": 0.1156
+      },
+      "White": {
+        "Satisfied": 38.4,
+        "Dissatisfied": 61.6,
+        "Positive": 38.4,
+        "Negative": 61.6,
+        "Net": -23.2,
+        "_n_cells": 1574,
+        "_weight_share": 0.6005
+      }
+    }
+  },
+  "instrument": {
+    "key": "gallup_satisfaction",
+    "question": "In general, are you satisfied or dissatisfied with the way things are going in the United States at this time?",
+    "options": [
+      "Satisfied",
+      "Dissatisfied"
+    ],
+    "provenance": "reconstructed (wording quoted in Gallup trend pages)"
+  },
+  "calibration": "raw",
+  "anchor_sha256": "a2583e02d9303639a02011d37466f3c5a39c8fdfd643b3ce946d5ca095093fd9",
+  "anchor_text": "Context: Today is August 29, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a preliminary peace agreement was reached in June, but intermittent fighting has continued since. Gasoline averages $4.09 a gallon nationally; inflation is 3.4% over the past year while average wages grew 3.2%. The 2026 midterm congressional elections are in November.",
+  "frame": {
+    "source": "Pew Research Center's American Trends Panel, Wave 161 (Feb 2025) demographic microdata with survey weights",
+    "n_profiles": 3170
+  }
+}
