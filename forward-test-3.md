@@ -138,3 +138,48 @@ and unharmed by the correction: the first Economist/YouGov weekly approval poll 
 begin fielding AFTER this public push (expected field open ~2026-08-28). No wave began
 fielding between 08-24 and this correction; the forecasts, anchor, and hashes are
 byte-identical to the 08-24 private commit.
+
+## Verdict (scored 2026-09-02, target published 2026-09-02)
+
+**Calibrated PASS on every registered bar; raw FAIL on one — the series' first public
+miss.** Target: the Aug 28–31 wave (n = 1,592; published 36 approve / 60 disapprove /
+4 not sure, net −24; tab report table 5, page 7; article 55476). Scored by the committed
+scorer `scripts/score_ft.py` in the main repo, identity-gated against FT1's record; full
+score JSON: `score-ft3-2026-09-02.json`; published numbers: `published-2026-08-28-31.json`.
+
+| Quantity (bar) | FT3 raw | FT3-B calibrated |
+|---|---|---|
+| Topline approve error (≤5) | −3.4 | −3.4 |
+| Net error (≤8) | +0.1 | **0.0** |
+| 9-cell sex/age/race MAE (≤6) | **6.31 — FAIL** | **5.07** |
+| Party MAE (≤12, calibrated only) | 21.8 (exploratory, unregistered) | **8.8** |
+| Head-to-head 1 (calibrated party < raw) | — | **UPHELD** |
+| Bar B — structure vs persistence (measurement) | 5.56 vs 2.78 — lost | 3.87 vs 2.78 — lost |
+| Bar C — movement, \|pred − actual\| ≤ 3 (expected to fail) | −3.4 vs 0.0 — **FAILED, as registered** | same |
+
+**The miss, in full.** The raw arm's 9-cell error is carried by one cell: Black
+respondents, forecast 27.3% approve against a published 11% (+16.3). The calibrated arm
+placed the same cell at 17.6 (+6.6) and passed. Every other raw cell sits inside the
+range seen in FT1–FT2; the bar is an average, and one 16-point cell broke it. We do not
+re-score, re-weight, or drop the cell: the raw arm FAILED its registered bar on this wave.
+
+**Bar B (structure)**: persistence of the previous wave's subgroup deviations beat both
+engines on the nine cells (2.78 vs our 5.56 raw / 3.87 calibrated), as the pre-registration
+backtest predicted (a lean against us, disclosure 6). **Bar C (movement)**: the engine
+forecast a −3.4 change from the previous published wave (36 → 32.6); the poll moved 0.0. The
+registered expectation was that this bar would fail, and it did; scored against the
+registration's stated reference wave (Aug 14–17, 35) the reading is −2.4 vs +1.0, also a
+fail. Both readings are reported.
+
+Published beside the verdict, per standing rule: the persistence benchmark (previous wave
+36/57 re-used) scores topline error 0.0, net error 3.0, party MAE 2.0, 9-cell 2.78 —
+persistence beats both engines on every quantity this wave. Disclosure 5's advance
+prediction (calibrated underperforms raw on topline) resolves as a tie (both 32.6);
+neither arm's topline moved from registration to target because the level prior is
+rigid (disclosure 1). The "Not sure" over-hedge is at its widest yet (10.9 vs 4, +6.9);
+the E35 repair is registered as a variant arm from FT4.
+
+Running tally after FT3: **23 of 24 registered bar-claims hit** across three scored waves
+(FT1 8/8, FT2 8/8, FT3 7/8), plus one structure measurement lost as predicted and one
+movement bar failed as predicted. Persistence has beaten the calibrated topline on two of
+three scored waves (FT2, FT3; FT1's −0.1 beat it).

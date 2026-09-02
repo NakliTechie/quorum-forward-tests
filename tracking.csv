@@ -16,3 +16,9 @@ forecast_pending,HH1 approval raw,TBD,37.3,56.1,,registered 2026-08-29 pre-field
 forecast_pending,HH1 approval house-adjusted,TBD,44.5,49.1,,declared offsets +7.2/-7.0 applied at registration
 forecast_pending,HH1 direction raw (right track),TBD,24.5,46.1,,DK 29.3 disclosed over-hedge
 forecast_pending,HH1 generic ballot raw (D share),TBD,46.6,53.4,,forced two-row convention
+published,Aug 21-24,2026-08-24,36,57,1536,yougov.com/en-us/articles/55436 tabs table 17
+published,Aug 28-31,2026-08-31,36,60,1592,yougov.com/en-us/articles/55476 toplines Q5 / tabs table 5
+forecast_scored,FT3-B calibrated (PASS),2026-08-31,32.6,56.6,,registered 2026-08-26 pre-field; scored 2026-09-02
+forecast_scored_raw,FT3 raw (FAIL: 9-cell 6.31),2026-08-31,32.6,56.5,,registered 2026-08-26 pre-field; scored 2026-09-02
+FT3,2026-08-26,2026-08-28/31,FAIL,raw -3.4 net +0.1 9cell 6.31 (Black +16.3)
+FT3-B,2026-08-26,2026-08-28/31,PASS,cal -3.4 net 0.0 9cell 5.07 party 8.8 H2H-upheld; barB lost 3.87v2.78; barC failed as registered

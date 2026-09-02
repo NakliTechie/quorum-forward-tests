@@ -8,10 +8,13 @@ question, using an open-weight language model conditioned on real demographic fr
 only way to know whether such a thing works is to make it commit in advance, in public.
 That is what this repository is for.
 
-**Running tally: 8 of 8 registered pass/fail claims hit.** A miss, when it comes, appears
-here at the same prominence. One scored wave is one wave: a quarter of registered
-forecasts (weekly waves, a second polling house, 40+ scored quantities) runs before any
-broader claim is made.
+**Running tally: 23 of 24 registered pass/fail claims hit across three scored waves
+(FT1 8/8 · FT2 8/8 · FT3 7/8).** The miss is the raw engine's 9-cell subgroup bar on the
+Aug 28–31 wave (6.31 against a bar of 6, carried by one 16-point cell: Black respondents,
+forecast 27.3% approve vs 11% published) — it appears here at the same prominence as the
+passes, and the arithmetic is in [`forward-test-3.md`](forward-test-3.md). One scored wave
+is one wave: a quarter of registered forecasts (weekly waves, a second polling house, 40+
+scored quantities) runs before any broader claim is made.
 
 ![Published Economist/YouGov approval vs Quorum's registered pre-field forecasts](tracking.png)
 
@@ -75,7 +78,11 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 |---|---|---|---|---|---|
 | Aug 14–17, 2026 | Aug 13, pre-field | raw | 3/3 bars (topline −1.4 · net +3.8 · 9-cell 4.14) | **PASS** | [protocol + verdict](forward-test-1.md) |
 | Aug 14–17, 2026 | Aug 13, pre-field | calibrated | 4/4 bars (topline −0.1 · party MAE 7.23) + head-to-head upheld | **PASS** | [protocol + verdict](forward-test-1b.md) |
-| ~Aug 21–24, 2026 (awaiting field) | Aug 17, pre-field | raw + calibrated | bars declared | *pending* | [protocol](forward-test-2.md) |
+| Aug 21–24, 2026 | Aug 17, pre-field | raw | 3/3 bars (topline −2.7 · net −2.0 · 9-cell 5.2) | **PASS** | [protocol + verdict](forward-test-2.md) |
+| Aug 21–24, 2026 | Aug 17, pre-field | calibrated | 4/4 bars (topline −1.9 · party MAE 9.0) + head-to-head upheld | **PASS** | [protocol + verdict](forward-test-2.md) |
+| Aug 28–31, 2026 | Aug 26, pre-field | raw | 2/3 bars (topline −3.4 · net +0.1 · **9-cell 6.31 > 6**) | **FAIL** | [protocol + verdict](forward-test-3.md) |
+| Aug 28–31, 2026 | Aug 26, pre-field | calibrated | 4/4 bars (topline −3.4 · party MAE 8.8) + head-to-head upheld; structure bar lost to persistence and movement bar failed, both as registered | **PASS** | [protocol + verdict](forward-test-3.md) |
+| next wave to field after the FT4 push | *registration due* | raw · calibrated · raw+dk · no-anchor ablation | bars declared in the FT4 protocol | *upcoming* | — |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
@@ -102,43 +109,48 @@ silently (economic evaluation currently fails it and is excluded).
 
 ## Latest scored wave, in full
 
-Published poll: *Economist*/YouGov, fielded August 14–17 2026, n = 1,611
-([toplines](https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_8q3E3LQ.pdf) ·
-[crosstabs](https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_jNjXIL6.pdf),
-table 31). Every cell we forecast, against what the poll printed — errors shown so nobody
+Published poll: *Economist*/YouGov, fielded August 28–31 2026, n = 1,592
+([toplines](https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_ZLmkpUi.pdf) ·
+[crosstabs](https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_yVe1kKt.pdf),
+table 5). Every cell we forecast, against what the poll printed — errors shown so nobody
 has to compute them:
 
-| Quantity | Published | FT1-B calibrated (err) | FT1 raw (err) |
+| Quantity | Published | FT3-B calibrated (err) | FT3 raw (err) |
 |---|---|---|---|
-| **Approve** | **35.0** | **34.9 (−0.1)** | 33.6 (−1.4) |
-| Disapprove | 61.0 | 54.5 (−6.5) | 55.8 (−5.2) |
-| Not sure | 3.0 | 10.6 (+7.6) | 10.6 (+7.6) |
-| **Net** | **−26** | **−19.7 (+6.3)** | −22.2 (+3.8) |
-| Men | 39 | 41.2 (+2.2) | 36.0 (−3.0) |
-| Women | 32 | 29.1 (−2.9) | 31.4 (−0.6) |
-| Age 18–29 | 30 | 31.3 (+1.3) | 32.3 (+2.3) |
-| Age 30–44 | 27 | 34.0 (+7.0) | 33.3 (+6.3) |
-| Age 45–64 | 40 | 37.3 (−2.7) | 34.4 (−5.6) |
-| Age 65+ | 43 | 36.9 (−6.1) | 34.3 (−8.7) |
-| White | 39 | 40.6 (+1.6) | 35.6 (−3.4) |
-| Black | 22 | 17.1 (−4.9) | 27.2 (+5.2) |
-| Hispanic | 34 | 29.6 (−4.4) | 31.8 (−2.2) |
-| Democrats | 4 | **9.8 (+5.8)** | 24.1 (+20.1) |
-| Independents | 21 | **27.3 (+6.3)** | 31.4 (+10.4) |
-| Republicans | 80 | **70.4 (−9.6)** | 46.3 (−33.7) |
+| **Approve** | **36.0** | **32.6 (−3.4)** | 32.6 (−3.4) |
+| Disapprove | 60.0 | 56.6 (−3.4) | 56.5 (−3.5) |
+| Not sure | 4.0 | 10.9 (+6.9) | 10.9 (+6.9) |
+| **Net** | **−24** | **−24.0 (0.0)** | −23.9 (+0.1) |
+| Men | 40 | 38.5 (−1.5) | 34.7 (−5.3) |
+| Women | 32 | 27.2 (−4.8) | 30.7 (−1.3) |
+| Age 18–29 | 32 | 29.8 (−2.2) | 31.6 (−0.4) |
+| Age 30–44 | 27 | 31.8 (+4.8) | 32.4 (+5.4) |
+| Age 45–64 | 39 | 34.7 (−4.3) | 33.2 (−5.8) |
+| Age 65+ | 43 | 34.1 (−8.9) | 33.2 (−9.8) |
+| White | 42 | 37.5 (−4.5) | 34.4 (−7.6) |
+| Black | 11 | 17.6 (+6.6) | **27.3 (+16.3)** |
+| Hispanic | 36 | 28.0 (−8.0) | 31.1 (−4.9) |
+| Democrats | 5 | **10.2 (+5.2)** | 24.3 (+19.3) |
+| Independents | 22 | **26.6 (+4.6)** | 31.1 (+9.1) |
+| Republicans | 80 | **63.4 (−16.6)** | 43.1 (−36.9) |
 
 Bars (declared before fielding; averages, so single cells above may exceed them):
-topline ±5 → **0.1 / 1.4**, both pass · net ±8 → **6.3 / 3.8**, both pass ·
-sex/age/race 9-cell MAE ≤ 6 → **3.68 / 4.14**, both pass · party MAE ≤ 12, registered
-for the calibrated engine only → **7.23**, pass (raw party was published unregistered
-and missed by 21.4 — that gap is what the calibration exists to fix, and the
-head-to-head claim that it would was itself registered, and upheld).
+topline ±5 → **3.4 / 3.4**, both pass · net ±8 → **0.0 / 0.1**, both pass ·
+sex/age/race 9-cell MAE ≤ 6 → **5.07 pass / 6.31 FAIL** — the raw engine's first public
+miss, carried by the Black cell · party MAE ≤ 12, registered for the calibrated engine
+only → **8.8**, pass (raw party published unregistered, missed by 21.8; the head-to-head
+claim that calibration fixes it was registered, and upheld). FT3 also carried two new
+bars: subgroup *structure* against persistence (lost, 3.87 vs 2.78 — the backtest said
+it would) and a *movement* bar (failed, −3.4 forecast vs 0.0 actual — registered in
+advance as the bar we expected to fail, because the engine's level does not move).
 
-Read the verdict's fine print in `forward-test-1.md`, including two things we surface
-ourselves: the engine over-predicts "Not sure" (10.6 vs 3), and simply copying the
-previous week's poll is a strong naive baseline on topline and net (persistence:
-2.0 / 3.0) — a benchmark that exists only for questions already polled weekly, which is
-why an already-polled question is the proving ground and not the product.
+Read the verdict's fine print in `forward-test-3.md`, including what we surface
+ourselves: the engine over-predicts "Not sure" (10.9 vs 4, its widest gap yet — a repair
+is registered as a variant arm from FT4), and simply copying the previous week's poll
+beat both engines on every quantity this wave (persistence: topline 0.0, net 3.0,
+party 2.0, 9-cell 2.78) — a benchmark that exists only for questions already polled
+weekly, which is why an already-polled question is the proving ground and not the
+product.
 
 ---
 
