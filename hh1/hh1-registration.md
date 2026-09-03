@@ -70,3 +70,34 @@ Head-to-head claim: the house-adjusted arm beats raw on approval topline error.
 
 ## Verdict
 *(empty at registration)*
+
+## Out-of-registration shadow comparison — August 2026 wave (added 2026-09-03)
+
+The Harvard CAPS/Harris August poll (fielded **August 28–30**, n = 2,100 RV, released
+September 2; key results `HHP_Aug2026_KeyResults.pdf`, approval p.8, right track p.4)
+**began fielding one day before this registration's public push** (commit `4881748`,
+2026-08-29 12:08 IST). Under the registered order-based rule it is therefore **not HH1's
+target**; the target remains the first Harvard-Harris poll to begin fielding after the
+push (their next wave, ~late September). Because the forecasts above were public before
+any of this wave's results existed, we report the comparison here at reduced volume, as a
+shadow — it is not a scored verdict and does not enter the tally.
+
+| Quantity (registered bar) | Published Aug 28–30 | Registered forecast | Shadow error |
+|---|---|---|---|
+| Approve, raw (±5) | 44 | 37.3 | −6.7 — would miss |
+| Approve, house-adjusted (±5) | 44 | 44.5 | **+0.5** — would hit |
+| Net, raw (±8) | −8 | −18.8 | −10.8 — would miss |
+| Net, house-adjusted (±8) | −8 | −4.6 | +3.4 — would hit |
+| Right track (±5) | 37 (DK 11) | 24.5 (DK 29.3) | −12.5 — would miss |
+| Generic ballot, Democrat share RV (±4) | 51 | 46.6 | −4.4 — would miss by 0.4 |
+| Approval party cuts D / I / R, adjusted (MAE ≤ 12) | 13 / 36 / 80 | 28.4 / 34.4 / 48.2 | cells +15.4 / −1.6 / −31.8, MAE 16.3 — would miss |
+
+Two things the shadow teaches before the true target fields. The fixed house offset
+(+7.2 approve, from a five-wave cross-publisher gap) landed the adjusted topline within
+half a point — the one clean signal. And the adjusted arm's party cuts are the raw arm's
+(the offset was applied to the topline only, an omission in how the companion JSON was
+built — disclosed here); the raw party compression (Republicans 48.2 vs 80) is the same
+defect the E/YouGov series corrects with calibration, which HH1 did not register. The
+direction miss (−12.5, DK 29.3 vs 11) is the same abstention over-hedge disclosed at
+registration and, on the E/YouGov side, at FT4. Head-to-head (adjusted beats raw on
+approval topline): would have been upheld.
