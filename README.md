@@ -82,13 +82,13 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Aug 21–24, 2026 | Aug 17, pre-field | calibrated | 4/4 bars (topline −1.9 · party MAE 9.0) + head-to-head upheld | **PASS** | [protocol + verdict](forward-test-2.md) |
 | Aug 28–31, 2026 | Aug 26, pre-field | raw | 2/3 bars (topline −3.4 · net +0.1 · **9-cell 6.31 > 6**) | **FAIL** | [protocol + verdict](forward-test-3.md) |
 | Aug 28–31, 2026 | Aug 26, pre-field | calibrated | 4/4 bars (topline −3.4 · party MAE 8.8) + head-to-head upheld; structure bar lost to persistence and movement bar failed, both as registered | **PASS** | [protocol + verdict](forward-test-3.md) |
-| next wave to field after the FT4 push | *registration due* | raw · calibrated · raw+dk · no-anchor ablation | bars declared in the FT4 protocol | *upcoming* | — |
+| first wave to field after Sep 3, 2026 (expected Sep 4–7) | Sep 2, pre-field (`e4a0bd0`) | raw · calibrated · raw+dk · no-anchor ablation (expected FAIL) · direction · House ballot | approval 33.3 / 34.1 / 34.8 / 28.5; direction 18.7 / 14.1; ballot D 33.6 / 37.7 — bars + disclosures in the protocol | *pending* | [protocol](ft4/ft4-registration.md) |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
 | Poll (fields) | Registered | Engine | Result | Verdict | Detail |
 |---|---|---|---|---|---|
-| September 2026 (~Sept 1–19) | *registration due before fielding* | raw + calibrated | — | *upcoming* | — |
+| September 2026 (~Sept 1–19) | Aug 29, pre-field (`4881748`) | raw + calibrated | satisfied 35.7 (raw) / 48.7 (calibrated, cross-survey miss risk disclosed) | *pending* | [protocol](gs1/gallup-satisfaction-registration.md) |
 
 ### Coming next — each gated on the published entry rule
 
@@ -98,8 +98,10 @@ is applied before any forecast is made — families that fail are named, not ski
 silently (economic evaluation currently fails it and is excluded).
 
 - **Direction of country** and the **generic House ballot** (same weekly poll) — entry
-  diagnostics scheduled; added only on a pass.
-- **Trump favorability** (same weekly poll) — candidate, diagnostic scheduled.
+  diagnostics passed on Nationscape gold (uAUC 0.765 / 0.950, party ordering correct);
+  registered in FT4 as measurement arms, with their registration-day weaknesses disclosed.
+- **Trump favorability** — diagnostic passed (uAUC 0.831) and calibration frozen; no weekly
+  published target in the E/YouGov toplines, so not yet registrable.
 - **The November 3, 2026 midterm** — a registered national House-margin forecast before
   Election Day, turnout assumptions disclosed at registration.
 - **Consumer sentiment** — currently excluded (economic family); enters only if a
