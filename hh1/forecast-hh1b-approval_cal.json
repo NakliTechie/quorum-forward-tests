@@ -1,0 +1,204 @@
+{
+  "topline": {
+    "Strongly approve": 20.5,
+    "Somewhat approve": 21.5,
+    "Somewhat disapprove": 22.8,
+    "Strongly disapprove": 28.6,
+    "Don't Know/Not Sure": 6.5,
+    "Positive": 42.0,
+    "Negative": 51.4,
+    "Net": -9.4,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Strongly approve": 7.6,
+        "Somewhat approve": 8.4,
+        "Somewhat disapprove": 28.7,
+        "Strongly disapprove": 48.4,
+        "Don't Know/Not Sure": 7.0,
+        "Positive": 16.0,
+        "Negative": 77.1,
+        "Net": -61.1,
+        "_n_cells": 988,
+        "_weight_share": 0.3333
+      },
+      "Ind": {
+        "Strongly approve": 15.5,
+        "Somewhat approve": 18.4,
+        "Somewhat disapprove": 29.8,
+        "Strongly disapprove": 29.6,
+        "Don't Know/Not Sure": 6.7,
+        "Positive": 33.9,
+        "Negative": 59.4,
+        "Net": -25.5,
+        "_n_cells": 913,
+        "_weight_share": 0.2828
+      },
+      "Rep": {
+        "Strongly approve": 36.9,
+        "Somewhat approve": 36.6,
+        "Somewhat disapprove": 11.3,
+        "Strongly disapprove": 9.3,
+        "Don't Know/Not Sure": 5.9,
+        "Positive": 73.5,
+        "Negative": 20.6,
+        "Net": 52.9,
+        "_n_cells": 765,
+        "_weight_share": 0.3535
+      }
+    },
+    "sex": {
+      "Female": {
+        "Strongly approve": 17.3,
+        "Somewhat approve": 18.6,
+        "Somewhat disapprove": 25.1,
+        "Strongly disapprove": 32.8,
+        "Don't Know/Not Sure": 6.2,
+        "Positive": 35.9,
+        "Negative": 57.9,
+        "Net": -22.0,
+        "_n_cells": 1557,
+        "_weight_share": 0.5062
+      },
+      "Male": {
+        "Strongly approve": 24.0,
+        "Somewhat approve": 24.7,
+        "Somewhat disapprove": 20.3,
+        "Strongly disapprove": 24.1,
+        "Don't Know/Not Sure": 6.9,
+        "Positive": 48.7,
+        "Negative": 44.4,
+        "Net": 4.3,
+        "_n_cells": 1568,
+        "_weight_share": 0.485
+      }
+    },
+    "age": {
+      "18-29": {
+        "Strongly approve": 18.5,
+        "Somewhat approve": 19.9,
+        "Somewhat disapprove": 24.3,
+        "Strongly disapprove": 29.9,
+        "Don't Know/Not Sure": 7.3,
+        "Positive": 38.4,
+        "Negative": 54.2,
+        "Net": -15.8,
+        "_n_cells": 615,
+        "_weight_share": 0.1827
+      },
+      "30-44": {
+        "Strongly approve": 20.1,
+        "Somewhat approve": 21.1,
+        "Somewhat disapprove": 23.1,
+        "Strongly disapprove": 29.0,
+        "Don't Know/Not Sure": 6.7,
+        "Positive": 41.2,
+        "Negative": 52.1,
+        "Net": -10.9,
+        "_n_cells": 1022,
+        "_weight_share": 0.3209
+      },
+      "45-64": {
+        "Strongly approve": 21.7,
+        "Somewhat approve": 22.7,
+        "Somewhat disapprove": 21.8,
+        "Strongly disapprove": 27.4,
+        "Don't Know/Not Sure": 6.4,
+        "Positive": 44.4,
+        "Negative": 49.2,
+        "Net": -4.8,
+        "_n_cells": 784,
+        "_weight_share": 0.25
+      },
+      "65+": {
+        "Strongly approve": 21.3,
+        "Somewhat approve": 22.2,
+        "Somewhat disapprove": 22.2,
+        "Strongly disapprove": 28.4,
+        "Don't Know/Not Sure": 5.9,
+        "Positive": 43.5,
+        "Negative": 50.6,
+        "Net": -7.1,
+        "_n_cells": 727,
+        "_weight_share": 0.2425
+      }
+    },
+    "race": {
+      "Black": {
+        "Strongly approve": 10.6,
+        "Somewhat approve": 11.7,
+        "Somewhat disapprove": 28.0,
+        "Strongly disapprove": 42.4,
+        "Don't Know/Not Sure": 7.3,
+        "Positive": 22.3,
+        "Negative": 70.4,
+        "Net": -48.1,
+        "_n_cells": 437,
+        "_weight_share": 0.1072
+      },
+      "Hispanic": {
+        "Strongly approve": 16.9,
+        "Somewhat approve": 18.5,
+        "Somewhat disapprove": 25.1,
+        "Strongly disapprove": 32.4,
+        "Don't Know/Not Sure": 7.1,
+        "Positive": 35.4,
+        "Negative": 57.5,
+        "Net": -22.1,
+        "_n_cells": 585,
+        "_weight_share": 0.1615
+      },
+      "Other": {
+        "Strongly approve": 17.5,
+        "Somewhat approve": 19.1,
+        "Somewhat disapprove": 25.1,
+        "Strongly disapprove": 31.6,
+        "Don't Know/Not Sure": 6.7,
+        "Positive": 36.6,
+        "Negative": 56.7,
+        "Net": -20.1,
+        "_n_cells": 574,
+        "_weight_share": 0.1158
+      },
+      "White": {
+        "Strongly approve": 23.7,
+        "Somewhat approve": 24.5,
+        "Somewhat disapprove": 20.8,
+        "Strongly disapprove": 24.7,
+        "Don't Know/Not Sure": 6.3,
+        "Positive": 48.2,
+        "Negative": 45.5,
+        "Net": 2.7,
+        "_n_cells": 1574,
+        "_weight_share": 0.6154
+      }
+    }
+  },
+  "instrument": {
+    "key": "hh_approval",
+    "question": "Do you disapprove or approve of the job Donald J. Trump is doing as President of the United States?",
+    "options": [
+      "Strongly approve",
+      "Somewhat approve",
+      "Somewhat disapprove",
+      "Strongly disapprove",
+      "Don't Know/Not Sure"
+    ],
+    "provenance": "verbatim (HH topline decks Apr/May/Jul 2026, question M3ALT, Table 14 p.16; disapprove-first question wording as printed; docs/harvard-harris-recon.md)"
+  },
+  "calibration": {
+    "a": 3.6133,
+    "b": 1.3759,
+    "family": "approval_pooled_2019_2025"
+  },
+  "anchor_sha256": "a2583e02d9303639a02011d37466f3c5a39c8fdfd643b3ce946d5ca095093fd9",
+  "anchor_text": "Context: Today is August 29, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a preliminary peace agreement was reached in June, but intermittent fighting has continued since. Gasoline averages $4.09 a gallon nationally; inflation is 3.4% over the past year while average wages grew 3.2%. The 2026 midterm congressional elections are in November.",
+  "frame": {
+    "source": "W161 recomposed to Harvard-Harris printed party targets (quorum-forward-tests/hh1/frame_hh.csv)",
+    "n_profiles": 3170
+  },
+  "source_rows_sha256": "ae4f8ed49f4be1563b655f5dc38f013c2365b617e87ae1d91c540e2aa8eceb14"
+}

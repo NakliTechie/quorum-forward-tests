@@ -1,0 +1,208 @@
+{
+  "topline": {
+    "Strongly approve": 23.9,
+    "Somewhat approve": 25.3,
+    "Somewhat disapprove": 19.4,
+    "Strongly disapprove": 24.9,
+    "Don't Know/Not Sure": 6.5,
+    "Positive": 49.2,
+    "Negative": 44.3,
+    "Net": 4.9,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Strongly approve": 10.7,
+        "Somewhat approve": 11.8,
+        "Somewhat disapprove": 26.2,
+        "Strongly disapprove": 44.3,
+        "Don't Know/Not Sure": 7.0,
+        "Positive": 22.5,
+        "Negative": 70.5,
+        "Net": -48.0,
+        "_n_cells": 988,
+        "_weight_share": 0.3333
+      },
+      "Ind": {
+        "Strongly approve": 19.9,
+        "Somewhat approve": 23.6,
+        "Somewhat disapprove": 24.9,
+        "Strongly disapprove": 24.9,
+        "Don't Know/Not Sure": 6.7,
+        "Positive": 43.5,
+        "Negative": 49.8,
+        "Net": -6.3,
+        "_n_cells": 913,
+        "_weight_share": 0.2828
+      },
+      "Rep": {
+        "Strongly approve": 39.6,
+        "Somewhat approve": 39.4,
+        "Somewhat disapprove": 8.3,
+        "Strongly disapprove": 6.8,
+        "Don't Know/Not Sure": 5.9,
+        "Positive": 79.0,
+        "Negative": 15.1,
+        "Net": 63.9,
+        "_n_cells": 765,
+        "_weight_share": 0.3535
+      }
+    },
+    "sex": {
+      "Female": {
+        "Strongly approve": 20.9,
+        "Somewhat approve": 22.7,
+        "Somewhat disapprove": 21.5,
+        "Strongly disapprove": 28.7,
+        "Don't Know/Not Sure": 6.2,
+        "Positive": 43.6,
+        "Negative": 50.2,
+        "Net": -6.6,
+        "_n_cells": 1557,
+        "_weight_share": 0.5062
+      },
+      "Male": {
+        "Strongly approve": 27.0,
+        "Somewhat approve": 28.1,
+        "Somewhat disapprove": 17.1,
+        "Strongly disapprove": 20.8,
+        "Don't Know/Not Sure": 6.9,
+        "Positive": 55.1,
+        "Negative": 37.9,
+        "Net": 17.2,
+        "_n_cells": 1568,
+        "_weight_share": 0.485
+      }
+    },
+    "age": {
+      "18-29": {
+        "Strongly approve": 22.0,
+        "Somewhat approve": 23.9,
+        "Somewhat disapprove": 20.8,
+        "Strongly disapprove": 26.1,
+        "Don't Know/Not Sure": 7.3,
+        "Positive": 45.9,
+        "Negative": 46.9,
+        "Net": -1.0,
+        "_n_cells": 615,
+        "_weight_share": 0.1827
+      },
+      "30-44": {
+        "Strongly approve": 23.4,
+        "Somewhat approve": 24.9,
+        "Somewhat disapprove": 19.7,
+        "Strongly disapprove": 25.3,
+        "Don't Know/Not Sure": 6.7,
+        "Positive": 48.3,
+        "Negative": 45.0,
+        "Net": 3.3,
+        "_n_cells": 1022,
+        "_weight_share": 0.3209
+      },
+      "45-64": {
+        "Strongly approve": 25.0,
+        "Somewhat approve": 26.3,
+        "Somewhat disapprove": 18.5,
+        "Strongly disapprove": 23.8,
+        "Don't Know/Not Sure": 6.4,
+        "Positive": 51.3,
+        "Negative": 42.3,
+        "Net": 9.0,
+        "_n_cells": 784,
+        "_weight_share": 0.25
+      },
+      "65+": {
+        "Strongly approve": 24.7,
+        "Somewhat approve": 25.9,
+        "Somewhat disapprove": 18.9,
+        "Strongly disapprove": 24.7,
+        "Don't Know/Not Sure": 5.9,
+        "Positive": 50.6,
+        "Negative": 43.6,
+        "Net": 7.0,
+        "_n_cells": 727,
+        "_weight_share": 0.2425
+      }
+    },
+    "race": {
+      "Black": {
+        "Strongly approve": 14.2,
+        "Somewhat approve": 15.6,
+        "Somewhat disapprove": 24.9,
+        "Strongly disapprove": 38.0,
+        "Don't Know/Not Sure": 7.3,
+        "Positive": 29.8,
+        "Negative": 62.9,
+        "Net": -33.1,
+        "_n_cells": 437,
+        "_weight_share": 0.1072
+      },
+      "Hispanic": {
+        "Strongly approve": 20.4,
+        "Somewhat approve": 22.4,
+        "Somewhat disapprove": 21.6,
+        "Strongly disapprove": 28.4,
+        "Don't Know/Not Sure": 7.1,
+        "Positive": 42.8,
+        "Negative": 50.0,
+        "Net": -7.2,
+        "_n_cells": 585,
+        "_weight_share": 0.1615
+      },
+      "Other": {
+        "Strongly approve": 21.1,
+        "Somewhat approve": 23.1,
+        "Somewhat disapprove": 21.5,
+        "Strongly disapprove": 27.6,
+        "Don't Know/Not Sure": 6.7,
+        "Positive": 44.2,
+        "Negative": 49.1,
+        "Net": -4.9,
+        "_n_cells": 574,
+        "_weight_share": 0.1158
+      },
+      "White": {
+        "Strongly approve": 27.0,
+        "Somewhat approve": 28.1,
+        "Somewhat disapprove": 17.5,
+        "Strongly disapprove": 21.2,
+        "Don't Know/Not Sure": 6.3,
+        "Positive": 55.1,
+        "Negative": 38.7,
+        "Net": 16.4,
+        "_n_cells": 1574,
+        "_weight_share": 0.6154
+      }
+    }
+  },
+  "instrument": {
+    "key": "hh_approval",
+    "question": "Do you disapprove or approve of the job Donald J. Trump is doing as President of the United States?",
+    "options": [
+      "Strongly approve",
+      "Somewhat approve",
+      "Somewhat disapprove",
+      "Strongly disapprove",
+      "Don't Know/Not Sure"
+    ],
+    "provenance": "verbatim (HH topline decks Apr/May/Jul 2026, question M3ALT, Table 14 p.16; disapprove-first question wording as printed; docs/harvard-harris-recon.md)"
+  },
+  "calibration": {
+    "a": 3.6133,
+    "b": 1.3759,
+    "family": "approval_pooled_2019_2025",
+    "house_logit_shift": 0.43523,
+    "house_offset_pts": 7.2,
+    "house_offset_source": "HH1 registration (five-wave HH vs E/YouGov gap, recon 2026-08-19)",
+    "note": "offset applied inside the calibrated distribution (single intercept shift), not to the topline"
+  },
+  "anchor_sha256": "a2583e02d9303639a02011d37466f3c5a39c8fdfd643b3ce946d5ca095093fd9",
+  "anchor_text": "Context: Today is August 29, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a preliminary peace agreement was reached in June, but intermittent fighting has continued since. Gasoline averages $4.09 a gallon nationally; inflation is 3.4% over the past year while average wages grew 3.2%. The 2026 midterm congressional elections are in November.",
+  "frame": {
+    "source": "W161 recomposed to Harvard-Harris printed party targets (quorum-forward-tests/hh1/frame_hh.csv)",
+    "n_profiles": 3170
+  },
+  "source_rows_sha256": "ae4f8ed49f4be1563b655f5dc38f013c2365b617e87ae1d91c540e2aa8eceb14"
+}

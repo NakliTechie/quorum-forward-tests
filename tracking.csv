@@ -28,3 +28,7 @@ forecast_pending,FT4-C raw+dk (E35 s=0.5618),TBD,34.8,59.5,,NS 5.6; head-to-head
 forecast_pending,FT4-D no-anchor ablation,TBD,28.5,59.0,,registered expectation: topline FAILS
 forecast_pending,FT4-E direction raw / cal (right direction),TBD,18.7,14.1,,measurement arm; disclosed likely miss (last wave 27)
 forecast_pending,FT4-F ballot raw / cal (Dem share),TBD,33.6,37.7,,measurement arm; raw orders parties backwards (disclosed)
+forecast_pending,HH1-B approval calibrated,TBD,42.0,51.4,,companion registered 2026-09-03 pre-field; party 16.0/33.9/73.5 registered MAE<=12
+forecast_pending,HH1-B approval calibrated+house,TBD,49.2,44.3,,H2H vs approval_cal expected to FAIL (shadow +5.2)
+forecast_pending,HH1-B direction dk-shrink (right track),TBD,30.8,58.3,,DK 10.9 (s solved on Aug DK 11; disclosed)
+forecast_pending,HH1-B ballot calibrated (D share),TBD,52.4,47.6,,HOUSE_BALLOT_NS Platt
