@@ -162,6 +162,14 @@ Everything below is the registration history, immutable once committed: hashes l
 `SHA256SUMS`, corrections appear as new dated files, never edits. (This README is the
 living front page and is excluded from `SHA256SUMS`.)
 
+**Hash convention, stated plainly (2026-09-06).** The hashes in `SHA256SUMS` are
+*registration-time* hashes. For Forward Tests 1–3 the verdict was appended to the
+registered protocol file after it scored, so `shasum -c` reports those four files as
+changed — the registered content is byte-identical up to the appended `## Verdict`
+section, and the registration commit (timestamped by GitHub) holds the original. From
+Forward Test 4 onward, verdicts are separate dated files (`verdict-<test>-<date>.md`) and
+every registered file verifies cold.
+
 ## Forward Test 1 — the registration, as frozen 2026-08-13 2026-08-13
 
 **Target:** the next *Economist*/YouGov weekly poll to begin fielding after the registration

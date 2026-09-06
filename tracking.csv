@@ -6,8 +6,8 @@ published,Aug 7-10,2026-08-10,33,62,1589,yougov.com/en-us/articles/55343
 published,Aug 14-17,2026-08-17,35,61,1611,yougov.com/en-us/articles/55390 toplines Q31
 forecast_scored,FT1-B calibrated (PASS),2026-08-17,34.9,54.5,,registered 2026-08-13 pre-field; scored 2026-08-19
 forecast_scored_raw,FT1 raw (PASS),2026-08-17,33.6,55.8,,registered 2026-08-13 pre-field; scored 2026-08-19
-forecast_pending,FT2-B calibrated,2026-08-24,34.1,55.5,,registered 2026-08-17 pre-field; target fields ~Aug 21-24
-forecast_pending_raw,FT2 raw,2026-08-24,33.3,56.3,,registered 2026-08-17 pre-field
+forecast_scored,FT2-B calibrated (PASS),2026-08-24,34.1,55.5,,registered 2026-08-17 pre-field; scored 2026-08-27
+forecast_scored_raw,FT2 raw (PASS),2026-08-24,33.3,56.3,,registered 2026-08-17 pre-field; scored 2026-08-27
 FT2,2026-08-17,2026-08-21/24,PASS,raw -2.7 net -2.0 9cell 5.2
 FT2-B,2026-08-17,2026-08-21/24,PASS,cal -1.9 net -0.4 9cell 2.78 party 9.0 H2H-upheld
 forecast_pending,GS1 raw (satisfied),2026-09-19,35.7,,,registered 2026-08-29 pre-field; Gallup fields ~Sep 1-19
