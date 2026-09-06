@@ -32,3 +32,7 @@ forecast_pending,HH1-B approval calibrated,TBD,42.0,51.4,,companion registered 2
 forecast_pending,HH1-B approval calibrated+house,TBD,49.2,44.3,,H2H vs approval_cal expected to FAIL (shadow +5.2)
 forecast_pending,HH1-B direction dk-shrink (right track),TBD,30.8,58.3,,DK 10.9 (s solved on Aug DK 11; disclosed)
 forecast_pending,HH1-B ballot calibrated (D share),TBD,52.4,47.6,,HOUSE_BALLOT_NS Platt
+forecast_pending,FT5 raw (14B),TBD,33.6,56.4,,registered 2026-09-06 pre-field; target = wave after FT4's
+forecast_pending,FT5-B calibrated (14B),TBD,34.6,55.4,,14B spine continuity
+forecast_pending,FT5-P phi-4 raw,TBD,42.4,50.7,,challenger; expected topline miss (sits high)
+forecast_pending,FT5-P-cal phi-4 calibrated,TBD,44.1,49.9,,pooled 2019+2025 map a1.5655 b0.2642; H2H3 party vs B open H2H4 topline to 14B
