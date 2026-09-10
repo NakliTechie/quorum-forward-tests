@@ -8,11 +8,14 @@ question, using an open-weight language model conditioned on real demographic fr
 only way to know whether such a thing works is to make it commit in advance, in public.
 That is what this repository is for.
 
-**Running tally: 23 of 24 registered pass/fail claims hit across three scored waves
-(FT1 8/8 · FT2 8/8 · FT3 7/8).** The miss is the raw engine's 9-cell subgroup bar on the
-Aug 28–31 wave (6.31 against a bar of 6, carried by one 16-point cell: Black respondents,
-forecast 27.3% approve vs 11% published) — it appears here at the same prominence as the
-passes, and the arithmetic is in [`forward-test-3.md`](forward-test-3.md). One scored wave
+**Running tally: 30 of 32 core registered claims hit across four scored waves
+(FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8).** Both misses are the raw engine's 9-cell
+subgroup bar (FT3 6.31, FT4 6.63 against a bar of 6); the calibrated engine has passed
+every registered bar on every wave. FT4's new arms are reported at equal volume in
+[`verdict-ft4-2026-09-10.md`](verdict-ft4-2026-09-10.md): the abstention repair's
+head-to-head upheld, the no-anchor ablation failed as predicted, direction missed 0/4 as
+disclosed, ballot 3/6. FT4's wave was printed on a registered-voter base — a frame change
+YouGov made, disclosed at the top of the verdict. One scored wave
 is one wave: a quarter of registered forecasts (weekly waves, a second polling house, 40+
 scored quantities) runs before any broader claim is made.
 
@@ -82,7 +85,10 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Aug 21–24, 2026 | Aug 17, pre-field | calibrated | 4/4 bars (topline −1.9 · party MAE 9.0) + head-to-head upheld | **PASS** | [protocol + verdict](forward-test-2.md) |
 | Aug 28–31, 2026 | Aug 26, pre-field | raw | 2/3 bars (topline −3.4 · net +0.1 · **9-cell 6.31 > 6**) | **FAIL** | [protocol + verdict](forward-test-3.md) |
 | Aug 28–31, 2026 | Aug 26, pre-field | calibrated | 4/4 bars (topline −3.4 · party MAE 8.8) + head-to-head upheld; structure bar lost to persistence and movement bar failed, both as registered | **PASS** | [protocol + verdict](forward-test-3.md) |
-| first wave to field after Sep 3, 2026 (expected Sep 4–7) | Sep 2, pre-field (`e4a0bd0`) | raw · calibrated · raw+dk · no-anchor ablation (expected FAIL) · direction · House ballot | approval 33.3 / 34.1 / 34.8 / 28.5; direction 18.7 / 14.1; ballot D 33.6 / 37.7 — bars + disclosures in the protocol | *pending* | [protocol](ft4/ft4-registration.md) |
+| Sep 4–8, 2026 (RV base — frame change, disclosed) | Sep 2, pre-field (`e4a0bd0`) | raw | 2/3 bars (topline −3.7 · net +0.6 · **9-cell 6.63 > 6**) | **FAIL** | [verdict](verdict-ft4-2026-09-10.md) · [protocol](ft4/ft4-registration.md) |
+| Sep 4–8, 2026 | Sep 2, pre-field | calibrated | 4/4 bars (topline −2.9 · 9-cell 4.36 · party MAE 8.9) + head-to-head upheld; movement bar passed | **PASS** | [verdict](verdict-ft4-2026-09-10.md) |
+| Sep 4–8, 2026 | Sep 2, pre-field | raw+dk (C) · no-anchor (D) · direction (E) · ballot (F) | C: dk head-to-head UPHELD (NS 8.0→3.6), 9-cell miss · D: expected topline FAIL met (−8.5) · E: 0/4 as disclosed · F: cal margin −1.1 + party 6.8 hit, D-share −4.3 miss | measurements, reported | [verdict](verdict-ft4-2026-09-10.md) |
+| first wave to field after Sep 6 (expected Sep 11–14) | Sep 6, pre-field (`6855b4b`) | 14B A–F + **phi-4 challenger** P/P-cal | approval 33.6 / 34.6; phi-4 42.4 / 44.1 — head-to-head 3 open, 4 registered to 14B | *pending* | [protocol](ft5/ft5-registration.md) |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
@@ -111,14 +117,51 @@ silently (economic evaluation currently fails it and is excluded).
 
 ## Latest scored wave, in full
 
-Published poll: *Economist*/YouGov, fielded August 28–31 2026, n = 1,592
-([toplines](https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_ZLmkpUi.pdf) ·
-[crosstabs](https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_yVe1kKt.pdf),
-table 5). Every cell we forecast, against what the poll printed — errors shown so nobody
+Published poll: *Economist*/YouGov, fielded September 4–8 2026, **printed on a
+registered-voter base (n = 1,469)** — a frame change from the adult-citizen base of the
+first three waves, disclosed at the top of the verdict
+([toplines](https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_B94Xkmi.pdf) ·
+[crosstabs](https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_HGAKAIQ.pdf),
+table 10). Every cell we forecast, against what the poll printed — errors shown so nobody
 has to compute them:
 
-| Quantity | Published | FT3-B calibrated (err) | FT3 raw (err) |
+| Quantity | Published (RV) | FT4-B calibrated (err) | FT4 raw (err) |
 |---|---|---|---|
+| **Approve** | **37.0** | **34.1 (−2.9)** | 33.3 (−3.7) |
+| Disapprove | 61.0 | 55.9 (−5.1) | 56.7 (−4.3) |
+| Not sure | 2.0 | 10.0 (+8.0) | 10.0 (+8.0) |
+| **Net** | **−24** | **−21.8 (+2.2)** | −23.4 (+0.6) |
+| Men | 44 | 40.0 (−4.0) | 35.4 (−8.6) |
+| Women | 30 | 28.9 (−1.1) | 31.5 (+1.5) |
+| Age 18–29 | 26 | 31.4 (+5.4) | 32.3 (+6.3) |
+| Age 30–44 | 30 | 33.5 (+3.5) | 33.0 (+3.0) |
+| Age 45–64 | 43 | 36.2 (−6.8) | 34.0 (−9.0) |
+| Age 65+ | 42 | 35.4 (−6.6) | 33.8 (−8.2) |
+| White | 41 | 39.3 (−1.7) | 35.1 (−5.9) |
+| Black | 15 | 18.5 (+3.5) | **27.9 (+12.9)** |
+| Hispanic | 36 | 29.4 (−6.6) | 31.7 (−4.3) |
+| Democrats | 3 | **11.0 (+8.0)** | 25.0 (+22.0) |
+| Independents | 25 | **28.7 (+3.7)** | 31.8 (+6.8) |
+| Republicans | 80 | **64.9 (−15.1)** | 43.7 (−36.3) |
+
+Bars (declared before fielding; averages, so single cells above may exceed them):
+topline ±5 → **2.9 / 3.7**, both pass · net ±8 → **2.2 / 0.6**, both pass ·
+sex/age/race 9-cell MAE ≤ 6 → **4.36 pass / 6.63 FAIL** — the raw engine's second
+consecutive 9-cell miss, spread across Men, 45–64, 65+ and Black this time · party MAE
+≤ 12, registered for the calibrated engine only → **8.9**, pass; head-to-head upheld.
+FT4 also carried the abstention-repair arm (head-to-head **upheld**: "Not sure" 8.0 → 3.6
+with the topline improving), the no-anchor ablation (**failed its topline by 8.5, as
+registered**), and direction / House-ballot measurement arms (direction 0/4 as disclosed;
+ballot calibrated hit margin −1.1 and party 6.8, missed the Democratic share by 0.3
+beyond its bar on a named-candidate form).
+
+Read the verdict's fine print in `verdict-ft4-2026-09-10.md`, including what we surface
+ourselves: the frame change, the persistence column (last wave re-used beat both engines
+on every approval quantity — three of four scored waves now), and the calibrated arm
+passing a movement bar it was registered to fail — by moving against the real direction
+inside a wide bar, which we do not count as tracking.
+
+---|---|---|---|
 | **Approve** | **36.0** | **32.6 (−3.4)** | 32.6 (−3.4) |
 | Disapprove | 60.0 | 56.6 (−3.4) | 56.5 (−3.5) |
 | Not sure | 4.0 | 10.9 (+6.9) | 10.9 (+6.9) |

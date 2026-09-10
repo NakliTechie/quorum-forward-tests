@@ -1,0 +1,23 @@
+{
+ "wave": "Economist/YouGov September 4-8 2026",
+ "field_dates": "2026-09-04/2026-09-08",
+ "n": 1469,
+ "base": "U.S. Registered Voters (1,469 of 1,616 adult citizens) — FRAME CHANGE: this wave's toplines and tab report are printed on the registered-voter base; FT1-FT3 waves were printed on adult citizens. No adult-citizen column is published.",
+ "source": {
+  "article": "https://yougov.com/en-us/articles/55535-the-supreme-court-gender-equality-and-more-september-4-8-2026-economist-yougov-poll",
+  "toplines_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_B94Xkmi.pdf",
+  "tabs_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_HGAKAIQ.pdf",
+  "toplines_question": 10,
+  "tabs_table": "10 (page 13); direction table 1 (page 4); congressional vote table 23 (page 33)",
+  "note": "Ballot Q23 is 'asked using the names of candidates running in the respondent's district' (n=1,464), not the generic two-party form of prior waves; scored as printed, disclosed."
+ },
+ "topline": {"Approve": 37.0, "Disapprove": 61.0, "Not sure": 2.0},
+ "party": {"Dem": 3.0, "Ind": 25.0, "Rep": 80.0},
+ "sex": {"Male": 44.0, "Female": 30.0},
+ "age": {"18-29": 26.0, "30-44": 30.0, "45-64": 43.0, "65+": 42.0},
+ "race": {"White": 41.0, "Black": 15.0, "Hispanic": 36.0},
+ "direction": {"topline": {"Right direction": 29.0, "Wrong track": 65.0, "Not sure": 6.0},
+               "party": {"Dem": 5.0, "Ind": 18.0, "Rep": 63.0}},
+ "house_ballot": {"topline": {"Dem": 42.0, "Rep": 35.0, "Other": 3.0, "Not sure": 16.0, "Will not vote": 4.0},
+                  "party": {"Dem": 86.0, "Ind": 37.0, "Rep": 3.0}}
+}

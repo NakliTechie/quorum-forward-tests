@@ -1,0 +1,462 @@
+{
+ "published": {
+  "wave": "Economist/YouGov September 4-8 2026",
+  "field_dates": "2026-09-04/2026-09-08",
+  "n": 1469,
+  "base": "U.S. Registered Voters (1,469 of 1,616 adult citizens) \u2014 FRAME CHANGE: this wave's toplines and tab report are printed on the registered-voter base; FT1-FT3 waves were printed on adult citizens. No adult-citizen column is published.",
+  "source": {
+   "article": "https://yougov.com/en-us/articles/55535-the-supreme-court-gender-equality-and-more-september-4-8-2026-economist-yougov-poll",
+   "toplines_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_B94Xkmi.pdf",
+   "tabs_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_HGAKAIQ.pdf",
+   "toplines_question": 10,
+   "tabs_table": "10 (page 13); direction table 1 (page 4); congressional vote table 23 (page 33)",
+   "note": "Ballot Q23 is 'asked using the names of candidates running in the respondent's district' (n=1,464), not the generic two-party form of prior waves; scored as printed, disclosed."
+  },
+  "topline": {
+   "Approve": 37.0,
+   "Disapprove": 61.0,
+   "Not sure": 2.0
+  },
+  "party": {
+   "Dem": 3.0,
+   "Ind": 25.0,
+   "Rep": 80.0
+  },
+  "sex": {
+   "Male": 44.0,
+   "Female": 30.0
+  },
+  "age": {
+   "18-29": 26.0,
+   "30-44": 30.0,
+   "45-64": 43.0,
+   "65+": 42.0
+  },
+  "race": {
+   "White": 41.0,
+   "Black": 15.0,
+   "Hispanic": 36.0
+  },
+  "direction": {
+   "topline": {
+    "Right direction": 29.0,
+    "Wrong track": 65.0,
+    "Not sure": 6.0
+   },
+   "party": {
+    "Dem": 5.0,
+    "Ind": 18.0,
+    "Rep": 63.0
+   }
+  },
+  "house_ballot": {
+   "topline": {
+    "Dem": 42.0,
+    "Rep": 35.0,
+    "Other": 3.0,
+    "Not sure": 16.0,
+    "Will not vote": 4.0
+   },
+   "party": {
+    "Dem": 86.0,
+    "Ind": 37.0,
+    "Rep": 3.0
+   }
+  }
+ },
+ "raw": {
+  "label": "raw (registered)",
+  "topline": {
+   "approve_pred": 33.3,
+   "approve_gold": 37.0,
+   "approve_error": -3.7,
+   "net_pred": -23.4,
+   "net_gold": -24.0,
+   "net_error": 0.6,
+   "not_sure_pred": 10.0,
+   "not_sure_gold": 2.0,
+   "not_sure_error": 8.0
+  },
+  "subgroups": {
+   "sex": {
+    "mae": 5.05,
+    "cells": {
+     "Male": -8.6,
+     "Female": 1.5
+    }
+   },
+   "age": {
+    "mae": 6.62,
+    "cells": {
+     "18-29": 6.3,
+     "30-44": 3.0,
+     "45-64": -9.0,
+     "65+": -8.2
+    }
+   },
+   "race": {
+    "mae": 7.7,
+    "cells": {
+     "White": -5.9,
+     "Black": 12.9,
+     "Hispanic": -4.3
+    }
+   }
+  },
+  "subgroup_mae_9cell": 6.63,
+  "party": {
+   "cells": {
+    "Dem": 22.0,
+    "Ind": 6.8,
+    "Rep": -36.3
+   },
+   "mae": 21.7,
+   "registered": false
+  },
+  "bars": {
+   "topline_approve": true,
+   "net": true,
+   "subgroup_mae": false
+  },
+  "verdict": "FAIL"
+ },
+ "calibrated": {
+  "label": "calibrated (registered)",
+  "topline": {
+   "approve_pred": 34.1,
+   "approve_gold": 37.0,
+   "approve_error": -2.9,
+   "net_pred": -21.8,
+   "net_gold": -24.0,
+   "net_error": 2.2,
+   "not_sure_pred": 10.0,
+   "not_sure_gold": 2.0,
+   "not_sure_error": 8.0
+  },
+  "subgroups": {
+   "sex": {
+    "mae": 2.55,
+    "cells": {
+     "Male": -4.0,
+     "Female": -1.1
+    }
+   },
+   "age": {
+    "mae": 5.58,
+    "cells": {
+     "18-29": 5.4,
+     "30-44": 3.5,
+     "45-64": -6.8,
+     "65+": -6.6
+    }
+   },
+   "race": {
+    "mae": 3.93,
+    "cells": {
+     "White": -1.7,
+     "Black": 3.5,
+     "Hispanic": -6.6
+    }
+   }
+  },
+  "subgroup_mae_9cell": 4.36,
+  "party": {
+   "cells": {
+    "Dem": 8.0,
+    "Ind": 3.7,
+    "Rep": -15.1
+   },
+   "mae": 8.9,
+   "registered": true
+  },
+  "bars": {
+   "topline_approve": true,
+   "net": true,
+   "subgroup_mae": true,
+   "party": true
+  },
+  "verdict": "PASS"
+ },
+ "head_to_head_claim_upheld": true,
+ "dk": {
+  "label": "raw + dk (registered, FT4 arm C)",
+  "topline": {
+   "approve_pred": 34.8,
+   "approve_gold": 37.0,
+   "approve_error": -2.2,
+   "net_pred": -24.7,
+   "net_gold": -24.0,
+   "net_error": -0.7,
+   "not_sure_pred": 5.6,
+   "not_sure_gold": 2.0,
+   "not_sure_error": 3.6
+  },
+  "subgroups": {
+   "sex": {
+    "mae": 5.0,
+    "cells": {
+     "Male": -7.1,
+     "Female": 2.9
+    }
+   },
+   "age": {
+    "mae": 6.72,
+    "cells": {
+     "18-29": 8.0,
+     "30-44": 4.7,
+     "45-64": -7.5,
+     "65+": -6.7
+    }
+   },
+   "race": {
+    "mae": 7.17,
+    "cells": {
+     "White": -4.4,
+     "Black": 14.5,
+     "Hispanic": -2.6
+    }
+   }
+  },
+  "subgroup_mae_9cell": 6.49,
+  "party": {
+   "cells": {
+    "Dem": 23.6,
+    "Ind": 8.5,
+    "Rep": -34.8
+   },
+   "mae": 22.3,
+   "registered": false
+  },
+  "bars": {
+   "topline_approve": true,
+   "net": true,
+   "subgroup_mae": false
+  },
+  "verdict": "FAIL"
+ },
+ "dk_head_to_head": {
+  "not_sure_error_raw": 8.0,
+  "not_sure_error_dk": 3.6,
+  "approve_error_raw": -3.7,
+  "approve_error_dk": -2.2,
+  "ns_half": true,
+  "topline_half": true,
+  "claim_upheld": true
+ },
+ "noanchor": {
+  "label": "no-anchor ablation (FT4 arm D; registered expectation: topline FAILS)",
+  "topline": {
+   "approve_pred": 28.5,
+   "approve_gold": 37.0,
+   "approve_error": -8.5,
+   "net_pred": -30.5,
+   "net_gold": -24.0,
+   "net_error": -6.5,
+   "not_sure_pred": 12.5,
+   "not_sure_gold": 2.0,
+   "not_sure_error": 10.5
+  },
+  "subgroups": {
+   "sex": {
+    "mae": 8.4,
+    "cells": {
+     "Male": -14.3,
+     "Female": -2.5
+    }
+   },
+   "age": {
+    "mae": 7.8,
+    "cells": {
+     "18-29": 2.2,
+     "30-44": -1.5,
+     "45-64": -14.3,
+     "65+": -13.2
+    }
+   },
+   "race": {
+    "mae": 10.17,
+    "cells": {
+     "White": -11.6,
+     "Black": 10.7,
+     "Hispanic": -8.2
+    }
+   }
+  },
+  "subgroup_mae_9cell": 8.72,
+  "party": {
+   "cells": {
+    "Dem": 20.8,
+    "Ind": 3.7,
+    "Rep": -46.9
+   },
+   "mae": 23.8,
+   "registered": false
+  },
+  "bars": {
+   "topline_approve": false,
+   "net": true,
+   "subgroup_mae": false
+  },
+  "verdict": "FAIL",
+  "expectation_met": true
+ },
+ "ft3_bars": {
+  "raw": {
+   "our_dev_mae": 6.22,
+   "persistence_dev_mae": 2.89,
+   "structure_bar_won": false,
+   "movement": {
+    "pred_change": -2.7,
+    "actual_change": 1.0,
+    "movement_bar": false
+   }
+  },
+  "calibrated": {
+   "our_dev_mae": 4.06,
+   "persistence_dev_mae": 2.89,
+   "structure_bar_won": false,
+   "movement": {
+    "pred_change": -1.9,
+    "actual_change": 1.0,
+    "movement_bar": true
+   }
+  },
+  "dk": {
+   "our_dev_mae": 6.24,
+   "persistence_dev_mae": 2.89,
+   "structure_bar_won": false,
+   "movement": {
+    "pred_change": -1.2,
+    "actual_change": 1.0,
+    "movement_bar": true
+   }
+  },
+  "noanchor": {
+   "our_dev_mae": 6.96,
+   "persistence_dev_mae": 2.89,
+   "structure_bar_won": false,
+   "movement": {
+    "pred_change": -7.5,
+    "actual_change": 1.0,
+    "movement_bar": false
+   }
+  }
+ },
+ "persistence": {
+  "approve_error": -1.0,
+  "net_error": 0.0,
+  "party_mae": 1.7,
+  "subgroup_mae_9cell": 2.78
+ },
+ "direction": {
+  "raw": {
+   "label": "direction raw",
+   "topline": {
+    "positive_pred": 18.7,
+    "positive_gold": 29.0,
+    "positive_error": -10.3
+   },
+   "party": {
+    "cells": {
+     "Dem": 10.1,
+     "Ind": -0.8,
+     "Rep": -38.8
+    },
+    "mae": 16.6,
+    "registered": false
+   },
+   "bars": {
+    "positive": false
+   },
+   "verdict": "FAIL"
+  },
+  "calibrated": {
+   "label": "direction calibrated",
+   "topline": {
+    "positive_pred": 14.1,
+    "positive_gold": 29.0,
+    "positive_error": -14.9
+   },
+   "party": {
+    "cells": {
+     "Dem": 4.4,
+     "Ind": -6.0,
+     "Rep": -41.4
+    },
+    "mae": 17.3,
+    "registered": true
+   },
+   "bars": {
+    "positive": false,
+    "party": false
+   },
+   "verdict": "FAIL"
+  },
+  "head_to_head_claim_upheld": false,
+  "persistence": {
+   "positive_error": -2.0
+  }
+ },
+ "house_ballot": {
+  "raw": {
+   "label": "ballot raw",
+   "topline": {
+    "positive_pred": 33.6,
+    "positive_gold": 42.0,
+    "positive_error": -8.4,
+    "negative_pred": 35.9,
+    "negative_gold": 35.0,
+    "margin_pred": -2.3,
+    "margin_gold": 7.0,
+    "margin_error": -9.3
+   },
+   "party": {
+    "cells": {
+     "Dem": -34.3,
+     "Ind": -4.6,
+     "Rep": 14.6
+    },
+    "mae": 17.8,
+    "registered": false
+   },
+   "bars": {
+    "positive": false,
+    "margin": false
+   },
+   "verdict": "FAIL"
+  },
+  "calibrated": {
+   "label": "ballot calibrated",
+   "topline": {
+    "positive_pred": 37.7,
+    "positive_gold": 42.0,
+    "positive_error": -4.3,
+    "negative_pred": 31.8,
+    "negative_gold": 35.0,
+    "margin_pred": 5.9,
+    "margin_gold": 7.0,
+    "margin_error": -1.1
+   },
+   "party": {
+    "cells": {
+     "Dem": -16.6,
+     "Ind": 2.2,
+     "Rep": 1.7
+    },
+    "mae": 6.8,
+    "registered": true
+   },
+   "bars": {
+    "positive": false,
+    "margin": true,
+    "party": true
+   },
+   "verdict": "FAIL"
+  },
+  "head_to_head_claim_upheld": true,
+  "persistence": {
+   "positive_error": -6.0,
+   "margin_error": -2.0
+  }
+ }
+}
