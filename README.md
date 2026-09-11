@@ -19,6 +19,8 @@ YouGov made, disclosed at the top of the verdict. One scored wave
 is one wave: a quarter of registered forecasts (weekly waves, a second polling house, 40+
 scored quantities) runs before any broader claim is made.
 
+**Per-test verdict record: [`TRACK-RECORD.md`](TRACK-RECORD.md)** — one entry per forward test, regenerated from the register, never hand-edited.
+
 ![Published Economist/YouGov approval vs Quorum's registered pre-field forecasts](tracking.png)
 
 *The series so far: published waves (lines) against every registered forecast (diamonds —
