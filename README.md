@@ -98,6 +98,16 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 |---|---|---|---|---|---|
 | September 2026 (~Sept 1–19) | Aug 29, pre-field (`4881748`) | raw + calibrated | satisfied 35.7 (raw) / 48.7 (calibrated, cross-survey miss risk disclosed) | *pending* | [protocol](gs1/gallup-satisfaction-registration.md) |
 
+### The November 3, 2026 midterm — national House popular-vote margin · the capstone
+
+| Registered | Quantity | Forecast | Bar / head-to-head | Verdict | Detail |
+|---|---|---|---|---|---|
+| Sep 11, 2026, pre-election | two-party House vote, D − R | **D+8.54** (D 54.27 / R 45.73) | ±3.0 · beats the RealClearPolitics generic-ballot average as of Nov 2 | *scored Dec 2026, when ≥ 99% counted* | [registration](capstone/capstone-registration.md) · [forecast](capstone/forecast-capstone-2026-09-11.json) · [rows](capstone/rows-capstone-2026-09-11.jsonl) |
+
+One number, one bar, scored once. Turnout is a declared 2022-CPS reweight (the table and
+its script are in `capstone/`); the anchor-date sensitivity of the number (±1.5) is
+disclosed in the registration, not discovered after.
+
 ### Coming next — each gated on the published entry rule
 
 A question family enters this scoreboard only after passing a validation diagnostic on
@@ -110,8 +120,6 @@ silently (economic evaluation currently fails it and is excluded).
   registered in FT4 as measurement arms, with their registration-day weaknesses disclosed.
 - **Trump favorability** — diagnostic passed (uAUC 0.831) and calibration frozen; no weekly
   published target in the E/YouGov toplines, so not yet registrable.
-- **The November 3, 2026 midterm** — a registered national House-margin forecast before
-  Election Day, turnout assumptions disclosed at registration.
 - **Consumer sentiment** — currently excluded (economic family); enters only if a
   published in-family repair passes its own pre-declared test.
 

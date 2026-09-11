@@ -1,0 +1,194 @@
+{
+  "topline": {
+    "The Democratic candidate": 38.1,
+    "The Republican candidate": 32.1,
+    "Other": 14.3,
+    "Not sure": 9.2,
+    "I will not vote": 6.2,
+    "Positive": 38.1,
+    "Negative": 32.1,
+    "Net": 6.0,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "The Democratic candidate": 69.7,
+        "The Republican candidate": 4.3,
+        "Other": 13.8,
+        "Not sure": 6.8,
+        "I will not vote": 5.5,
+        "Positive": 69.7,
+        "Negative": 4.3,
+        "Net": 65.4,
+        "_n_cells": 988,
+        "_weight_share": 0.2991
+      },
+      "Ind": {
+        "The Democratic candidate": 40.5,
+        "The Republican candidate": 24.6,
+        "Other": 17.3,
+        "Not sure": 12.0,
+        "I will not vote": 5.6,
+        "Positive": 40.5,
+        "Negative": 24.6,
+        "Net": 15.9,
+        "_n_cells": 913,
+        "_weight_share": 0.2768
+      },
+      "Rep": {
+        "The Democratic candidate": 4.5,
+        "The Republican candidate": 69.3,
+        "Other": 10.7,
+        "Not sure": 8.1,
+        "I will not vote": 7.4,
+        "Positive": 4.5,
+        "Negative": 69.3,
+        "Net": -64.8,
+        "_n_cells": 765,
+        "_weight_share": 0.2997
+      }
+    },
+    "sex": {
+      "Female": {
+        "The Democratic candidate": 41.9,
+        "The Republican candidate": 29.3,
+        "Other": 14.1,
+        "Not sure": 8.8,
+        "I will not vote": 5.9,
+        "Positive": 41.9,
+        "Negative": 29.3,
+        "Net": 12.6,
+        "_n_cells": 1557,
+        "_weight_share": 0.5133
+      },
+      "Male": {
+        "The Democratic candidate": 33.9,
+        "The Republican candidate": 35.5,
+        "Other": 14.5,
+        "Not sure": 9.6,
+        "I will not vote": 6.6,
+        "Positive": 33.9,
+        "Negative": 35.5,
+        "Net": -1.6,
+        "_n_cells": 1568,
+        "_weight_share": 0.4772
+      }
+    },
+    "age": {
+      "18-29": {
+        "The Democratic candidate": 42.2,
+        "The Republican candidate": 26.5,
+        "Other": 14.9,
+        "Not sure": 10.1,
+        "I will not vote": 6.3,
+        "Positive": 42.2,
+        "Negative": 26.5,
+        "Net": 15.7,
+        "_n_cells": 615,
+        "_weight_share": 0.1265
+      },
+      "30-44": {
+        "The Democratic candidate": 40.2,
+        "The Republican candidate": 29.7,
+        "Other": 14.7,
+        "Not sure": 9.4,
+        "I will not vote": 6.0,
+        "Positive": 40.2,
+        "Negative": 29.7,
+        "Net": 10.5,
+        "_n_cells": 1022,
+        "_weight_share": 0.3036
+      },
+      "45-64": {
+        "The Democratic candidate": 36.1,
+        "The Republican candidate": 34.6,
+        "Other": 14.0,
+        "Not sure": 9.0,
+        "I will not vote": 6.2,
+        "Positive": 36.1,
+        "Negative": 34.6,
+        "Net": 1.5,
+        "_n_cells": 784,
+        "_weight_share": 0.2757
+      },
+      "65+": {
+        "The Democratic candidate": 36.1,
+        "The Republican candidate": 34.8,
+        "Other": 13.9,
+        "Not sure": 8.8,
+        "I will not vote": 6.4,
+        "Positive": 36.1,
+        "Negative": 34.8,
+        "Net": 1.3,
+        "_n_cells": 727,
+        "_weight_share": 0.2897
+      }
+    },
+    "race": {
+      "Black": {
+        "The Democratic candidate": 57.9,
+        "The Republican candidate": 11.9,
+        "Other": 15.3,
+        "Not sure": 8.7,
+        "I will not vote": 6.2,
+        "Positive": 57.9,
+        "Negative": 11.9,
+        "Net": 46.0,
+        "_n_cells": 437,
+        "_weight_share": 0.1003
+      },
+      "Hispanic": {
+        "The Democratic candidate": 46.1,
+        "The Republican candidate": 22.9,
+        "Other": 15.0,
+        "Not sure": 9.5,
+        "I will not vote": 6.5,
+        "Positive": 46.1,
+        "Negative": 22.9,
+        "Net": 23.2,
+        "_n_cells": 585,
+        "_weight_share": 0.1251
+      },
+      "Other": {
+        "The Democratic candidate": 43.1,
+        "The Republican candidate": 26.3,
+        "Other": 15.2,
+        "Not sure": 9.4,
+        "I will not vote": 6.0,
+        "Positive": 43.1,
+        "Negative": 26.3,
+        "Net": 16.8,
+        "_n_cells": 574,
+        "_weight_share": 0.0948
+      },
+      "White": {
+        "The Democratic candidate": 33.1,
+        "The Republican candidate": 37.6,
+        "Other": 13.9,
+        "Not sure": 9.2,
+        "I will not vote": 6.2,
+        "Positive": 33.1,
+        "Negative": 37.6,
+        "Net": -4.5,
+        "_n_cells": 1574,
+        "_weight_share": 0.6798
+      }
+    }
+  },
+  "two_party": {
+    "D_two_party": 54.27,
+    "R_two_party": 45.73,
+    "margin_D_minus_R": 8.54
+  },
+  "turnout": {
+    "file": "docs/capstone-turnout-2022.json",
+    "sha256": "6fba47cdcfc1df7a39b1e1919a1bc314e26871e4247d400e6e84ea477db8fd06"
+  },
+  "calibration": {
+    "a": 2.7534,
+    "b": 0.4401,
+    "family": "HOUSE_BALLOT_NS"
+  }
+}

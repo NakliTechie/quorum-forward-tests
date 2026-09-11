@@ -40,3 +40,4 @@ forecast_scored_raw,FT4 raw (FAIL: 9-cell 6.63),2026-09-08,33.3,56.7,,registered
 FT4,2026-09-02,2026-09-04/08,FAIL,raw -3.7 net +0.6 9cell 6.63 (Male -8.6 45-64 -9.0 Black +12.9)
 FT4-B,2026-09-02,2026-09-04/08,PASS,cal -2.9 net +2.2 9cell 4.36 party 8.9 H2H-upheld; movement bar PASSED; structure lost 4.06v2.89
 FT4-C/D/E/F,2026-09-02,2026-09-04/08,mixed,dk H2H upheld (NS 8.0->3.6); noanchor -8.5 expected FAIL met; direction 0/4; ballot cal margin -1.1 party 6.8 D-share -4.3
+capstone_pending,MIDTERM CAPSTONE two-party House margin D-R,2026-11-03,54.27,45.73,,registered 2026-09-11; bar +/-3; H2H vs RCP generic-ballot avg Nov 2; scored Dec when >=99% counted

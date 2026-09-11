@@ -1,0 +1,312 @@
+{
+ "source": "U.S. Census Bureau, Current Population Survey, November 2022 Voting and Registration Supplement, public-use microdata (nov22pub.csv, www2.census.gov/programs-surveys/cps/datasets/2022/supp/)",
+ "basis": "reported voted (PES1==1) / citizens 18+ (PRCITSHP 1-4), weight PWSSWGT; nonresponse counted as not voted (Census citizen-population basis)",
+ "overall_turnout_citizens_18plus": 0.522,
+ "cells": {
+  "18-29 | Asian non-Hispanic | College graduate+": {
+   "turnout": 0.413,
+   "multiplier": 0.7911,
+   "unweighted_n": 253
+  },
+  "18-29 | Asian non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.0714,
+   "multiplier": 0.1367,
+   "unweighted_n": 125
+  },
+  "18-29 | Asian non-Hispanic | Some College": {
+   "turnout": 0.243,
+   "multiplier": 0.4656,
+   "unweighted_n": 223
+  },
+  "18-29 | Black non-Hispanic | College graduate+": {
+   "turnout": 0.4225,
+   "multiplier": 0.8093,
+   "unweighted_n": 237
+  },
+  "18-29 | Black non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.1643,
+   "multiplier": 0.3147,
+   "unweighted_n": 641
+  },
+  "18-29 | Black non-Hispanic | Some College": {
+   "turnout": 0.3121,
+   "multiplier": 0.598,
+   "unweighted_n": 450
+  },
+  "18-29 | Hispanic | College graduate+": {
+   "turnout": 0.4598,
+   "multiplier": 0.8808,
+   "unweighted_n": 322
+  },
+  "18-29 | Hispanic | H.S. graduate or less": {
+   "turnout": 0.141,
+   "multiplier": 0.2701,
+   "unweighted_n": 1168
+  },
+  "18-29 | Hispanic | Some College": {
+   "turnout": 0.2981,
+   "multiplier": 0.5711,
+   "unweighted_n": 781
+  },
+  "18-29 | Other | College graduate+": {
+   "turnout": 0.2808,
+   "multiplier": 0.5379,
+   "unweighted_n": 84
+  },
+  "18-29 | Other | H.S. graduate or less": {
+   "turnout": 0.1697,
+   "multiplier": 0.3251,
+   "unweighted_n": 298
+  },
+  "18-29 | Other | Some College": {
+   "turnout": 0.3198,
+   "multiplier": 0.6127,
+   "unweighted_n": 171
+  },
+  "18-29 | White non-Hispanic | College graduate+": {
+   "turnout": 0.5237,
+   "multiplier": 1.0032,
+   "unweighted_n": 2053
+  },
+  "18-29 | White non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.2075,
+   "multiplier": 0.3975,
+   "unweighted_n": 2993
+  },
+  "18-29 | White non-Hispanic | Some College": {
+   "turnout": 0.3809,
+   "multiplier": 0.7297,
+   "unweighted_n": 2506
+  },
+  "30-49 | Asian non-Hispanic | College graduate+": {
+   "turnout": 0.5028,
+   "multiplier": 0.9631,
+   "unweighted_n": 762
+  },
+  "30-49 | Asian non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.1716,
+   "multiplier": 0.3288,
+   "unweighted_n": 200
+  },
+  "30-49 | Asian non-Hispanic | Some College": {
+   "turnout": 0.2684,
+   "multiplier": 0.5141,
+   "unweighted_n": 202
+  },
+  "30-49 | Black non-Hispanic | College graduate+": {
+   "turnout": 0.5513,
+   "multiplier": 1.056,
+   "unweighted_n": 704
+  },
+  "30-49 | Black non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.2915,
+   "multiplier": 0.5583,
+   "unweighted_n": 866
+  },
+  "30-49 | Black non-Hispanic | Some College": {
+   "turnout": 0.4006,
+   "multiplier": 0.7673,
+   "unweighted_n": 761
+  },
+  "30-49 | Hispanic | College graduate+": {
+   "turnout": 0.5605,
+   "multiplier": 1.0738,
+   "unweighted_n": 798
+  },
+  "30-49 | Hispanic | H.S. graduate or less": {
+   "turnout": 0.243,
+   "multiplier": 0.4654,
+   "unweighted_n": 1199
+  },
+  "30-49 | Hispanic | Some College": {
+   "turnout": 0.3898,
+   "multiplier": 0.7467,
+   "unweighted_n": 744
+  },
+  "30-49 | Other | College graduate+": {
+   "turnout": 0.5973,
+   "multiplier": 1.1442,
+   "unweighted_n": 212
+  },
+  "30-49 | Other | H.S. graduate or less": {
+   "turnout": 0.2252,
+   "multiplier": 0.4313,
+   "unweighted_n": 271
+  },
+  "30-49 | Other | Some College": {
+   "turnout": 0.4344,
+   "multiplier": 0.8322,
+   "unweighted_n": 244
+  },
+  "30-49 | White non-Hispanic | College graduate+": {
+   "turnout": 0.6657,
+   "multiplier": 1.2752,
+   "unweighted_n": 7168
+  },
+  "30-49 | White non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.3323,
+   "multiplier": 0.6365,
+   "unweighted_n": 4045
+  },
+  "30-49 | White non-Hispanic | Some College": {
+   "turnout": 0.4912,
+   "multiplier": 0.941,
+   "unweighted_n": 3915
+  },
+  "50-64 | Asian non-Hispanic | College graduate+": {
+   "turnout": 0.5496,
+   "multiplier": 1.0528,
+   "unweighted_n": 482
+  },
+  "50-64 | Asian non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.2701,
+   "multiplier": 0.5174,
+   "unweighted_n": 219
+  },
+  "50-64 | Asian non-Hispanic | Some College": {
+   "turnout": 0.359,
+   "multiplier": 0.6876,
+   "unweighted_n": 147
+  },
+  "50-64 | Black non-Hispanic | College graduate+": {
+   "turnout": 0.662,
+   "multiplier": 1.2681,
+   "unweighted_n": 505
+  },
+  "50-64 | Black non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.4647,
+   "multiplier": 0.8901,
+   "unweighted_n": 805
+  },
+  "50-64 | Black non-Hispanic | Some College": {
+   "turnout": 0.5847,
+   "multiplier": 1.12,
+   "unweighted_n": 503
+  },
+  "50-64 | Hispanic | College graduate+": {
+   "turnout": 0.6352,
+   "multiplier": 1.2167,
+   "unweighted_n": 353
+  },
+  "50-64 | Hispanic | H.S. graduate or less": {
+   "turnout": 0.3647,
+   "multiplier": 0.6987,
+   "unweighted_n": 845
+  },
+  "50-64 | Hispanic | Some College": {
+   "turnout": 0.5622,
+   "multiplier": 1.0769,
+   "unweighted_n": 376
+  },
+  "50-64 | Other | College graduate+": {
+   "turnout": 0.6806,
+   "multiplier": 1.3037,
+   "unweighted_n": 131
+  },
+  "50-64 | Other | H.S. graduate or less": {
+   "turnout": 0.383,
+   "multiplier": 0.7338,
+   "unweighted_n": 199
+  },
+  "50-64 | Other | Some College": {
+   "turnout": 0.5606,
+   "multiplier": 1.0738,
+   "unweighted_n": 156
+  },
+  "50-64 | White non-Hispanic | College graduate+": {
+   "turnout": 0.7582,
+   "multiplier": 1.4525,
+   "unweighted_n": 5191
+  },
+  "50-64 | White non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.4843,
+   "multiplier": 0.9277,
+   "unweighted_n": 4472
+  },
+  "50-64 | White non-Hispanic | Some College": {
+   "turnout": 0.6404,
+   "multiplier": 1.2267,
+   "unweighted_n": 3812
+  },
+  "65+ | Asian non-Hispanic | College graduate+": {
+   "turnout": 0.5286,
+   "multiplier": 1.0125,
+   "unweighted_n": 349
+  },
+  "65+ | Asian non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.3064,
+   "multiplier": 0.587,
+   "unweighted_n": 307
+  },
+  "65+ | Asian non-Hispanic | Some College": {
+   "turnout": 0.5398,
+   "multiplier": 1.034,
+   "unweighted_n": 124
+  },
+  "65+ | Black non-Hispanic | College graduate+": {
+   "turnout": 0.7783,
+   "multiplier": 1.491,
+   "unweighted_n": 393
+  },
+  "65+ | Black non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.547,
+   "multiplier": 1.0478,
+   "unweighted_n": 910
+  },
+  "65+ | Black non-Hispanic | Some College": {
+   "turnout": 0.7225,
+   "multiplier": 1.384,
+   "unweighted_n": 472
+  },
+  "65+ | Hispanic | College graduate+": {
+   "turnout": 0.6401,
+   "multiplier": 1.2262,
+   "unweighted_n": 215
+  },
+  "65+ | Hispanic | H.S. graduate or less": {
+   "turnout": 0.4572,
+   "multiplier": 0.8758,
+   "unweighted_n": 698
+  },
+  "65+ | Hispanic | Some College": {
+   "turnout": 0.626,
+   "multiplier": 1.1992,
+   "unweighted_n": 242
+  },
+  "65+ | Other | College graduate+": {
+   "turnout": 0.6425,
+   "multiplier": 1.2307,
+   "unweighted_n": 76
+  },
+  "65+ | Other | H.S. graduate or less": {
+   "turnout": 0.4856,
+   "multiplier": 0.9303,
+   "unweighted_n": 174
+  },
+  "65+ | Other | Some College": {
+   "turnout": 0.7121,
+   "multiplier": 1.3642,
+   "unweighted_n": 117
+  },
+  "65+ | White non-Hispanic | College graduate+": {
+   "turnout": 0.7991,
+   "multiplier": 1.5307,
+   "unweighted_n": 5815
+  },
+  "65+ | White non-Hispanic | H.S. graduate or less": {
+   "turnout": 0.5786,
+   "multiplier": 1.1083,
+   "unweighted_n": 6228
+  },
+  "65+ | White non-Hispanic | Some College": {
+   "turnout": 0.7345,
+   "multiplier": 1.4071,
+   "unweighted_n": 4371
+  }
+ },
+ "fallback_to_age_x_ethnicity": [
+  "18-29 | Other | College graduate+",
+  "65+ | Other | College graduate+"
+ ],
+ "declared": "docs/midterm-capstone-protocol.md (Chirag 2026-09-11: CPS 2022, once)"
+}
