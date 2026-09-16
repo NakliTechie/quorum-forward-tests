@@ -30,10 +30,6 @@ forecast_pending,HH1-B approval calibrated,TBD,42.0,51.4,,companion registered 2
 forecast_pending,HH1-B approval calibrated+house,TBD,49.2,44.3,,H2H vs approval_cal expected to FAIL (shadow +5.2)
 forecast_pending,HH1-B direction dk-shrink (right track),TBD,30.8,58.3,,DK 10.9 (s solved on Aug DK 11; disclosed)
 forecast_pending,HH1-B ballot calibrated (D share),TBD,52.4,47.6,,HOUSE_BALLOT_NS Platt
-forecast_pending,FT5 raw (14B),TBD,33.6,56.4,,registered 2026-09-06 pre-field; target = wave after FT4's
-forecast_pending,FT5-B calibrated (14B),TBD,34.6,55.4,,14B spine continuity
-forecast_pending,FT5-P phi-4 raw,TBD,42.4,50.7,,challenger; expected topline miss (sits high)
-forecast_pending,FT5-P-cal phi-4 calibrated,TBD,44.1,49.9,,pooled 2019+2025 map a1.5655 b0.2642; H2H3 party vs B open H2H4 topline to 14B
 published,Sep 4-8 (RV base),2026-09-08,37,61,1469,yougov.com/en-us/articles/55535 toplines Q10 / tabs table 10 — REGISTERED VOTERS this wave
 forecast_scored,FT4-B calibrated (PASS),2026-09-08,34.1,55.9,,registered 2026-09-02 pre-field; scored 2026-09-10
 forecast_scored_raw,FT4 raw (FAIL: 9-cell 6.63),2026-09-08,33.3,56.7,,registered 2026-09-02 pre-field; scored 2026-09-10
@@ -41,3 +37,11 @@ FT4,2026-09-02,2026-09-04/08,FAIL,raw -3.7 net +0.6 9cell 6.63 (Male -8.6 45-64 
 FT4-B,2026-09-02,2026-09-04/08,PASS,cal -2.9 net +2.2 9cell 4.36 party 8.9 H2H-upheld; movement bar PASSED; structure lost 4.06v2.89
 FT4-C/D/E/F,2026-09-02,2026-09-04/08,mixed,dk H2H upheld (NS 8.0->3.6); noanchor -8.5 expected FAIL met; direction 0/4; ballot cal margin -1.1 party 6.8 D-share -4.3
 capstone_pending,MIDTERM CAPSTONE two-party House margin D-R,2026-11-03,54.27,45.73,,registered 2026-09-11; bar +/-3; H2H vs RCP generic-ballot avg Nov 2; scored Dec when >=99% counted
+published,Sep 11-14 (RV base),2026-09-14,40,58,1461,yougov.com/en-us/articles/55566 tabs table 19 (ZmVljW6) — REGISTERED VOTERS; approval +3 on the week
+forecast_scored,FT5-B calibrated 14B (FAIL: topline -5.4),2026-09-14,34.6,55.4,,registered 2026-09-06 pre-field; scored 2026-09-16; first calibrated miss
+forecast_scored_raw,FT5 raw 14B (FAIL: topline -6.4 9cell 6.59),2026-09-14,33.6,56.4,,registered 2026-09-06 pre-field; scored 2026-09-16
+forecast_scored,FT5-P-cal phi-4 calibrated (FAIL net +13.2; H2H3+H2H4 WON),2026-09-14,44.1,49.9,,party MAE 7.2 < 14B 8.0; topline 4.1 < 5.4; structure 1.59 beat persistence 2.78
+forecast_scored_raw,FT5-P phi-4 raw (FAIL net +9.7),2026-09-14,42.4,50.7,,topline +2.4 9cell 4.23
+forecast_scored,FT5-C raw+dk (PASS 3/3; dk H2H upheld),2026-09-14,35.1,59.2,,NS 5.6
+FT5,2026-09-06,2026-09-11/14,FAIL,raw -6.4 net -4.9 9cell 6.59; cal -5.4 net -2.8 9cell 4.28 party 8.0 H2H1 upheld; wave moved +3
+FT5-P,2026-09-06,2026-09-11/14,FAIL-but-wins-H2H,phi-4 cal +4.1 net +13.2 9cell 5.40 party 7.2; H2H3 UPHELD H2H4 UPHELD; structure 1.59 v persistence 2.78 WON

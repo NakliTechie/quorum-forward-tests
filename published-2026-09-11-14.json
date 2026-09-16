@@ -1,0 +1,21 @@
+{
+ "wave": "Economist/YouGov September 11-14 2026",
+ "field_dates": "2026-09-11/2026-09-14",
+ "n": 1461,
+ "base": "U.S. Registered Voters (1,461 of 1,596 adult citizens) — second consecutive RV-base wave; no adult-citizen column published (frame note as FT4)",
+ "source": {
+  "article": "https://yougov.com/en-us/articles/55566-2026-election-midterms-donald-trump-terrorism-september-11-14-2026-economist-yougov-poll",
+  "tabs_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_ZmVljW6.pdf",
+  "tabs_table": "19 (page 39); direction table 1 (page 5); congressional vote table 41 (page 92)",
+  "note": "Toplines PDF link on the article page still pointed at the prior wave's file at read time (2026-09-16 IST); all figures transcribed from the tab report, which carries this wave's header. Approval totals print 98% (rounding). Ballot asked with named district candidates (n=1,455)."
+ },
+ "topline": {"Approve": 40.0, "Disapprove": 58.0, "Not sure": 2.0},
+ "party": {"Dem": 4.0, "Ind": 30.0, "Rep": 82.0},
+ "sex": {"Male": 44.0, "Female": 36.0},
+ "age": {"18-29": 31.0, "30-44": 37.0, "45-64": 44.0, "65+": 43.0},
+ "race": {"White": 45.0, "Black": 16.0, "Hispanic": 33.0},
+ "direction": {"topline": {"Right direction": 29.0, "Wrong track": 64.0, "Not sure": 7.0},
+               "party": {"Dem": 5.0, "Ind": 20.0, "Rep": 59.0}},
+ "house_ballot": {"topline": {"Dem": 44.0, "Rep": 39.0, "Other": 3.0, "Not sure": 10.0, "Will not vote": 4.0},
+                  "party": {"Dem": 86.0, "Ind": 44.0, "Rep": 4.0}}
+}
