@@ -45,3 +45,8 @@ forecast_scored_raw,FT5-P phi-4 raw (FAIL net +9.7),2026-09-14,42.4,50.7,,toplin
 forecast_scored,FT5-C raw+dk (PASS 3/3; dk H2H upheld),2026-09-14,35.1,59.2,,NS 5.6
 FT5,2026-09-06,2026-09-11/14,FAIL,raw -6.4 net -4.9 9cell 6.59; cal -5.4 net -2.8 9cell 4.28 party 8.0 H2H1 upheld; wave moved +3
 FT5-P,2026-09-06,2026-09-11/14,FAIL-but-wins-H2H,phi-4 cal +4.1 net +13.2 9cell 5.40 party 7.2; H2H3 UPHELD H2H4 UPHELD; structure 1.59 v persistence 2.78 WON
+forecast_pending,FT6-B calibrated 14B,TBD,33.9,56.0,,registered 2026-09-16 pre-field; target = first E/YouGov wave fielding after the push
+forecast_pending_raw,FT6 raw 14B,TBD,33.3,56.6,,third straight 33.3 — level rigid
+forecast_pending,FT6-P-cal phi-4 calibrated,TBD,44.1,49.0,,H2H3 party / H2H4 topline two-sided; NEW H2H5 net (registered to 14B)
+forecast_pending_raw,FT6-P phi-4 raw,TBD,42.3,50.7,,challenger continues (won both H2H on FT5)
+forecast_pending,FT6-E direction_dk (right direction),TBD,23.9,67.1,,measurement; Platt arm dropped; bench family if miss

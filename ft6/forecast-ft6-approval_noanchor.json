@@ -1,0 +1,227 @@
+{
+  "topline": {
+    "Strongly approve": 13.4,
+    "Somewhat approve": 15.2,
+    "Somewhat disapprove": 25.0,
+    "Strongly disapprove": 34.0,
+    "Not sure": 12.5,
+    "Positive": 28.6,
+    "Negative": 59.0,
+    "Net": -30.4,
+    "Approve": 28.6,
+    "Disapprove": 59.0,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Strongly approve": 11.1,
+        "Somewhat approve": 12.8,
+        "Somewhat disapprove": 21.7,
+        "Strongly disapprove": 41.0,
+        "Not sure": 13.5,
+        "Positive": 23.9,
+        "Negative": 62.7,
+        "Net": -38.8,
+        "Approve": 23.9,
+        "Disapprove": 62.7,
+        "_n_cells": 988,
+        "_weight_share": 0.2863
+      },
+      "Ind": {
+        "Strongly approve": 13.2,
+        "Somewhat approve": 15.5,
+        "Somewhat disapprove": 26.1,
+        "Strongly disapprove": 33.1,
+        "Not sure": 12.1,
+        "Positive": 28.7,
+        "Negative": 59.2,
+        "Net": -30.5,
+        "Approve": 28.7,
+        "Disapprove": 59.2,
+        "_n_cells": 913,
+        "_weight_share": 0.2835
+      },
+      "Rep": {
+        "Strongly approve": 15.8,
+        "Somewhat approve": 17.3,
+        "Somewhat disapprove": 27.0,
+        "Strongly disapprove": 28.7,
+        "Not sure": 11.2,
+        "Positive": 33.1,
+        "Negative": 55.7,
+        "Net": -22.6,
+        "Approve": 33.1,
+        "Disapprove": 55.7,
+        "_n_cells": 765,
+        "_weight_share": 0.2852
+      }
+    },
+    "sex": {
+      "Female": {
+        "Strongly approve": 12.8,
+        "Somewhat approve": 14.7,
+        "Somewhat disapprove": 24.5,
+        "Strongly disapprove": 35.5,
+        "Not sure": 12.6,
+        "Positive": 27.5,
+        "Negative": 60.0,
+        "Net": -32.5,
+        "Approve": 27.5,
+        "Disapprove": 60.0,
+        "_n_cells": 1557,
+        "_weight_share": 0.505
+      },
+      "Male": {
+        "Strongly approve": 14.0,
+        "Somewhat approve": 15.8,
+        "Somewhat disapprove": 25.5,
+        "Strongly disapprove": 32.5,
+        "Not sure": 12.3,
+        "Positive": 29.8,
+        "Negative": 58.0,
+        "Net": -28.2,
+        "Approve": 29.8,
+        "Disapprove": 58.0,
+        "_n_cells": 1568,
+        "_weight_share": 0.4826
+      }
+    },
+    "age": {
+      "18-29": {
+        "Strongly approve": 13.2,
+        "Somewhat approve": 15.0,
+        "Somewhat disapprove": 24.8,
+        "Strongly disapprove": 34.0,
+        "Not sure": 13.0,
+        "Positive": 28.2,
+        "Negative": 58.8,
+        "Net": -30.6,
+        "Approve": 28.2,
+        "Disapprove": 58.8,
+        "_n_cells": 615,
+        "_weight_share": 0.1975
+      },
+      "30-44": {
+        "Strongly approve": 13.3,
+        "Somewhat approve": 15.2,
+        "Somewhat disapprove": 24.9,
+        "Strongly disapprove": 34.1,
+        "Not sure": 12.6,
+        "Positive": 28.5,
+        "Negative": 59.0,
+        "Net": -30.5,
+        "Approve": 28.5,
+        "Disapprove": 59.0,
+        "_n_cells": 1022,
+        "_weight_share": 0.3351
+      },
+      "45-64": {
+        "Strongly approve": 13.5,
+        "Somewhat approve": 15.3,
+        "Somewhat disapprove": 25.0,
+        "Strongly disapprove": 33.9,
+        "Not sure": 12.4,
+        "Positive": 28.8,
+        "Negative": 58.9,
+        "Net": -30.1,
+        "Approve": 28.8,
+        "Disapprove": 58.9,
+        "_n_cells": 784,
+        "_weight_share": 0.2404
+      },
+      "65+": {
+        "Strongly approve": 13.5,
+        "Somewhat approve": 15.3,
+        "Somewhat disapprove": 25.2,
+        "Strongly disapprove": 34.0,
+        "Not sure": 12.0,
+        "Positive": 28.8,
+        "Negative": 59.2,
+        "Net": -30.4,
+        "Approve": 28.8,
+        "Disapprove": 59.2,
+        "_n_cells": 727,
+        "_weight_share": 0.2225
+      }
+    },
+    "race": {
+      "Black": {
+        "Strongly approve": 12.0,
+        "Somewhat approve": 13.6,
+        "Somewhat disapprove": 23.1,
+        "Strongly disapprove": 37.9,
+        "Not sure": 13.3,
+        "Positive": 25.6,
+        "Negative": 61.0,
+        "Net": -35.4,
+        "Approve": 25.6,
+        "Disapprove": 61.0,
+        "_n_cells": 437,
+        "_weight_share": 0.1125
+      },
+      "Hispanic": {
+        "Strongly approve": 12.9,
+        "Somewhat approve": 15.0,
+        "Somewhat disapprove": 24.9,
+        "Strongly disapprove": 34.7,
+        "Not sure": 12.7,
+        "Positive": 27.9,
+        "Negative": 59.6,
+        "Net": -31.7,
+        "Approve": 27.9,
+        "Disapprove": 59.6,
+        "_n_cells": 585,
+        "_weight_share": 0.1714
+      },
+      "Other": {
+        "Strongly approve": 13.0,
+        "Somewhat approve": 14.7,
+        "Somewhat disapprove": 24.4,
+        "Strongly disapprove": 35.0,
+        "Not sure": 12.9,
+        "Positive": 27.7,
+        "Negative": 59.4,
+        "Net": -31.7,
+        "Approve": 27.7,
+        "Disapprove": 59.4,
+        "_n_cells": 574,
+        "_weight_share": 0.1156
+      },
+      "White": {
+        "Strongly approve": 13.8,
+        "Somewhat approve": 15.7,
+        "Somewhat disapprove": 25.4,
+        "Strongly disapprove": 32.9,
+        "Not sure": 12.2,
+        "Positive": 29.5,
+        "Negative": 58.3,
+        "Net": -28.8,
+        "Approve": 29.5,
+        "Disapprove": 58.3,
+        "_n_cells": 1574,
+        "_weight_share": 0.6005
+      }
+    }
+  },
+  "instrument": {
+    "key": "yougov_approval",
+    "question": "Do you approve or disapprove of the way Donald Trump is handling his job as President?",
+    "options": [
+      "Strongly approve",
+      "Somewhat approve",
+      "Somewhat disapprove",
+      "Strongly disapprove",
+      "Not sure"
+    ],
+    "provenance": "verbatim (Economist/YouGov toplines, June 5-8 2026 PDF)"
+  },
+  "calibration": "raw",
+  "anchor_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "anchor_text": "",
+  "frame": {
+    "source": "Pew Research Center's American Trends Panel, Wave 161 (Feb 2025) demographic microdata with survey weights",
+    "n_profiles": 3170
+  }
+}

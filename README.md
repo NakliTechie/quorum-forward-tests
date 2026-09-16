@@ -96,6 +96,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Sep 11–14, 2026 | Sep 6, pre-field | 14B calibrated | 3/4 bars (**topline −5.4 > 5** · net −2.8 · 9-cell 4.28 · party 8.0) + head-to-head upheld — first calibrated miss | **FAIL** | [verdict](verdict-ft5-2026-09-16.md) |
 | Sep 11–14, 2026 | Sep 6, pre-field | **phi-4 challenger** raw · calibrated | raw 2/3 (topline +2.4 · **net +9.7** · 9-cell 4.23); cal 3/4 (topline +4.1 · **net +13.2** · 9-cell 5.40 · party **7.2**) — **head-to-head 3 UPHELD (7.2 < 8.0), head-to-head 4 UPHELD (4.1 < 5.4)**; beat persistence on structure (1.59 vs 2.78) | **FAIL / FAIL — challenger wins both head-to-heads** | [verdict](verdict-ft5-2026-09-16.md) |
 | Sep 11–14, 2026 | Sep 6, pre-field | raw+dk (C) · no-anchor (D) · direction (E) · ballot (F) | **C PASS 3/3, dk head-to-head UPHELD** · D expected FAIL met (−11.4) · E 0/4 (Platt arm retired) · F cal margin +0.2 + party 7.5 hit, D-share −6.7 miss | measurements | [verdict](verdict-ft5-2026-09-16.md) |
+| first wave to field after Sep 16 (expected Sep 18–21) | Sep 16, pre-field | 14B A–D · **phi-4 P/P-cal (continues; H2H3/4 + NEW H2H5 net)** · direction_dk · ballot | approval 33.3 / 33.9 (third straight); phi-4 42.3 / 44.1; direction_dk 23.9 | *pending* | [protocol](ft6/ft6-registration.md) |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
