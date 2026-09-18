@@ -31,5 +31,10 @@ available, and our claim lives on subgroup structure and on questions it cannot 
 - Registered pre-field; verdict scored 2026-09-10 — dated file [`verdict-ft4-2026-09-10.md`](verdict-ft4-2026-09-10.md) (protocol hash untouched).
 - Verdict: **raw FAIL (2/3) · calibrated PASS (4/4)**
 
+## FT5
+
+- Registered pre-field; verdict scored 2026-09-16 — dated file `verdict-ft5-2026-09-16.md` (protocol hash untouched).
+- Verdict: **see file**
+
 ---
-*Scored public verdicts so far: 4 of the 4 required for publication of this page (a wave's raw+calibrated pair counts once).*
+*Scored public verdicts so far: 5 of the 4 required for publication of this page (a wave's raw+calibrated pair counts once).*
