@@ -1,0 +1,64 @@
+{
+ "wave": "Economist/YouGov September 18-21 2026",
+ "field_dates": "2026-09-18/2026-09-21",
+ "n": 1401,
+ "base": "U.S. Registered Voters (1,401 of 1,568 adult citizens) — third consecutive RV-base wave; no adult-citizen column published (frame note as FT4)",
+ "source": {
+  "article": "https://yougov.com/en-us/articles/55603-congressional-election-2026-midterms-donald-trump-september-18-21-2026-economist-yougov-poll",
+  "toplines_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_87cqd96.pdf",
+  "tabs_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_5WiMaRX.pdf",
+  "tabs_table": "4 (page 7); direction table 1 (page 4); congressional vote table 32 (page 43)",
+  "note": "Article published 2026-09-22; toplines and tab report both carry this wave's header (September 18–21, 2026 - 1401 U.S. Registered Voters), read 2026-09-24 IST. Approval totals print 99% (rounding). Ballot asked with named district candidates (n=1,394)."
+ },
+ "topline": {
+  "Approve": 35.0,
+  "Disapprove": 62.0,
+  "Not sure": 2.0
+ },
+ "party": {
+  "Dem": 2.0,
+  "Ind": 23.0,
+  "Rep": 79.0
+ },
+ "sex": {
+  "Male": 43.0,
+  "Female": 29.0
+ },
+ "age": {
+  "18-29": 26.0,
+  "30-44": 30.0,
+  "45-64": 38.0,
+  "65+": 43.0
+ },
+ "race": {
+  "White": 41.0,
+  "Black": 6.0,
+  "Hispanic": 31.0
+ },
+ "direction": {
+  "topline": {
+   "Right direction": 27.0,
+   "Wrong track": 65.0,
+   "Not sure": 8.0
+  },
+  "party": {
+   "Dem": 5.0,
+   "Ind": 16.0,
+   "Rep": 57.0
+  }
+ },
+ "house_ballot": {
+  "topline": {
+   "Dem": 45.0,
+   "Rep": 36.0,
+   "Other": 3.0,
+   "Not sure": 12.0,
+   "Will not vote": 3.0
+  },
+  "party": {
+   "Dem": 91.0,
+   "Ind": 39.0,
+   "Rep": 4.0
+  }
+ }
+}

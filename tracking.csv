@@ -45,8 +45,12 @@ forecast_scored_raw,FT5-P phi-4 raw (FAIL net +9.7),2026-09-14,42.4,50.7,,toplin
 forecast_scored,FT5-C raw+dk (PASS 3/3; dk H2H upheld),2026-09-14,35.1,59.2,,NS 5.6
 FT5,2026-09-06,2026-09-11/14,FAIL,raw -6.4 net -4.9 9cell 6.59; cal -5.4 net -2.8 9cell 4.28 party 8.0 H2H1 upheld; wave moved +3
 FT5-P,2026-09-06,2026-09-11/14,FAIL-but-wins-H2H,phi-4 cal +4.1 net +13.2 9cell 5.40 party 7.2; H2H3 UPHELD H2H4 UPHELD; structure 1.59 v persistence 2.78 WON
-forecast_pending,FT6-B calibrated 14B,TBD,33.9,56.0,,registered 2026-09-16 pre-field; target = first E/YouGov wave fielding after the push
-forecast_pending_raw,FT6 raw 14B,TBD,33.3,56.6,,third straight 33.3 — level rigid
-forecast_pending,FT6-P-cal phi-4 calibrated,TBD,44.1,49.0,,H2H3 party / H2H4 topline two-sided; NEW H2H5 net (registered to 14B)
-forecast_pending_raw,FT6-P phi-4 raw,TBD,42.3,50.7,,challenger continues (won both H2H on FT5)
-forecast_pending,FT6-E direction_dk (right direction),TBD,23.9,67.1,,measurement; Platt arm dropped; bench family if miss
+published,Sep 18-21 (RV base),2026-09-21,35,62,1401,yougov.com/en-us/articles/55603 tabs table 4 (5WiMaRX) — REGISTERED VOTERS; approval -5 on the week
+forecast_scored,FT6-B calibrated 14B (PASS 4/4),2026-09-21,33.9,56.0,,registered 2026-09-16 pre-field; scored 2026-09-24; H2H3/4/5 all to the 14B
+forecast_scored_raw,FT6 raw 14B (FAIL: 9cell 6.80),2026-09-21,33.3,56.6,,registered 2026-09-16 pre-field; scored 2026-09-24; fourth straight raw 9-cell miss
+forecast_scored,FT6-P-cal phi-4 calibrated (FAIL 1/4; H2H3/4/5 LOST),2026-09-21,44.1,49.0,,topline +9.1 net +22.1 9cell 10.00 party 11.3 (14B 9.7)
+forecast_scored_raw,FT6-P phi-4 raw (FAIL 0/3),2026-09-21,42.3,50.7,,topline +7.3 net +18.6 9cell 8.90
+forecast_scored,FT6-C raw+dk (FAIL 9cell 6.99; dk H2H upheld),2026-09-21,34.9,59.5,,NS 8.1->3.6 topline -0.1
+measurement_scored,FT6-E direction_dk right-direction (PASS -3.1),2026-09-21,23.9,67.1,,measurement; first direction pass (0/8 FT4-5); raw -8.3
+FT6,2026-09-16,2026-09-18/21,FAIL,raw -1.7 net +3.7 9cell 6.80; cal -1.1 net +4.9 9cell 4.12 party 9.7 H2H1 upheld (PASS 4/4); wave moved -5
+FT6-P,2026-09-16,2026-09-18/21,FAIL,phi-4 cal +9.1 net +22.1 9cell 10.00 party 11.3; H2H3 H2H4 H2H5 all LOST to the 14B
