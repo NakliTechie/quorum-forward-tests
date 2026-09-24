@@ -26,7 +26,8 @@ wave is one wave: a quarter of registered forecasts (weekly waves, a second poll
 ![Published Economist/YouGov approval vs Quorum's registered pre-field forecasts](tracking.png)
 
 *The series so far: published waves (lines) against every registered forecast (diamonds —
-filled = scored, open = wave pending; large = calibrated engine, small = raw). The chart
+filled = scored, open = wave pending; large = calibrated engine, small = raw; shaded weeks
+printed on a registered-voter base, earlier weeks on adult citizens). The chart
 shows the misses too: our disapprove runs visibly low (the "Not sure" over-hedge named in
 the verdict). Data + sources: [`tracking.csv`](tracking.csv); one row appends per wave.*
 
