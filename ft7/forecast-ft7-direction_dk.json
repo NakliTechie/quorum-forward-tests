@@ -1,0 +1,175 @@
+{
+  "topline": {
+    "Generally headed in the right direction": 24.1,
+    "Off on the wrong track": 67.0,
+    "Not sure": 8.9,
+    "Positive": 24.1,
+    "Negative": 67.0,
+    "Net": -42.9,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Generally headed in the right direction": 19.6,
+        "Off on the wrong track": 71.4,
+        "Not sure": 9.0,
+        "Positive": 19.6,
+        "Negative": 71.4,
+        "Net": -51.8,
+        "_n_cells": 988,
+        "_weight_share": 0.2863
+      },
+      "Ind": {
+        "Generally headed in the right direction": 22.3,
+        "Off on the wrong track": 68.5,
+        "Not sure": 9.2,
+        "Positive": 22.3,
+        "Negative": 68.5,
+        "Net": -46.2,
+        "_n_cells": 913,
+        "_weight_share": 0.2835
+      },
+      "Rep": {
+        "Generally headed in the right direction": 31.0,
+        "Off on the wrong track": 60.6,
+        "Not sure": 8.4,
+        "Positive": 31.0,
+        "Negative": 60.6,
+        "Net": -29.6,
+        "_n_cells": 765,
+        "_weight_share": 0.2852
+      }
+    },
+    "sex": {
+      "Female": {
+        "Generally headed in the right direction": 22.9,
+        "Off on the wrong track": 68.1,
+        "Not sure": 9.0,
+        "Positive": 22.9,
+        "Negative": 68.1,
+        "Net": -45.2,
+        "_n_cells": 1557,
+        "_weight_share": 0.505
+      },
+      "Male": {
+        "Generally headed in the right direction": 25.5,
+        "Off on the wrong track": 65.7,
+        "Not sure": 8.9,
+        "Positive": 25.5,
+        "Negative": 65.7,
+        "Net": -40.2,
+        "_n_cells": 1568,
+        "_weight_share": 0.4826
+      }
+    },
+    "age": {
+      "18-29": {
+        "Generally headed in the right direction": 23.5,
+        "Off on the wrong track": 67.5,
+        "Not sure": 9.0,
+        "Positive": 23.5,
+        "Negative": 67.5,
+        "Net": -44.0,
+        "_n_cells": 615,
+        "_weight_share": 0.1975
+      },
+      "30-44": {
+        "Generally headed in the right direction": 24.0,
+        "Off on the wrong track": 67.1,
+        "Not sure": 8.9,
+        "Positive": 24.0,
+        "Negative": 67.1,
+        "Net": -43.1,
+        "_n_cells": 1022,
+        "_weight_share": 0.3351
+      },
+      "45-64": {
+        "Generally headed in the right direction": 24.6,
+        "Off on the wrong track": 66.5,
+        "Not sure": 8.9,
+        "Positive": 24.6,
+        "Negative": 66.5,
+        "Net": -41.9,
+        "_n_cells": 784,
+        "_weight_share": 0.2404
+      },
+      "65+": {
+        "Generally headed in the right direction": 24.3,
+        "Off on the wrong track": 66.8,
+        "Not sure": 8.9,
+        "Positive": 24.3,
+        "Negative": 66.8,
+        "Net": -42.5,
+        "_n_cells": 727,
+        "_weight_share": 0.2225
+      }
+    },
+    "race": {
+      "Black": {
+        "Generally headed in the right direction": 20.1,
+        "Off on the wrong track": 70.8,
+        "Not sure": 9.1,
+        "Positive": 20.1,
+        "Negative": 70.8,
+        "Net": -50.7,
+        "_n_cells": 437,
+        "_weight_share": 0.1125
+      },
+      "Hispanic": {
+        "Generally headed in the right direction": 22.6,
+        "Off on the wrong track": 68.4,
+        "Not sure": 9.1,
+        "Positive": 22.6,
+        "Negative": 68.4,
+        "Net": -45.8,
+        "_n_cells": 585,
+        "_weight_share": 0.1714
+      },
+      "Other": {
+        "Generally headed in the right direction": 23.0,
+        "Off on the wrong track": 68.0,
+        "Not sure": 9.1,
+        "Positive": 23.0,
+        "Negative": 68.0,
+        "Net": -45.0,
+        "_n_cells": 574,
+        "_weight_share": 0.1156
+      },
+      "White": {
+        "Generally headed in the right direction": 25.6,
+        "Off on the wrong track": 65.6,
+        "Not sure": 8.8,
+        "Positive": 25.6,
+        "Negative": 65.6,
+        "Net": -40.0,
+        "_n_cells": 1574,
+        "_weight_share": 0.6005
+      }
+    }
+  },
+  "instrument": {
+    "key": "yougov_direction",
+    "question": "Would you say things in this country today are...",
+    "options": [
+      "Generally headed in the right direction",
+      "Off on the wrong track",
+      "Not sure"
+    ],
+    "provenance": "verbatim (Economist/YouGov toplines, Aug 14-17 2026 PDF, Q1)"
+  },
+  "calibration": {
+    "method": "dk_shrink",
+    "s": 0.308,
+    "fit": "E35 \u2014 wave wD only",
+    "pairs_with": "raw",
+    "source_rows_sha256": "e7d683a06d93d962b2ef68b9ce9febcd278c5d807ebd913c57ed53644ba950c2"
+  },
+  "anchor_sha256": "297f0778431f2b794baa6e9c517ef8a7c9c8facd9f94aca7cb56eb74caf4d30d",
+  "anchor_text": "Context: Today is September 24, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a memorandum of understanding to end the war was signed in June, its 60-day deadline for a final deal expired in August, and strikes and attacks have continued since. Gasoline averages $4.47 a gallon nationally; inflation is 3.4% over the past year while average wages grew 3.1%. The 2026 midterm congressional elections are in November.",
+  "frame": {
+    "source": "Pew Research Center's American Trends Panel, Wave 161 (Feb 2025) demographic microdata with survey weights",
+    "n_profiles": 3170
+  }
+}

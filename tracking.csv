@@ -54,3 +54,8 @@ forecast_scored,FT6-C raw+dk (FAIL 9cell 6.99; dk H2H upheld),2026-09-21,34.9,59
 measurement_scored,FT6-E direction_dk right-direction (PASS -3.1),2026-09-21,23.9,67.1,,measurement; first direction pass (0/8 FT4-5); raw -8.3
 FT6,2026-09-16,2026-09-18/21,FAIL,raw -1.7 net +3.7 9cell 6.80; cal -1.1 net +4.9 9cell 4.12 party 9.7 H2H1 upheld (PASS 4/4); wave moved -5
 FT6-P,2026-09-16,2026-09-18/21,FAIL,phi-4 cal +9.1 net +22.1 9cell 10.00 party 11.3; H2H3 H2H4 H2H5 all LOST to the 14B
+forecast_pending,FT7-B calibrated 14B,TBD,34.3,55.6,,registered 2026-09-24 pre-field; target = first E/YouGov wave fielding after the push
+forecast_pending_raw,FT7 raw 14B,TBD,33.5,56.6,,fourth straight 33-35 — level rigid
+forecast_pending,FT7-P-cal phi-4 calibrated,TBD,44.1,49.0,,parallel arm; H2H3 party / H2H4 topline / H2H5 net two-sided
+forecast_pending_raw,FT7-P phi-4 raw,TBD,42.3,50.8,,third wave for the challenger
+measurement_pending,FT7-E direction_dk right-direction,TBD,24.1,67.0,,measurement; second public test
