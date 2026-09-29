@@ -19,7 +19,7 @@ misses and prints the persistence benchmark (last wave re-used) beside every qua
 
 ## FT3
 
-- Registered 2026-08-24 (pre-field; see [`forward-test-3.md`](forward-test-3.md)) — raw 32.6 / calibrated 32.6 topline.
+- Committed privately 2026-08-24; public push 2026-08-26, before its target fielded (see [`forward-test-3.md`](forward-test-3.md)) — raw 32.6 / calibrated 32.6 topline.
 - Verdict: **Calibrated PASS on every registered bar; raw FAIL on one — the series' first public miss.** (scored 2026-09-02; arithmetic in [`forward-test-3.md`](forward-test-3.md) and [`score-ft3-2026-09-02.json`](score-ft3-2026-09-02.json)).
 
 ## FT4
@@ -39,3 +39,5 @@ misses and prints the persistence benchmark (last wave re-used) beside every qua
 
 ---
 *Scored public verdicts: 6 (a wave's raw+calibrated pair counts once).*
+
+*Corrections to earlier verdict text, and why the movement bar was replaced from FT8, are listed in `ERRATA.md` (originals unchanged).*
