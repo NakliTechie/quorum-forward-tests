@@ -59,3 +59,8 @@ forecast_pending_raw,FT7 raw 14B,TBD,33.5,56.6,,fourth straight 33-35 — level 
 forecast_pending,FT7-P-cal phi-4 calibrated,TBD,44.1,49.0,,parallel arm; H2H3 party / H2H4 topline / H2H5 net two-sided
 forecast_pending_raw,FT7-P phi-4 raw,TBD,42.3,50.8,,third wave for the challenger
 measurement_pending,FT7-E direction_dk right-direction,TBD,24.1,67.0,,measurement; second public test
+forecast_pending,FT8-B calibrated 14B,TBD,34.4,55.6,,registered 2026-09-29 pre-field; target = first E/YouGov wave fielding after the push (expected Oct 2-5)
+forecast_pending_raw,FT8 raw 14B,TBD,33.5,56.5,,fifth straight 33-35; engine change since FT7 0.0 raw / +0.1 cal
+forecast_pending,FT8-P-cal phi-4 calibrated,TBD,44.0,49.0,,parallel arm; H2H3 party / H2H4 topline / H2H5 net two-sided
+forecast_pending_raw,FT8-P phi-4 raw,TBD,42.3,50.8,,fourth wave for the challenger
+measurement_pending,FT8-E direction_dk right-direction,TBD,24.3,66.8,,measurement; third public test

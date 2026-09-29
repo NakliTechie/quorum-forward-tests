@@ -102,6 +102,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Sep 18–21, 2026 | Sep 16, pre-field | phi-4 challenger raw · calibrated | raw 0/3 (**topline +7.3 · net +18.6 · 9-cell 8.90**); cal 1/4 (**topline +9.1 · net +22.1 · 9-cell 10.00** · party 11.3) — **head-to-heads 3, 4 and 5 all NOT upheld** (the 14B won each) | **FAIL / FAIL** | [verdict](verdict-ft6-2026-09-24.md) |
 | Sep 18–21, 2026 | Sep 16, pre-field | raw+dk (C) · no-anchor (D) · direction_dk (E) · ballot (F) | C 2/3 (9-cell 6.99), dk head-to-head UPHELD · D expected FAIL met (−6.4) · **E direction_dk PASS −3.1** (first direction pass) · F cal margin −3.1 + party 7.4 hit, D-share −7.3 miss | measurements | [verdict](verdict-ft6-2026-09-24.md) |
 | first wave to field after the FT7 push (expected Sep 25–28) | Sep 24, pre-field | 14B A–D · phi-4 P/P-cal (parallel arm; H2H3/4/5) · direction_dk · ballot — FT6's arms unchanged | approval 33.5 / 34.3 (fourth straight 33–35); phi-4 42.3 / 44.1; direction_dk 24.1 | *pending* | [protocol](ft7/ft7-registration.md) |
+| first wave to field after the FT8 push (expected Oct 2–5) | Sep 29, pre-field | FT7's arms unchanged; movement bar C replaced by the **tracking measure** (engine's own change since FT7 vs the poll's change; registered expected FAIL on any wave that moves >3) | approval 33.5 / 34.4 (fifth straight 33–35; engine change since FT7 0.0 / +0.1); phi-4 42.3 / 44.0; direction_dk 24.3 | *pending* | [protocol](ft8/ft8-registration.md) |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
