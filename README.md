@@ -107,7 +107,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Sep 25–28, 2026 | Sep 24, pre-field | 14B calibrated | 4/4 bars (topline −1.7 · net +4.7 · 9-cell 3.39 · party 8.0) + head-to-head upheld; last week's poll carried forward beat it on every quantity | **PASS** | [verdict](verdict-ft7-2026-10-01.md) |
 | Sep 25–28, 2026 | Sep 24, pre-field | phi-4 challenger raw · calibrated | raw 0/3 (**topline +6.3 · net +17.5 · 9-cell 7.19**); cal 1/4 (**topline +8.1 · net +21.1 · 9-cell 8.39** · party 10.9) — **head-to-heads 3, 4 and 5 all NOT upheld** (the 14B won each) | **FAIL / FAIL** | [verdict](verdict-ft7-2026-10-01.md) |
 | Sep 25–28, 2026 | Sep 24, pre-field | raw+dk (C) · no-anchor (D) · direction_dk (E) · ballot (F) | **C PASS 3/3**, dk head-to-head UPHELD · D expected FAIL met (−7.5) · **E direction_dk PASS −2.9** (second pass) · F cal margin −2.6 + party 8.3 hit, D-share −7.5 miss | measurements | [verdict](verdict-ft7-2026-10-01.md) |
-| first wave to field after the FT8 push (expected Oct 2–5) | Sep 29, pre-field | FT7's arms unchanged; movement bar C replaced by the **tracking measure** (engine's own change since FT7 vs the poll's change; registered expected FAIL on any wave that moves >3) | approval 33.5 / 34.4 (fifth straight 33–35; engine change since FT7 0.0 / +0.1); phi-4 42.3 / 44.0; direction_dk 24.3 | *pending* | [protocol](ft8/ft8-registration.md) |
+| first wave to field after the FT8 push (expected Oct 2–5) | Sep 29, pre-field (+ YouGov-weighted [measurement companion](ft8/ft8-companion-ygframe.md), Oct 1: 36.2) | FT7's arms unchanged; movement bar C replaced by the **tracking measure** (engine's own change since FT7 vs the poll's change; registered expected FAIL on any wave that moves >3) | approval 33.5 / 34.4 (fifth straight 33–35; engine change since FT7 0.0 / +0.1); phi-4 42.3 / 44.0; direction_dk 24.3 | *pending* | [protocol](ft8/ft8-registration.md) |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
@@ -184,6 +184,12 @@ poll to carry forward.
 **Declared 2026-10-01, before FT8's target begins fielding:** every verdict from FT8 on
 reports Z1, Z2 and Z3 beside the engine on the approval topline. FT8's Z1 (35) and Z3 (37.0)
 are fixed by rule at its push and stated above.
+
+**Measurement companion, published before FT8 fields:** the same FT8 answers re-weighted
+to YouGov's own printed targets (party 31 D / 33 R, registered voters only) forecast
+**36.2** approve / 54.0 disapprove, against B's 34.4 / 55.6. In retrodiction on FT1–FT7 it
+cut the topline miss to 1.43 but pushed net past ±8 on 3 of 7 waves. It is reported, not
+counted: [`ft8/ft8-companion-ygframe.md`](ft8/ft8-companion-ygframe.md).
 
 ## Latest scored wave, in full
 
