@@ -12,10 +12,12 @@ FT2,2026-08-17,2026-08-21/24,PASS,raw -2.7 net -2.0 9cell 5.2
 FT2-B,2026-08-17,2026-08-21/24,PASS,cal -1.9 net -0.4 9cell 2.78 party 9.0 H2H-upheld
 forecast_pending,GS1 raw (satisfied),2026-09-19,35.7,,,registered 2026-08-29 pre-field; Gallup fields ~Sep 1-19
 forecast_pending,GS1 calibrated (satisfied),2026-09-19,48.7,,,registered 2026-08-29 pre-field
-forecast_pending,HH1 approval raw,TBD,37.3,56.1,,registered 2026-08-29 pre-field; HH next wave ~late Aug/Sep
-forecast_pending,HH1 approval house-adjusted,TBD,44.5,49.1,,declared offsets +7.2/-7.0 applied at registration
-forecast_pending,HH1 direction raw (right track),TBD,24.5,46.1,,DK 29.3 disclosed over-hedge
-forecast_pending,HH1 generic ballot raw (D share),TBD,46.6,53.4,,forced two-row convention
+forecast_scored,HH1 approval raw (approve -4.7 hit; net -5.8 hit),2026-09-28,37.3,56.1,,registered 2026-08-29 pre-field; scored 2026-10-01; party MAE 14.2 unregistered
+forecast_scored,HH1 approval house-adjusted (approve +2.5 hit; net +8.4 MISS; party 14.2 MISS),2026-09-28,44.5,49.1,,head-to-head adjusted beats raw UPHELD (2.5 vs 4.7)
+forecast_scored,HH1 direction raw right track (MISS -10.5),2026-09-28,24.5,46.1,,published 35 (DK 10); DK 29.3 over-hedge
+forecast_scored,HH1 generic ballot raw D share (hit -3.4),2026-09-28,46.6,53.4,,published 50/50 (two-row CON2026B)
+published_other,Harvard CAPS/Harris Sep 26-28 2026 (RV),2026-09-28,42,55,2200,harvardharrispoll.com key results Sep 2026 p.8 (M3ALT); right track 35 (p.4); ballot D 50 (p.20); not on the E/YouGov chart
+HH1,2026-08-29,2026-09-26/28,FAIL 5/8,approve raw -4.7 adj +2.5; net raw -5.8 adj +8.4 MISS; right track -10.5 MISS; ballot -3.4; adj party 14.2 MISS; H2H UPHELD
 published,Aug 21-24,2026-08-24,36,57,1536,yougov.com/en-us/articles/55436 tabs table 17
 published,Aug 28-31,2026-08-31,36,60,1592,yougov.com/en-us/articles/55476 toplines Q5 / tabs table 5
 forecast_scored,FT3-B calibrated (PASS),2026-08-31,32.6,56.6,,registered 2026-08-26 pre-field; scored 2026-09-02
@@ -26,10 +28,11 @@ forecast_scored,FT4-C raw+dk (H2H upheld),2026-09-08,34.8,59.5,,NS 5.6; scored 2
 forecast_scored_raw,FT4-D no-anchor (expected FAIL met),2026-09-08,28.5,59.0,,scored 2026-09-10
 forecast_pending,FT4-E direction raw / cal (right direction),TBD,18.7,14.1,,measurement arm; disclosed likely miss (last wave 27)
 forecast_pending,FT4-F ballot raw / cal (Dem share),TBD,33.6,37.7,,measurement arm; raw orders parties backwards (disclosed)
-forecast_pending,HH1-B approval calibrated,TBD,42.0,51.4,,companion registered 2026-09-03 pre-field; party 16.0/33.9/73.5 registered MAE<=12
-forecast_pending,HH1-B approval calibrated+house,TBD,49.2,44.3,,H2H vs approval_cal expected to FAIL (shadow +5.2)
-forecast_pending,HH1-B direction dk-shrink (right track),TBD,30.8,58.3,,DK 10.9 (s solved on Aug DK 11; disclosed)
-forecast_pending,HH1-B ballot calibrated (D share),TBD,52.4,47.6,,HOUSE_BALLOT_NS Platt
+forecast_scored,HH1-B approval calibrated (PASS 3/3),2026-09-28,42.0,51.4,,approve 0.0 net +3.6 party 1.47; H2H1 UPHELD (1.47 vs HH1 raw 14.2)
+forecast_scored,HH1-B approval calibrated+house (FAIL 1/3),2026-09-28,49.2,44.3,,approve +7.2 net +17.9 party 7.67; H2H2 NOT upheld as registered
+forecast_scored,HH1-B direction dk-shrink right track (hit -4.2),2026-09-28,30.8,58.3,,H2H3 UPHELD (4.2 vs 10.5); persistence 2.0
+forecast_scored,HH1-B ballot calibrated D share (hit +2.4),2026-09-28,52.4,47.6,,persistence 1.0
+HH1-B,2026-09-03,2026-09-26/28,companion,approval_cal PASS 3/3; cal+house 1/3; direction_dk hit; ballot_cal hit; H2H 1 and 3 upheld, 2 not upheld as registered
 published,Sep 4-8 (RV base),2026-09-08,37,61,1469,yougov.com/en-us/articles/55535 toplines Q10 / tabs table 10 — REGISTERED VOTERS this wave
 forecast_scored,FT4-B calibrated (PASS),2026-09-08,34.1,55.9,,registered 2026-09-02 pre-field; scored 2026-09-10
 forecast_scored_raw,FT4 raw (FAIL: 9-cell 6.63),2026-09-08,33.3,56.7,,registered 2026-09-02 pre-field; scored 2026-09-10

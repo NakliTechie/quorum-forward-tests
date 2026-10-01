@@ -1,0 +1,246 @@
+{
+ "published": {
+  "poll": "Harvard CAPS/Harris Poll, September 2026",
+  "field_dates": "2026-09-26/2026-09-28",
+  "n": 2200,
+  "base": "U.S. registered voters, online opt-in panels (The Harris Poll and HarrisX), weighted; MoE +/-2.1",
+  "source": {
+   "landing": "https://harvardharrispoll.com/key-results-september-2026/",
+   "key_results_pdf": "https://harvardharrispoll.com/assets/uploads/2026/09/HHP_Sep2026_KeyResults.pdf",
+   "pages": "method p.2; right track p.4 (M1); approval p.8 (M3ALT); generic ballot p.20 (CON2026B)",
+   "note": "Landing page dated 2026-09-29; key-results deck headed 'Field Dates: September 26-28, 2026', read 2026-10-01 IST. Fielding began after HH1's public push (4881748, 2026-08-29 12:08 IST) and HH1-B's (b35d880, 2026-09-03): the HH1 / HH1-B target. Party columns as printed: approval and ballot use DEM / GOP / IND/OTH (IND/OTH entered as Ind); right track uses GOP / DEM / IND. Approval Don't know read from the stacked bar (3%); right-track Don't know 10% from the trend chart."
+  },
+  "approval": {
+   "topline": {
+    "Approve": 42.0,
+    "Disapprove": 55.0,
+    "Don't know": 3.0
+   },
+   "party": {
+    "Dem": 15.0,
+    "Ind": 32.0,
+    "Rep": 75.0
+   }
+  },
+  "direction": {
+   "topline": {
+    "Right track": 35.0,
+    "Wrong track": 56.0,
+    "Don't know": 10.0
+   },
+   "party": {
+    "Dem": 18.0,
+    "Ind": 20.0,
+    "Rep": 63.0
+   }
+  },
+  "generic_ballot": {
+   "topline": {
+    "Democrat": 50.0,
+    "Republican": 50.0
+   },
+   "party": {
+    "Dem": 96.0,
+    "Ind": 53.0,
+    "Rep": 4.0
+   }
+  },
+  "previous_wave": {
+   "wave": "Harvard CAPS/Harris August 2026 (fielded Aug 28-30, n=2,100 RV)",
+   "approve": 44.0,
+   "disapprove": 52.0,
+   "right_track": 37.0,
+   "ballot_dem": 51.0,
+   "approval_party": {
+    "Dem": 13.0,
+    "Ind": 36.0,
+    "Rep": 80.0
+   },
+   "source": "Toplines from this deck's trend charts (approval p.8 Aug 26 bar 44 approve, 39+13 disapprove; right track p.4 Aug 26 37%; ballot p.20 'Aug: 51%'); approval party cuts from the August deck as transcribed in hh1/hh1-registration.md (shadow section, 2026-09-03)."
+  }
+ },
+ "hh1": {
+  "approval_raw": {
+   "approve_pred": 37.3,
+   "approve_gold": 42.0,
+   "approve_error": -4.7,
+   "net_pred": -18.8,
+   "net_gold": -13.0,
+   "net_error": -5.8,
+   "party": {
+    "cells": {
+     "Dem": 13.4,
+     "Ind": 2.4,
+     "Rep": -26.8
+    },
+    "mae": 14.2,
+    "registered": false
+   },
+   "bars": {
+    "approve": true,
+    "net": true
+   },
+   "hits": "2/2"
+  },
+  "approval_adjusted": {
+   "approve_pred": 44.5,
+   "approve_gold": 42.0,
+   "approve_error": 2.5,
+   "net_pred": -4.6,
+   "net_gold": -13.0,
+   "net_error": 8.4,
+   "party": {
+    "cells": {
+     "Dem": 13.4,
+     "Ind": 2.4,
+     "Rep": -26.8
+    },
+    "mae": 14.2,
+    "registered": true
+   },
+   "bars": {
+    "approve": true,
+    "net": false,
+    "party": false
+   },
+   "hits": "1/3"
+  },
+  "direction": {
+   "pred": 24.5,
+   "gold": 35.0,
+   "error": -10.5,
+   "bar": 5,
+   "hit": false,
+   "party": {
+    "cells": {
+     "Dem": 0.5,
+     "Ind": 1.7,
+     "Rep": -30.3
+    },
+    "mae": 10.83,
+    "registered": false
+   }
+  },
+  "ballot": {
+   "pred": 46.6,
+   "gold": 50.0,
+   "error": -3.4,
+   "bar": 4,
+   "hit": true,
+   "party": {
+    "cells": {
+     "Dem": -32.0,
+     "Ind": -1.6,
+     "Rep": 22.1
+    },
+    "mae": 18.57,
+    "registered": false
+   }
+  },
+  "head_to_head_adjusted_beats_raw": true,
+  "claims": {
+   "approve_raw": true,
+   "approve_adjusted": true,
+   "net_raw": true,
+   "net_adjusted": false,
+   "right_track": false,
+   "ballot_dem": true,
+   "party_adjusted": false,
+   "head_to_head": true
+  },
+  "tally": "5/8"
+ },
+ "hh1b": {
+  "approval_cal": {
+   "approve_pred": 42.0,
+   "approve_gold": 42.0,
+   "approve_error": 0.0,
+   "net_pred": -9.4,
+   "net_gold": -13.0,
+   "net_error": 3.6,
+   "party": {
+    "cells": {
+     "Dem": 1.0,
+     "Ind": 1.9,
+     "Rep": -1.5
+    },
+    "mae": 1.47,
+    "registered": true
+   },
+   "bars": {
+    "approve": true,
+    "net": true,
+    "party": true
+   },
+   "hits": "3/3"
+  },
+  "approval_cal_house": {
+   "approve_pred": 49.2,
+   "approve_gold": 42.0,
+   "approve_error": 7.2,
+   "net_pred": 4.9,
+   "net_gold": -13.0,
+   "net_error": 17.9,
+   "party": {
+    "cells": {
+     "Dem": 7.5,
+     "Ind": 11.5,
+     "Rep": 4.0
+    },
+    "mae": 7.67,
+    "registered": true
+   },
+   "bars": {
+    "approve": false,
+    "net": false,
+    "party": true
+   },
+   "hits": "1/3"
+  },
+  "direction_dk": {
+   "pred": 30.8,
+   "gold": 35.0,
+   "error": -4.2,
+   "bar": 5,
+   "hit": true,
+   "party": {
+    "cells": {
+     "Dem": 5.8,
+     "Ind": 7.6,
+     "Rep": -22.9
+    },
+    "mae": 12.1,
+    "registered": false
+   }
+  },
+  "ballot_cal": {
+   "pred": 52.4,
+   "gold": 50.0,
+   "error": 2.4,
+   "bar": 4,
+   "hit": true,
+   "party": {
+    "cells": {
+     "Dem": -7.7,
+     "Ind": 10.7,
+     "Rep": 4.8
+    },
+    "mae": 7.73,
+    "registered": false
+   }
+  },
+  "head_to_heads": {
+   "h2h1_cal_party_lt_hh1_raw": true,
+   "h2h2_house_approve_lt_cal": false,
+   "h2h2_registered_expectation": "FAIL",
+   "h2h3_dk_lt_hh1_direction": true
+  }
+ },
+ "persistence": {
+  "approve_error": 2.0,
+  "net_error": 5.0,
+  "right_track_error": 2.0,
+  "ballot_dem_error": 1.0,
+  "party_mae": 3.67
+ }
+}

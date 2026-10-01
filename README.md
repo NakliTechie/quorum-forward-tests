@@ -17,7 +17,9 @@ challenger lost all three registered head-to-heads for the second week running (
 8.0; topline 8.1 vs 1.7; net 21.1 vs 4.7). The same quiet week favoured last week's poll carried
 forward: it beat every arm on topline, net, party and subgroups. Neither engine's level moves;
 the 14B passes when the wave sits near it. The arithmetic is in
-[`verdict-ft7-2026-10-01.md`](verdict-ft7-2026-10-01.md). One scored wave is one wave: a quarter
+[`verdict-ft7-2026-10-01.md`](verdict-ft7-2026-10-01.md). A second polling house scored
+for the first time on Sep 26–28: Harvard CAPS/Harris HH1 hit 5 of 8 as registered, and its
+calibrated companion passed 3 of 3 ([`hh1/verdict-hh1-2026-10-01.md`](hh1/verdict-hh1-2026-10-01.md)). One scored wave is one wave: a quarter
 of registered forecasts (weekly waves, a second polling house, 40+ scored quantities) runs
 before any broader claim is made.
 
@@ -112,6 +114,13 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Poll (fields) | Registered | Engine | Result | Verdict | Detail |
 |---|---|---|---|---|---|
 | September 2026 (~Sept 1–19) | Aug 29, pre-field (`4881748`) | raw + calibrated | satisfied 35.7 (raw) / 48.7 (calibrated, cross-survey miss risk disclosed) | *pending* | [protocol](gs1/gallup-satisfaction-registration.md) |
+
+### Harvard CAPS/Harris — approval, right track, generic ballot · roughly monthly
+
+| Poll (fielded) | Registered | Arms | Result | Verdict | Detail |
+|---|---|---|---|---|---|
+| September 2026 (Sep 26–28, 2,200 RV) | Aug 29, pre-field (`4881748`) | HH1 raw + house-adjusted | **5 of 8**: approve raw −4.7, adjusted +2.5 · net raw −5.8, **adjusted +8.4 miss** · **right track −10.5 miss** · ballot D −3.4 · **adjusted party MAE 14.2 miss** · head-to-head (adjusted beats raw) upheld | **FAIL** | [verdict](hh1/verdict-hh1-2026-10-01.md) · [protocol](hh1/hh1-registration.md) |
+| September 2026 | Sep 3, pre-field (`b35d880`) | HH1-B companions | **approval_cal PASS 3/3** (approve 0.0 · net +3.6 · party 1.47) · cal+house 1/3 (+7.2 · +17.9 · 7.67) · direction_dk −4.2 hit · ballot_cal +2.4 hit · head-to-heads 1 and 3 upheld, 2 not upheld (as registered) | companion, reported | [verdict](hh1/verdict-hh1-2026-10-01.md) · [protocol](hh1/hh1b-registration.md) |
 
 ### The November 3, 2026 midterm — national House popular-vote margin · the capstone
 
