@@ -42,7 +42,13 @@ misses and prints the persistence benchmark (last wave re-used) beside every qua
 - Registered pre-field; verdict scored 2026-10-01 — dated file [`verdict-ft7-2026-10-01.md`](verdict-ft7-2026-10-01.md) (protocol hash untouched).
 - Verdict: **raw PASS (3/3) · calibrated PASS (4/4)**
 
+## HH1 + HH1-B — Harvard CAPS/Harris (second polling house)
+
+- Registered pre-field; target fielded September 26–28, 2026; verdict scored 2026-10-01 — dated file [`hh1/verdict-hh1-2026-10-01.md`](hh1/verdict-hh1-2026-10-01.md) (registration hashes untouched).
+- HH1 as registered: **5 of 8** claims hit.
+- HH1-B companions: approval_cal PASS 3/3 · approval_cal_house FAIL 1/3 · direction_dk hit · ballot_cal hit.
+
 ---
-*Scored public verdicts: 7 (a wave's raw+calibrated pair counts once).*
+*Scored public verdicts: 7 E/YouGov waves (a wave's raw+calibrated pair counts once) + 1 Harvard CAPS/Harris wave.*
 
 *Corrections to earlier verdict text, and why the movement bar was replaced from FT8, are listed in `ERRATA.md` (originals unchanged).*

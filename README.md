@@ -149,6 +149,42 @@ silently (economic evaluation currently fails it and is excluded).
 
 ---
 
+## The engine against simple poll rules
+
+A forecast is only worth something if it beats the obvious rules that need no model. We
+score the 14B calibrated arm (B) against three, all computed from published E/YouGov
+toplines by `score_ft.py --benchmark-series` (private repo; numbers reproducible from
+`tracking.csv`). **Z1** is the last poll published before the registration push, the
+honest same-time competitor. **Z2** is the wave just before the target; it is known only at
+scoring, because FT2, FT5 and FT8 were pushed before that wave published. **Z3** is the mean
+of the last four polls published before the push.
+
+| Registration | Target wave | Published | **14B calibrated (B)** | Z1 last poll known at push | Z2 wave before target | Z3 mean of last 4 known |
+|---|---|---|---|---|---|---|
+| FT1 | Aug 14–17 | 35 | 34.9 (−0.1) | 33 (−2.0) | 33 (−2.0) | 34.75 (−0.25) |
+| FT2 | Aug 21–24 | 36 | 34.1 (−1.9) | 33 (−3.0) | 35 (−1.0) | 34.75 (−1.25) |
+| FT3 | Aug 28–31 | 36 | 32.6 (−3.4) | 36 (0.0) | 36 (0.0) | 35 (−1.0) |
+| FT4 | Sep 4–8 | 37 | 34.1 (−2.9) | 36 (−1.0) | 36 (−1.0) | 35 (−2.0) |
+| FT5 | Sep 11–14 | 40 | 34.6 (−5.4) | 36 (−4.0) | 37 (−3.0) | 35 (−5.0) |
+| FT6 | Sep 18–21 | 35 | 33.9 (−1.1) | 40 (+5.0) | 40 (+5.0) | 37.25 (+2.25) |
+| FT7 | Sep 25–28 | 36 | 34.3 (−1.7) | 35 (−1.0) | 35 (−1.0) | 37 (+1.0) |
+| FT8 | Oct 2–5 (pending) | — | 34.4 | 35 | known at scoring | 37 |
+| **Mean abs. error, 7 waves** | | | **2.36** | 2.29 | 1.86 | 1.82 |
+
+**Read plainly: on the approval topline the engine does not beat simple poll rules.** It
+beat Z1 in 3 of 7 waves and Z2 and Z3 in 2 of 7. Its mean error (2.36) is level with Z1
+(2.29) and behind Z2 (1.86) and Z3 (1.82). The engine wins when the poll has spiked and
+falls back toward the engine's fixed level (FT6). It loses when the poll sits above that level
+(FT3–FT5). A retrodiction over the 22 waves before FT1 (known answers, frozen pipeline; not in
+this repository) put the calibrated engine at 1.59 against Z2's 1.77. Forward, the order has
+reversed. Z2 also beat the engine on party error in each of FT4–FT7 (verdict files). The
+engine's case therefore rests on what these rules cannot do at all: questions with no recent
+poll to carry forward.
+
+**Declared 2026-10-01, before FT8's target begins fielding:** every verdict from FT8 on
+reports Z1, Z2 and Z3 beside the engine on the approval topline. FT8's Z1 (35) and Z3 (37.0)
+are fixed by rule at its push and stated above.
+
 ## Latest scored wave, in full
 
 Published poll: *Economist*/YouGov, fielded September 25–28 2026, **registered-voter base
