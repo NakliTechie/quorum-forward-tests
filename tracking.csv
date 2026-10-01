@@ -54,11 +54,15 @@ forecast_scored,FT6-C raw+dk (FAIL 9cell 6.99; dk H2H upheld),2026-09-21,34.9,59
 measurement_scored,FT6-E direction_dk right-direction (PASS -3.1),2026-09-21,23.9,67.1,,measurement; first direction pass (0/8 FT4-5); raw -8.3
 FT6,2026-09-16,2026-09-18/21,FAIL,raw -1.7 net +3.7 9cell 6.80; cal -1.1 net +4.9 9cell 4.12 party 9.7 H2H1 upheld (PASS 4/4); wave moved -5
 FT6-P,2026-09-16,2026-09-18/21,FAIL,phi-4 cal +9.1 net +22.1 9cell 10.00 party 11.3; H2H3 H2H4 H2H5 all LOST to the 14B
-forecast_pending,FT7-B calibrated 14B,TBD,34.3,55.6,,registered 2026-09-24 pre-field; target = first E/YouGov wave fielding after the push
-forecast_pending_raw,FT7 raw 14B,TBD,33.5,56.6,,fourth straight 33-35 — level rigid
-forecast_pending,FT7-P-cal phi-4 calibrated,TBD,44.1,49.0,,parallel arm; H2H3 party / H2H4 topline / H2H5 net two-sided
-forecast_pending_raw,FT7-P phi-4 raw,TBD,42.3,50.8,,third wave for the challenger
-measurement_pending,FT7-E direction_dk right-direction,TBD,24.1,67.0,,measurement; second public test
+published,Sep 25-28 (RV base),2026-09-28,36,62,1429,yougov.com/en-us/articles/55649 tabs table 12 (CCphJ5Q) — REGISTERED VOTERS; approval +1 on the week
+forecast_scored,FT7-B calibrated 14B (PASS 4/4),2026-09-28,34.3,55.6,,registered 2026-09-24 pre-field; scored 2026-10-01; H2H3/4/5 all to the 14B
+forecast_scored_raw,FT7 raw 14B (PASS 3/3),2026-09-28,33.5,56.6,,registered 2026-09-24 pre-field; scored 2026-10-01; raw 9-cell 5.61 passes (first since FT2)
+forecast_scored,FT7-P-cal phi-4 calibrated (FAIL 1/4; H2H3/4/5 LOST),2026-09-28,44.1,49.0,,topline +8.1 net +21.1 9cell 8.39 party 10.9 (14B 8.0)
+forecast_scored_raw,FT7-P phi-4 raw (FAIL 0/3),2026-09-28,42.3,50.8,,topline +6.3 net +17.5 9cell 7.19
+forecast_scored,FT7-C raw+dk (PASS 3/3; dk H2H upheld),2026-09-28,35.0,59.4,,NS 8.0->3.6 topline -1.0
+measurement_scored,FT7-E direction_dk right-direction (PASS -2.9),2026-09-28,24.1,67.0,,measurement; second pass; raw -8.1; persistence 0.0 on a flat wave
+FT7,2026-09-24,2026-09-25/28,PASS,raw -2.5 net +2.9 9cell 5.61; cal -1.7 net +4.7 9cell 3.39 party 8.0 H2H1 upheld (8/8); wave moved +1; persistence beat every arm
+FT7-P,2026-09-24,2026-09-25/28,FAIL,phi-4 cal +8.1 net +21.1 9cell 8.39 party 10.9; H2H3 H2H4 H2H5 all LOST to the 14B
 forecast_pending,FT8-B calibrated 14B,TBD,34.4,55.6,,registered 2026-09-29 pre-field; target = first E/YouGov wave fielding after the push (expected Oct 2-5)
 forecast_pending_raw,FT8 raw 14B,TBD,33.5,56.5,,fifth straight 33-35; engine change since FT7 0.0 raw / +0.1 cal
 forecast_pending,FT8-P-cal phi-4 calibrated,TBD,44.0,49.0,,parallel arm; H2H3 party / H2H4 topline / H2H5 net two-sided

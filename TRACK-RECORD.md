@@ -4,7 +4,7 @@ Every forecast here was published with hashes BEFORE its target poll began
 fielding; verdicts are scored by committed scripts against the published wave
 and appended pass or fail at the same volume. Generated from the experiment register by a committed script — not hand-edited.
 
-**Core tally: 42 of 48 registered claims across 6 scored waves** (FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8), as of `verdict-ft6-2026-09-24.md`. Each dated verdict names its
+**Core tally: 50 of 56 registered claims across 7 scored waves** (FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8), as of `verdict-ft7-2026-10-01.md`. Each dated verdict names its
 misses and prints the persistence benchmark (last wave re-used) beside every quantity.
 
 ## FT1 + FT1-B
@@ -37,7 +37,12 @@ misses and prints the persistence benchmark (last wave re-used) beside every qua
 - Registered pre-field; verdict scored 2026-09-24 — dated file [`verdict-ft6-2026-09-24.md`](verdict-ft6-2026-09-24.md) (protocol hash untouched).
 - Verdict: **raw FAIL (2/3) · calibrated PASS (4/4)**
 
+## FT7
+
+- Registered pre-field; verdict scored 2026-10-01 — dated file [`verdict-ft7-2026-10-01.md`](verdict-ft7-2026-10-01.md) (protocol hash untouched).
+- Verdict: **raw PASS (3/3) · calibrated PASS (4/4)**
+
 ---
-*Scored public verdicts: 6 (a wave's raw+calibrated pair counts once).*
+*Scored public verdicts: 7 (a wave's raw+calibrated pair counts once).*
 
 *Corrections to earlier verdict text, and why the movement bar was replaced from FT8, are listed in `ERRATA.md` (originals unchanged).*
