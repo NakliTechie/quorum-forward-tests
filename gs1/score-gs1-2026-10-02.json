@@ -1,0 +1,86 @@
+{
+ "published": {
+  "poll": "Gallup, September 2026 (monthly Gallup Poll Social Series)",
+  "field_dates": "2026-09-01/2026-09-17",
+  "question": "In general, are you satisfied or dissatisfied with the way things are going in the United States at this time?",
+  "base": "U.S. adults, telephone",
+  "source": {
+   "page": "https://news.gallup.com/poll/1669/general-mood-country.aspx",
+   "data": "Gallup's embedded trend table (Datawrapper chart L58Rd, dataset.csv), row '2026 Sep 1-17': Satisfied 21 / Dissatisfied 77 / No opinion 1; monthly series chart 8Z3B3 'Sep 1 2026: 21'",
+   "read": "2026-10-02 IST, by Claude in the browser pane",
+   "note": "Fielding began 2026-09-01, after GS1's public push (4881748, 2026-08-29 12:08 IST): the GS1 target. Gallup's September 2026 party breakdown was not published on the trend page or found in a Gallup article as of the read date; party claims are PENDING."
+  },
+  "topline": {
+   "Satisfied": 21.0,
+   "Dissatisfied": 77.0,
+   "No opinion": 1.0
+  },
+  "party": null,
+  "previous_months": [
+   {
+    "month": "2026-08 (Aug 3-24)",
+    "satisfied": 21
+   },
+   {
+    "month": "2026-07 (Jul 1-19)",
+    "satisfied": 25
+   },
+   {
+    "month": "2026-06 (Jun 1-15)",
+    "satisfied": 23
+   },
+   {
+    "month": "2026-05 (May 1-17)",
+    "satisfied": 21
+   },
+   {
+    "month": "2026-04 (Apr 1-15)",
+    "satisfied": 21
+   },
+   {
+    "month": "2026-03 (Mar 2-18)",
+    "satisfied": 27
+   },
+   {
+    "month": "2026-02 (Feb 2-16)",
+    "satisfied": 26
+   },
+   {
+    "month": "2026-01 (Jan 2-17)",
+    "satisfied": 32
+   }
+  ]
+ },
+ "raw": {
+  "satisfied_pred": 35.7,
+  "satisfied_gold": 21.0,
+  "error": 14.7,
+  "topline_pass": false,
+  "party": null
+ },
+ "calibrated": {
+  "satisfied_pred": 48.7,
+  "satisfied_gold": 21.0,
+  "error": 27.7,
+  "topline_pass": false,
+  "party": null,
+  "party_pass": null
+ },
+ "claims": {
+  "raw_topline": false,
+  "calibrated_topline": false,
+  "calibrated_party": null,
+  "head_to_head": null
+ },
+ "tally": "0/2",
+ "pending": [
+  "calibrated_party",
+  "head_to_head"
+ ],
+ "benchmarks": {
+  "last_month": "2026-08 (Aug 3-24)",
+  "last_month_error": 0.0,
+  "mean_last_4": 22.5,
+  "mean_last_4_error": 1.5
+ }
+}

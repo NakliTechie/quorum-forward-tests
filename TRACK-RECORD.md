@@ -48,7 +48,12 @@ misses and prints the persistence benchmark (last wave re-used) beside every qua
 - HH1 as registered: **5 of 8** claims hit.
 - HH1-B companions: approval_cal PASS 3/3 · approval_cal_house FAIL 1/3 · direction_dk hit · ballot_cal hit.
 
+## GS1 — Gallup satisfaction with the U.S. (third polling house, new question type)
+
+- Registered pre-field; target fielded September 1–17, 2026; verdict scored 2026-10-02 — dated file [`gs1/verdict-gs1-2026-10-02.md`](gs1/verdict-gs1-2026-10-02.md) (registration hashes untouched).
+- GS1 as registered: **0 of 2** scored claims hit; 2 party claims pending until Gallup publishes its party figures.
+
 ---
-*Scored public verdicts: 7 E/YouGov waves (a wave's raw+calibrated pair counts once) + 1 Harvard CAPS/Harris wave.*
+*Scored public verdicts: 7 E/YouGov waves (a wave's raw+calibrated pair counts once) + 1 Harvard CAPS/Harris wave + 1 Gallup wave.*
 
 *Corrections to earlier verdict text, and why the movement bar was replaced from FT8, are listed in `ERRATA.md` (originals unchanged).*

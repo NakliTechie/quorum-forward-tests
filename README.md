@@ -113,7 +113,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 
 | Poll (fields) | Registered | Engine | Result | Verdict | Detail |
 |---|---|---|---|---|---|
-| September 2026 (~Sept 1–19) | Aug 29, pre-field (`4881748`) | raw + calibrated | satisfied 35.7 (raw) / 48.7 (calibrated, cross-survey miss risk disclosed) | *pending* | [protocol](gs1/gallup-satisfaction-registration.md) |
+| September 2026 (Sept 1–17) | Aug 29, pre-field (`4881748`) | raw + calibrated | published **21** satisfied: raw 35.7 (**+14.7**), calibrated 48.7 (**+27.7**), bar ±5; last month's poll exact (0.0); party claims pending until Gallup publishes party figures | **FAIL / FAIL** (0 of 2 scored, 2 pending) | [verdict](gs1/verdict-gs1-2026-10-02.md) · [protocol](gs1/gallup-satisfaction-registration.md) |
 
 ### Harvard CAPS/Harris — approval, right track, generic ballot · roughly monthly
 
