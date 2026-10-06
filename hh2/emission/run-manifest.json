@@ -1,0 +1,26 @@
+{
+ "hf_id": "Qwen/Qwen3-14B",
+ "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+ "model_path": "/home/ubuntu/.cache/huggingface/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "4cabea94d18b882addd903e1ed6bc749592362ea2538cada4d8e7b974d59b8e5",
+  "adapter_config.json": "563a0337c96020f4d40ee703fa821eef45b6172ea8745b37719fe9abbd3282bb"
+ },
+ "frame_sha256": "6653915b47277578d2170c275c57699fe6538e93d347cd5ba990d112a2bd5743",
+ "anchor_sha256": "df3caf8a224ed80ac347f11bcdb2f6fcc446554c1dc3c49b583e00b7a40c80b0",
+ "versions": {
+  "vllm": "0.8.5",
+  "torch": "2.6.0",
+  "transformers": "4.51.3"
+ },
+ "gpu": "NVIDIA L40S, 580.159.04",
+ "code_commit": "442973722876d7af8067d8d91f04e96be46655f7",
+ "attempt": "a1",
+ "source_sha256": {
+  "quorum/twin/forecast.py": "38609cbeb5df03c1ce0cf52e6cff285f47cf72527c6daaa10fd5d7d52d6d01dd",
+  "quorum/twin/predict.py": "d415df3a722c09974f9062b8b951f8bf991d30e4962a9ba0e6c1aa9c8bb900e9",
+  "quorum/twin/instruments.py": "6c66dabfd685dba2a844eb0a94e4947b5deb4041cb8ab45410b0c9214befdec6",
+  "quorum/twin/compression.py": "0f5e8bfca3e4480df26b8ea8a910fd4d842a86a141bf49b56ee5b79ad8d31d9f",
+  "quorum/twin/evidence.py": "84938adba839f66957e664ae43fc1dfd42872a28db2c480543e1677abc47eb1c"
+ }
+}
