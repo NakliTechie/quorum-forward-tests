@@ -4,7 +4,7 @@ Every forecast here was published with hashes BEFORE its target poll began
 fielding; verdicts are scored by committed scripts against the published wave
 and appended pass or fail at the same volume. Generated from the experiment register by a committed script — not hand-edited.
 
-**Core tally: 50 of 56 registered claims across 7 scored waves** (FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8), as of `verdict-ft7-2026-10-01.md`. Each dated verdict names its
+**Core tally: 57 of 64 registered claims across 8 scored waves** (FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8 · FT8 7/8), as of `verdict-ft8-2026-10-07.md`. Each dated verdict names its
 misses and prints the persistence benchmark (last wave re-used) beside every quantity.
 
 ## FT1 + FT1-B
@@ -42,6 +42,11 @@ misses and prints the persistence benchmark (last wave re-used) beside every qua
 - Registered pre-field; verdict scored 2026-10-01 — dated file [`verdict-ft7-2026-10-01.md`](verdict-ft7-2026-10-01.md) (protocol hash untouched).
 - Verdict: **raw PASS (3/3) · calibrated PASS (4/4)**
 
+## FT8
+
+- Registered pre-field; verdict scored 2026-10-07 — dated file [`verdict-ft8-2026-10-07.md`](verdict-ft8-2026-10-07.md) (protocol hash untouched).
+- Verdict: **raw FAIL (2/3) · calibrated PASS (4/4)**
+
 ## HH1 + HH1-B — Harvard CAPS/Harris (second polling house)
 
 - Registered pre-field; target fielded September 26–28, 2026; verdict scored 2026-10-01 — dated file [`hh1/verdict-hh1-2026-10-01.md`](hh1/verdict-hh1-2026-10-01.md) (registration hashes untouched).
@@ -54,6 +59,6 @@ misses and prints the persistence benchmark (last wave re-used) beside every qua
 - GS1 as registered: **0 of 2** scored claims hit; 2 party claims pending until Gallup publishes its party figures.
 
 ---
-*Scored public verdicts: 7 E/YouGov waves (a wave's raw+calibrated pair counts once) + 1 Harvard CAPS/Harris wave + 1 Gallup wave.*
+*Scored public verdicts: 8 E/YouGov waves (a wave's raw+calibrated pair counts once) + 1 Harvard CAPS/Harris wave + 1 Gallup wave.*
 
 *Corrections to earlier verdict text, and why the movement bar was replaced from FT8, are listed in `ERRATA.md` (originals unchanged).*

@@ -8,16 +8,18 @@ question, using an open-weight language model conditioned on real demographic fr
 only way to know whether such a thing works is to make it commit in advance, in public.
 That is what this repository is for.
 
-**Running tally: 50 of 56 core registered claims hit across seven scored waves
-(FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8).** Misses: the raw engine's
-9-cell bar on four straight waves (FT3–6; it passed on FT7), and, on the Sep 11–14 wave, when
-approval rose 3 points in a week, both engines' toplines (raw −6.4, calibrated −5.4 against ±5).
-On the Sep 25–28 wave approval rose 1 point to 36, and the 14B passed every core bar. The phi-4
-challenger lost all three registered head-to-heads for the second week running (party 10.9 vs
-8.0; topline 8.1 vs 1.7; net 21.1 vs 4.7). The same quiet week favoured last week's poll carried
-forward: it beat every arm on topline, net, party and subgroups. Neither engine's level moves;
-the 14B passes when the wave sits near it. The arithmetic is in
-[`verdict-ft7-2026-10-01.md`](verdict-ft7-2026-10-01.md). A second polling house scored
+**Running tally: 57 of 64 core registered claims hit across eight scored waves
+(FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8 · FT8 7/8).** Misses: the raw
+engine's 9-cell bar on five of the last six waves (FT3–6 and FT8), and, on the Sep 11–14 wave,
+when approval rose 3 points in a week, both engines' toplines (raw −6.4, calibrated −5.4
+against ±5). On the Oct 2–5 wave approval rose 2 points to 38. The calibrated 14B passed all
+four of its bars (topline −3.6) while its level stayed where it has sat for six registrations
+(32.6–34.6). The first registered tracking measure passed on every arm only because the week
+was quiet: the engine moved 0.1, and its season slope on the poll is 0.164 (1 would mean it
+tracks). The phi-4 challenger lost all three head-to-heads for the third week running and
+leaves the series with 2 of 11. Last week's poll carried forward, and each of the three
+simple poll rules below, beat the engine on the topline. The arithmetic is in
+[`verdict-ft8-2026-10-07.md`](verdict-ft8-2026-10-07.md). A second polling house scored
 for the first time on Sep 26–28: Harvard CAPS/Harris HH1 hit 5 of 8 as registered, and its
 calibrated companion passed 3 of 3 ([`hh1/verdict-hh1-2026-10-01.md`](hh1/verdict-hh1-2026-10-01.md)). One scored wave is one wave: a quarter
 of registered forecasts (weekly waves, a second polling house, 40+ scored quantities) runs
@@ -107,7 +109,10 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Sep 25–28, 2026 | Sep 24, pre-field | 14B calibrated | 4/4 bars (topline −1.7 · net +4.7 · 9-cell 3.39 · party 8.0) + head-to-head upheld; last week's poll carried forward beat it on every quantity | **PASS** | [verdict](verdict-ft7-2026-10-01.md) |
 | Sep 25–28, 2026 | Sep 24, pre-field | phi-4 challenger raw · calibrated | raw 0/3 (**topline +6.3 · net +17.5 · 9-cell 7.19**); cal 1/4 (**topline +8.1 · net +21.1 · 9-cell 8.39** · party 10.9) — **head-to-heads 3, 4 and 5 all NOT upheld** (the 14B won each) | **FAIL / FAIL** | [verdict](verdict-ft7-2026-10-01.md) |
 | Sep 25–28, 2026 | Sep 24, pre-field | raw+dk (C) · no-anchor (D) · direction_dk (E) · ballot (F) | **C PASS 3/3**, dk head-to-head UPHELD · D expected FAIL met (−7.5) · **E direction_dk PASS −2.9** (second pass) · F cal margin −2.6 + party 8.3 hit, D-share −7.5 miss | measurements | [verdict](verdict-ft7-2026-10-01.md) |
-| first wave to field after the FT8 push (expected Oct 2–5) | Sep 29, pre-field (+ YouGov-weighted [measurement companion](ft8/ft8-companion-ygframe.md), Oct 1: 36.2) | FT7's arms unchanged; movement bar C replaced by the **tracking measure** (engine's own change since FT7 vs the poll's change; registered expected FAIL on any wave that moves >3) | approval 33.5 / 34.4 (fifth straight 33–35; engine change since FT7 0.0 / +0.1); phi-4 42.3 / 44.0; direction_dk 24.3 | *pending* | [protocol](ft8/ft8-registration.md) |
+| Oct 2–5, 2026 (RV base; approval +2 on the week) | Sep 29, pre-field (`ef7aef3`) | 14B raw | 2/3 bars (topline −4.5 · net −1.0 · **9-cell 6.84 > 6**) | **FAIL** | [verdict](verdict-ft8-2026-10-07.md) · [protocol](ft8/ft8-registration.md) |
+| Oct 2–5, 2026 | Sep 29, pre-field | 14B calibrated | 4/4 bars (topline −3.6 · net +0.8 · 9-cell 4.97 · party 7.9) + head-to-head upheld; **tracking measure** (first scored): engine +0.1 vs poll +2.0, inside 3 on a quiet week — season slope 0.164, not tracking; Z1, Z2, Z3 and last week's poll all beat it on the topline | **PASS** | [verdict](verdict-ft8-2026-10-07.md) |
+| Oct 2–5, 2026 | Sep 29, pre-field | phi-4 challenger raw · calibrated (last wave; retired from FT9) | raw 2/3 (topline +4.3 · **net +13.5** · 9-cell 5.84); cal 1/4 (**topline +6.0 · net +17.0 · 9-cell 7.00** · party 9.5) — **head-to-heads 3, 4 and 5 all NOT upheld**; FT5–FT8: 2 of 11 | **FAIL / FAIL** | [verdict](verdict-ft8-2026-10-07.md) |
+| Oct 2–5, 2026 | Sep 29, pre-field | raw+dk (C) · no-anchor (D) · direction_dk (E) · ballot (F) · YouGov-weighted companion | C 2/3 (9-cell 6.18), dk head-to-head UPHELD · D expected FAIL met (−9.4) · **E direction_dk FAIL −5.7** (registered −1 to −5: expectation wrong; direction rose 3) · F cal margin −3.7 + party 10.1 hit, D-share −9.6 miss · companion 36.2 (−1.8), net +4.2 | measurements | [verdict](verdict-ft8-2026-10-07.md) |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
@@ -168,16 +173,16 @@ of the last four polls published before the push.
 | FT5 | Sep 11–14 | 40 | 34.6 (−5.4) | 36 (−4.0) | 37 (−3.0) | 35 (−5.0) |
 | FT6 | Sep 18–21 | 35 | 33.9 (−1.1) | 40 (+5.0) | 40 (+5.0) | 37.25 (+2.25) |
 | FT7 | Sep 25–28 | 36 | 34.3 (−1.7) | 35 (−1.0) | 35 (−1.0) | 37 (+1.0) |
-| FT8 | Oct 2–5 (pending) | — | 34.4 | 35 | known at scoring | 37 |
-| **Mean abs. error, 7 waves** | | | **2.36** | 2.29 | 1.86 | 1.82 |
+| FT8 | Oct 2–5 | 38 | 34.4 (−3.6) | 35 (−3.0) | 36 (−2.0) | 37 (−1.0) |
+| **Mean abs. error, 8 waves** | | | **2.51** | 2.38 | 1.88 | 1.72 |
 
 **Read plainly: on the approval topline the engine does not beat simple poll rules.** It
-beat Z1 in 3 of 7 waves and Z2 and Z3 in 2 of 7. Its mean error (2.36) is level with Z1
-(2.29) and behind Z2 (1.86) and Z3 (1.82). The engine wins when the poll has spiked and
+beat Z1 in 3 of 8 waves and Z2 and Z3 in 2 of 8. Its mean error (2.51) is behind Z1 (2.38),
+Z2 (1.88) and Z3 (1.72). On FT8 all three rules beat it. The engine wins when the poll has spiked and
 falls back toward the engine's fixed level (FT6). It loses when the poll sits above that level
-(FT3–FT5). A retrodiction over the 22 waves before FT1 (known answers, frozen pipeline; not in
+(FT3–FT5, FT8). A retrodiction over the 22 waves before FT1 (known answers, frozen pipeline; not in
 this repository) put the calibrated engine at 1.59 against Z2's 1.77. Forward, the order has
-reversed. Z2 also beat the engine on party error in each of FT4–FT7 (verdict files). The
+reversed. Z2 also beat the engine on party error in each of FT4–FT8 (verdict files). The
 engine's case therefore rests on what these rules cannot do at all: questions with no recent
 poll to carry forward.
 
@@ -193,41 +198,42 @@ counted: [`ft8/ft8-companion-ygframe.md`](ft8/ft8-companion-ygframe.md).
 
 ## Latest scored wave, in full
 
-Published poll: *Economist*/YouGov, fielded September 25–28 2026, **registered-voter base
-(n = 1,429)**, approval up 1 on the week
-([crosstabs](https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_CCphJ5Q.pdf),
-table 12). The third wave with two engines registered side by side — every cell for both,
-errors shown:
+Published poll: *Economist*/YouGov, fielded October 2–5 2026, **registered-voter base
+(n = 1,381)**, approval up 2 on the week
+([crosstabs](https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_703uvs1.pdf),
+table 7). The fourth and last wave with two engines registered side by side — every cell for
+both, errors shown:
 
 | Quantity | Published (RV) | 14B calibrated (err) | phi-4 calibrated (err) | 14B raw (err) |
 |---|---|---|---|---|
-| **Approve** | **36.0** | 34.3 (−1.7) | 44.1 (+8.1) | 33.5 (−2.5) |
-| Disapprove | 62.0 | 55.6 (−6.4) | 49.0 (−13.0) | 56.6 (−5.4) |
-| Not sure | 2.0 | 10.0 (+8.0) | 6.9 (+4.9) | 10.0 (+8.0) |
-| **Net** | **−26.0** | −21.3 (+4.7) | −4.9 (+21.1) | −23.1 (+2.9) |
-| Men | 42 | 40.3 (−1.7) | 46.8 (+4.8) | 35.5 (−6.5) |
-| Women | 31 | 29.0 (−2.0) | 42.0 (+11.0) | 31.6 (+0.6) |
-| Age 18–29 | 29 | 31.3 (+2.3) | 37.8 (+8.8) | 32.4 (+3.4) |
-| Age 30–44 | 31 | 33.7 (+2.7) | 42.3 (+11.3) | 33.3 (+2.3) |
-| Age 45–64 | 39 | 36.4 (−2.6) | 48.2 (+9.2) | 34.1 (−4.9) |
-| Age 65+ | 41 | 35.9 (−5.1) | 48.1 (+7.1) | 34.0 (−7.0) |
-| White | 41 | 39.5 (−1.5) | 50.4 (+9.4) | 35.2 (−5.8) |
-| Black | 12 | 18.4 (+6.4) | 24.5 (+12.5) | 27.9 (+15.9) |
-| Hispanic | 36 | 29.8 (−6.2) | 37.4 (+1.4) | 31.9 (−4.1) |
-| Democrats | 5 | 11.3 (+6.3) | 17.8 (+12.8) | 25.1 (+20.1) |
-| Independents | 23 | 28.8 (+5.8) | 33.2 (+10.2) | 32.0 (+9.0) |
-| Republicans | 77 | 65.2 (−11.8) | 86.6 (+9.6) | 43.9 (−33.1) |
+| **Approve** | **38.0** | 34.4 (−3.6) | 44.0 (+6.0) | 33.5 (−4.5) |
+| Disapprove | 60.0 | 55.6 (−4.4) | 49.0 (−11.0) | 56.5 (−3.5) |
+| Not sure | 2.0 | 10.0 (+8.0) | 7.0 (+5.0) | 10.0 (+8.0) |
+| **Net** | **−22.0** | −21.2 (+0.8) | −5.0 (+17.0) | −23.0 (−1.0) |
+| Men | 44 | 40.5 (−3.5) | 46.7 (+2.7) | 35.5 (−8.5) |
+| Women | 32 | 28.9 (−3.1) | 41.9 (+9.9) | 31.6 (−0.4) |
+| Age 18–29 | 35 | 31.4 (−3.6) | 37.8 (+2.8) | 32.4 (−2.6) |
+| Age 30–44 | 28 | 33.6 (+5.6) | 42.1 (+14.1) | 33.3 (+5.3) |
+| Age 45–64 | 42 | 36.4 (−5.6) | 48.2 (+6.2) | 34.1 (−7.9) |
+| Age 65+ | 42 | 36.0 (−6.0) | 48.0 (+6.0) | 34.0 (−8.0) |
+| White | 42 | 39.6 (−2.4) | 50.3 (+8.3) | 35.2 (−6.8) |
+| Black | 15 | 18.5 (+3.5) | 24.4 (+9.4) | 27.9 (+12.9) |
+| Hispanic | 41 | 29.6 (−11.4) | 37.4 (−3.6) | 31.8 (−9.2) |
+| Democrats | 4 | 11.2 (+7.2) | 17.9 (+13.9) | 25.1 (+21.1) |
+| Independents | 26 | 29.0 (+3.0) | 33.1 (+7.1) | 32.1 (+6.1) |
+| Republicans | 79 | 65.4 (−13.6) | 86.5 (+7.5) | 44.0 (−35.0) |
 
-Bars (declared Sep 24): topline ±5 → 14B −1.7 pass, phi-4 **+8.1 FAIL** · net ±8 → 14B
-+4.7 pass, phi-4 **+21.1 FAIL** · 9-cell ≤ 6 → 14B 3.39 pass, phi-4 **8.39 FAIL** (14B raw
-5.61 pass, its first since FT2) · party ≤ 12 → 8.0 / 10.9, both pass. All three registered
-head-to-heads went to the 14B, as on FT6. The two engines' shapes are unchanged: the 14B
-runs low and flat (Republicans −11.8, Black +6.4); phi-4 runs high (every cell +1 to +13).
-Neither engine's level moved more than 0.4 from FT6. Last week's poll carried forward (persistence) missed
-the topline by 1.0, net by 1.0, party by 1.7 and the 9-cell by 2.33. It beat both engines
-on every quantity, and on structure (2.0 vs 14B 2.87).
+Bars (declared Sep 29): topline ±5 → 14B −3.6 pass, phi-4 **+6.0 FAIL** · net ±8 → 14B
++0.8 pass, phi-4 **+17.0 FAIL** · 9-cell ≤ 6 → 14B 4.97 pass, phi-4 **7.00 FAIL** (14B raw
+**6.84 FAIL**) · party ≤ 12 → 7.9 / 9.5, both pass. All three registered head-to-heads went to
+the 14B, as on FT6 and FT7. The two engines' shapes are unchanged: the 14B runs low and flat
+(Republicans −13.6, Hispanic −11.4); phi-4 runs high (Democrats +13.9, ages 30–44 +14.1).
+Neither engine's level moved more than 0.1 from FT7. Last week's poll carried forward
+(persistence) missed the topline by 2.0, net by 4.0, party by 2.0 and the 9-cell by 2.78. It
+beat the 14B on topline, party, subgroups and structure (1.89 vs 3.37); the 14B beat it on net.
 
-Earlier waves in full: [`verdict-ft6-2026-09-24.md`](verdict-ft6-2026-09-24.md) ·
+Earlier waves in full: [`verdict-ft7-2026-10-01.md`](verdict-ft7-2026-10-01.md) ·
+[`verdict-ft6-2026-09-24.md`](verdict-ft6-2026-09-24.md) ·
 [`verdict-ft5-2026-09-16.md`](verdict-ft5-2026-09-16.md) ·
 [`verdict-ft4-2026-09-10.md`](verdict-ft4-2026-09-10.md) · [`forward-test-3.md`](forward-test-3.md).
 
