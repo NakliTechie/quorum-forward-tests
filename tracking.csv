@@ -76,6 +76,11 @@ measurement_scored,FT8-E direction_dk right-direction (FAIL -5.7),2026-10-05,24.
 measurement_scored,FT8-YG YouGov-weighted frame (measurement; not counted),2026-10-05,36.2,54.0,,topline -1.8 net +4.2 (B -3.6 / +0.8)
 FT8,2026-09-29,2026-10-02/05,FAIL,raw -4.5 net -1.0 9cell 6.84; cal -3.6 net +0.8 9cell 4.97 party 7.9 H2H1 upheld (7/8); wave moved +2; tracking +0.1 vs +2.0 (inside 3)
 FT8-P,2026-09-29,2026-10-02/05,FAIL,phi-4 cal +6.0 net +17.0 9cell 7.00 party 9.5; H2H3 H2H4 H2H5 all LOST to the 14B
+forecast_pending,FT9-B calibrated 14B,TBD,34.7,55.2,,registered 2026-10-08 pre-field; target = first E/YouGov wave fielding after the push (expected Oct 9-12)
+forecast_pending_raw,FT9 raw 14B,TBD,33.6,56.4,,sixth straight 33-35; engine change since FT8 +0.1 raw / +0.3 cal
+forecast_pending,FT9-Y ygdk (YouGov party mix + not-sure fix),TBD,38.0,56.5,,new public arm; topline +-5 and net +-8 bars; H2H-Y vs B
+measurement_pending,FT9-E direction_dk right-direction,TBD,23.8,67.3,,measurement; fourth public test
+measurement_pending,FT9-YG YouGov-weighted frame (measurement; not counted),TBD,36.5,53.7,,companion; party 31/33 + RV re-weight of FT9 rows
 forecast_pending,HH2 approval_cal (approve),TBD,41.2,52.5,,registered 2026-10-06 pre-field; target = first Harvard CAPS/Harris wave fielding after the push; party 16.1/33.3/71.6
 forecast_pending_raw,HH2 approval raw,TBD,36.8,56.8,,same emission; party 28.6/34.2/47.1
 forecast_pending,HH2 direction_dk (right track / wrong track),TBD,27.0,63.0,,DK solved to 10.0 (Sep wave)

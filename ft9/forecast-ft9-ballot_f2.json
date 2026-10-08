@@ -1,0 +1,208 @@
+{
+  "topline": {
+    "The Democratic candidate": 43.9,
+    "The Republican candidate": 36.9,
+    "Other": 3.0,
+    "Not sure": 9.6,
+    "I will not vote": 6.6,
+    "Positive": 43.9,
+    "Negative": 36.9,
+    "Net": 7.0,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "The Democratic candidate": 79.5,
+        "The Republican candidate": 4.9,
+        "Other": 2.9,
+        "Not sure": 6.9,
+        "I will not vote": 5.7,
+        "Positive": 79.5,
+        "Negative": 4.9,
+        "Net": 74.6,
+        "_n_cells": 988,
+        "_weight_share": 0.2863
+      },
+      "Ind": {
+        "The Democratic candidate": 47.0,
+        "The Republican candidate": 30.9,
+        "Other": 3.6,
+        "Not sure": 12.5,
+        "I will not vote": 6.0,
+        "Positive": 47.0,
+        "Negative": 30.9,
+        "Net": 16.1,
+        "_n_cells": 913,
+        "_weight_share": 0.2835
+      },
+      "Rep": {
+        "The Democratic candidate": 5.2,
+        "The Republican candidate": 76.7,
+        "Other": 2.2,
+        "Not sure": 8.3,
+        "I will not vote": 7.6,
+        "Positive": 5.2,
+        "Negative": 76.7,
+        "Net": -71.5,
+        "_n_cells": 765,
+        "_weight_share": 0.2852
+      }
+    },
+    "sex": {
+      "Female": {
+        "The Democratic candidate": 48.5,
+        "The Republican candidate": 33.1,
+        "Other": 3.0,
+        "Not sure": 9.2,
+        "I will not vote": 6.2,
+        "Positive": 48.5,
+        "Negative": 33.1,
+        "Net": 15.4,
+        "_n_cells": 1557,
+        "_weight_share": 0.505
+      },
+      "Male": {
+        "The Democratic candidate": 38.8,
+        "The Republican candidate": 41.3,
+        "Other": 3.0,
+        "Not sure": 10.0,
+        "I will not vote": 6.9,
+        "Positive": 38.8,
+        "Negative": 41.3,
+        "Net": -2.5,
+        "_n_cells": 1568,
+        "_weight_share": 0.4826
+      }
+    },
+    "age": {
+      "18-29": {
+        "The Democratic candidate": 48.0,
+        "The Republican candidate": 31.6,
+        "Other": 3.1,
+        "Not sure": 10.5,
+        "I will not vote": 6.8,
+        "Positive": 48.0,
+        "Negative": 31.6,
+        "Net": 16.4,
+        "_n_cells": 615,
+        "_weight_share": 0.1975
+      },
+      "30-44": {
+        "The Democratic candidate": 45.2,
+        "The Republican candidate": 35.4,
+        "Other": 3.1,
+        "Not sure": 9.8,
+        "I will not vote": 6.5,
+        "Positive": 45.2,
+        "Negative": 35.4,
+        "Net": 9.8,
+        "_n_cells": 1022,
+        "_weight_share": 0.3351
+      },
+      "45-64": {
+        "The Democratic candidate": 41.4,
+        "The Republican candidate": 39.9,
+        "Other": 2.9,
+        "Not sure": 9.3,
+        "I will not vote": 6.5,
+        "Positive": 41.4,
+        "Negative": 39.9,
+        "Net": 1.5,
+        "_n_cells": 784,
+        "_weight_share": 0.2404
+      },
+      "65+": {
+        "The Democratic candidate": 41.0,
+        "The Republican candidate": 40.6,
+        "Other": 2.9,
+        "Not sure": 8.9,
+        "I will not vote": 6.6,
+        "Positive": 41.0,
+        "Negative": 40.6,
+        "Net": 0.4,
+        "_n_cells": 727,
+        "_weight_share": 0.2225
+      }
+    },
+    "race": {
+      "Black": {
+        "The Democratic candidate": 65.7,
+        "The Republican candidate": 15.3,
+        "Other": 3.2,
+        "Not sure": 9.1,
+        "I will not vote": 6.6,
+        "Positive": 65.7,
+        "Negative": 15.3,
+        "Net": 50.4,
+        "_n_cells": 437,
+        "_weight_share": 0.1125
+      },
+      "Hispanic": {
+        "The Democratic candidate": 52.5,
+        "The Republican candidate": 27.6,
+        "Other": 3.2,
+        "Not sure": 10.0,
+        "I will not vote": 6.8,
+        "Positive": 52.5,
+        "Negative": 27.6,
+        "Net": 24.9,
+        "_n_cells": 585,
+        "_weight_share": 0.1714
+      },
+      "Other": {
+        "The Democratic candidate": 48.6,
+        "The Republican candidate": 32.2,
+        "Other": 3.1,
+        "Not sure": 9.7,
+        "I will not vote": 6.4,
+        "Positive": 48.6,
+        "Negative": 32.2,
+        "Net": 16.4,
+        "_n_cells": 574,
+        "_weight_share": 0.1156
+      },
+      "White": {
+        "The Democratic candidate": 36.5,
+        "The Republican candidate": 44.5,
+        "Other": 2.9,
+        "Not sure": 9.6,
+        "I will not vote": 6.5,
+        "Positive": 36.5,
+        "Negative": 44.5,
+        "Net": -8.0,
+        "_n_cells": 1574,
+        "_weight_share": 0.6005
+      }
+    }
+  },
+  "instrument": {
+    "key": "yougov_house_ballot",
+    "question": "In the elections for U.S. Congress in November, who will you vote for in the district where you live?",
+    "options": [
+      "The Democratic candidate",
+      "The Republican candidate",
+      "Other",
+      "Not sure",
+      "I will not vote"
+    ],
+    "provenance": "verbatim (Economist/YouGov toplines, Aug 14-17 2026 PDF, Q41)"
+  },
+  "calibration": {
+    "other_cap": {
+      "target_pct": 3.0,
+      "k": 0.207798
+    },
+    "source_rows_sha256": "c50abb7bd9cbb77a10e955ad772114296d08f93156cc7961e5e823633f5905e0",
+    "a": 2.7534,
+    "b": 0.4401,
+    "family": "HOUSE_BALLOT_NS"
+  },
+  "anchor_sha256": "c1fad44eba32c4f01980b3410ec6421d5a410f91944cfd062d1634c25f2a6b9b",
+  "anchor_text": "Context: Today is October 8, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a memorandum of understanding to end the war was signed in June, its 60-day deadline for a final deal expired in August, and strikes and attacks have continued since. Gasoline averages $4.36 a gallon nationally; inflation is 3.4% over the past year while average wages grew 3.0%. The 2026 midterm congressional elections are in November.",
+  "frame": {
+    "source": "Pew Research Center's American Trends Panel, Wave 161 (Feb 2025) demographic microdata with survey weights",
+    "n_profiles": 3170
+  }
+}
