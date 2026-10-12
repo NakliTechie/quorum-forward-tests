@@ -365,5 +365,7 @@ we predicted, when we predicted it, and how it scored.
 
 ## Attribution
 
-Population frame derived from Pew Research Center's American Trends Panel, Wave 161. Pew
-Research Center bears no responsibility for the analyses or interpretations here.
+Population frame derived from Pew Research Center's American Trends Panel, Wave 161. Source:
+"Pew Research Center's American Trends Panel". Pew Research Center bears no responsibility for the analyses or
+interpretations here. The opinions expressed herein, including any implications for policy, are those of the author
+and not of Pew Research Center.
