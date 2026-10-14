@@ -1,0 +1,1 @@
+{"hf_id": "Qwen/Qwen3-14B", "main_sha_before_passes": "40c069824f4251a91eefaf281ebe4c544efd3e18", "snapshots": "40c069824f4251a91eefaf281ebe4c544efd3e18 ", "adapter_sha256": {"adapter_model.safetensors": "4cabea94d18b882addd903e1ed6bc749592362ea2538cada4d8e7b974d59b8e5", "adapter_config.json": "563a0337c96020f4d40ee703fa821eef45b6172ea8745b37719fe9abbd3282bb"}}

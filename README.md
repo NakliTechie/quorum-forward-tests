@@ -114,6 +114,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Oct 2–5, 2026 | Sep 29, pre-field | phi-4 challenger raw · calibrated (last wave; retired from FT9) | raw 2/3 (topline +4.3 · **net +13.5** · 9-cell 5.84); cal 1/4 (**topline +6.0 · net +17.0 · 9-cell 7.00** · party 9.5) — **head-to-heads 3, 4 and 5 all NOT upheld**; FT5–FT8: 2 of 11 | **FAIL / FAIL** | [verdict](verdict-ft8-2026-10-07.md) |
 | Oct 2–5, 2026 | Sep 29, pre-field | raw+dk (C) · no-anchor (D) · direction_dk (E) · ballot (F) · YouGov-weighted companion | C 2/3 (9-cell 6.18), dk head-to-head UPHELD · D expected FAIL met (−9.4) · **E direction_dk FAIL −5.7** (registered −1 to −5: expectation wrong; direction rose 3) · F cal margin −3.7 + party 10.1 hit, D-share −9.6 miss · companion 36.2 (−1.8), net +4.2 | measurements | [verdict](verdict-ft8-2026-10-07.md) |
 | first wave to field after the FT9 push (expected Oct 9–12) | Oct 8, pre-field | FT8's 14B arms with phi-4 retired; new: **ygdk** (our answers re-weighted to YouGov's party mix + the not-sure fix) as a public arm with topline and net bars; the poll-only rules **Z1** and **Z3** as arms; ballot **F2** ("Other" capped at 3%); YouGov-weights companion | approval 33.6 / 34.7 (sixth straight 33–35; engine change since FT8 +0.1 / +0.3); ygdk 38.0; Z1 38, Z3 37.25; direction_dk 23.8; ballot F2 43.9 D | *pending* | [protocol](ft9/ft9-registration.md) |
+| first wave to field after the FT10 push (expected Oct 16–19) | Oct 14, pre-field | FT9's arms, maps and bars unchanged on a fresh anchor; the model version now pinned in every pass | approval 33.3 / 34.2 (seventh straight 33–35; engine change since FT9 −0.3 / −0.5); ygdk 37.5; Z1 38, Z3 37.25; direction_dk 23.9; ballot F2 44.2 D | *pending* | [protocol](ft10/ft10-registration.md) |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
@@ -176,6 +177,7 @@ of the last four polls published before the push.
 | FT7 | Sep 25–28 | 36 | 34.3 (−1.7) | 35 (−1.0) | 35 (−1.0) | 37 (+1.0) |
 | FT8 | Oct 2–5 | 38 | 34.4 (−3.6) | 35 (−3.0) | 36 (−2.0) | 37 (−1.0) |
 | FT9 | Oct 9–12 (pending) | — | 34.7 | 38 | known at scoring | 37.25 |
+| FT10 | Oct 16–19 (pending) | — | 34.2 | 38 | known at scoring | 37.25 |
 | **Mean abs. error, 8 waves** | | | **2.51** | 2.38 | 1.88 | 1.72 |
 
 **Read plainly: on the approval topline the engine does not beat simple poll rules.** It
