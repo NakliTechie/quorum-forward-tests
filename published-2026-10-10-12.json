@@ -1,0 +1,64 @@
+{
+ "wave": "Economist/YouGov October 10-12 2026",
+ "field_dates": "2026-10-10/2026-10-12",
+ "n": 1403,
+ "base": "U.S. Registered Voters (1,403 of 1,548 adult citizens) \u2014 sixth consecutive RV-base wave; no adult-citizen column published in the tab report (frame note as FT4)",
+ "source": {
+  "article": "https://yougov.com/en-us/articles/55753-steady-midterms-picture-economic-doubts-death-penalty-more-october-10-12-2026-economist-yougov-poll",
+  "toplines_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_gJhLXdy.pdf",
+  "tabs_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_7pgxnD3.pdf",
+  "tabs_table": "9 (page 11); direction table 1 (page 2); congressional vote table 38 (page 57)",
+  "note": "Article published 2026-10-14 (a day later than the usual Tuesday); fielded Saturday to Monday, Oct 10-12 (earlier waves began on Friday). Toplines and tab report both carry this wave's header (October 10\u201312, 2026 - 1403 U.S. Registered Voters), read 2026-10-15 IST. The article also links a second tab report copy (econTabReport_uVJWjRK.pdf) with identical tables and questions 28-30 in a different order. Approval totals print 100%. The party block prints two likely-voter columns (Strict, Loose). Ballot asked with named district candidates (n=1,393)."
+ },
+ "topline": {
+  "Approve": 38.0,
+  "Disapprove": 61.0,
+  "Not sure": 1.0
+ },
+ "party": {
+  "Dem": 4.0,
+  "Ind": 25.0,
+  "Rep": 80.0
+ },
+ "sex": {
+  "Male": 40.0,
+  "Female": 36.0
+ },
+ "age": {
+  "18-29": 35.0,
+  "30-44": 35.0,
+  "45-64": 37.0,
+  "65+": 42.0
+ },
+ "race": {
+  "White": 42.0,
+  "Black": 13.0,
+  "Hispanic": 40.0
+ },
+ "direction": {
+  "topline": {
+   "Right direction": 27.0,
+   "Wrong track": 66.0,
+   "Not sure": 7.0
+  },
+  "party": {
+   "Dem": 3.0,
+   "Ind": 15.0,
+   "Rep": 59.0
+  }
+ },
+ "house_ballot": {
+  "topline": {
+   "Dem": 46.0,
+   "Rep": 39.0,
+   "Other": 2.0,
+   "Not sure": 8.0,
+   "Will not vote": 5.0
+  },
+  "party": {
+   "Dem": 90.0,
+   "Ind": 50.0,
+   "Rep": 3.0
+  }
+ }
+}

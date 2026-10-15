@@ -76,11 +76,14 @@ measurement_scored,FT8-E direction_dk right-direction (FAIL -5.7),2026-10-05,24.
 measurement_scored,FT8-YG YouGov-weighted frame (measurement; not counted),2026-10-05,36.2,54.0,,topline -1.8 net +4.2 (B -3.6 / +0.8)
 FT8,2026-09-29,2026-10-02/05,FAIL,raw -4.5 net -1.0 9cell 6.84; cal -3.6 net +0.8 9cell 4.97 party 7.9 H2H1 upheld (7/8); wave moved +2; tracking +0.1 vs +2.0 (inside 3)
 FT8-P,2026-09-29,2026-10-02/05,FAIL,phi-4 cal +6.0 net +17.0 9cell 7.00 party 9.5; H2H3 H2H4 H2H5 all LOST to the 14B
-forecast_pending,FT9-B calibrated 14B,TBD,34.7,55.2,,registered 2026-10-08 pre-field; target = first E/YouGov wave fielding after the push (expected Oct 9-12)
-forecast_pending_raw,FT9 raw 14B,TBD,33.6,56.4,,sixth straight 33-35; engine change since FT8 +0.1 raw / +0.3 cal
-forecast_pending,FT9-Y ygdk (YouGov party mix + not-sure fix),TBD,38.0,56.5,,new public arm; topline +-5 and net +-8 bars; H2H-Y vs B
-measurement_pending,FT9-E direction_dk right-direction,TBD,23.8,67.3,,measurement; fourth public test
-measurement_pending,FT9-YG YouGov-weighted frame (measurement; not counted),TBD,36.5,53.7,,companion; party 31/33 + RV re-weight of FT9 rows
+published,Oct 10-12 (RV base),2026-10-12,38,61,1403,yougov.com/en-us/articles/55753 tabs table 9 (7pgxnD3) — REGISTERED VOTERS; approval flat on the week
+forecast_scored,FT9-B calibrated 14B (PASS 4/4),2026-10-12,34.7,55.2,,registered 2026-10-08 pre-field; scored 2026-10-15; H2H1 upheld; tracking: engine +0.3 vs poll 0.0
+forecast_scored_raw,FT9 raw 14B (PASS 3/3),2026-10-12,33.6,56.4,,registered 2026-10-08 pre-field; scored 2026-10-15; topline -4.4 net +0.2 9cell 5.93
+forecast_scored,FT9-Y ygdk (PASS 2/2; H2H-Y upheld),2026-10-12,38.0,56.5,,topline 0.0 net +4.5 (B -3.3 / +2.5); 9cell 3.54 party 8.7 reported
+forecast_scored,FT9-C raw+dk (PASS 3/3; dk H2H upheld),2026-10-12,35.1,59.2,,NS 9.1->4.7 topline -2.9
+measurement_scored,FT9-E direction_dk right-direction (PASS -3.2),2026-10-12,23.8,67.3,,measurement; registered expectation (about -6 FAIL) wrong: direction fell 30->27; raw -8.4; persistence +3.0
+measurement_scored,FT9-YG YouGov-weighted frame (measurement; not counted),2026-10-12,36.5,53.7,,topline -1.5 net +4.2 (B -3.3 / +2.5)
+FT9,2026-10-08,2026-10-10/12,PASS,raw -4.4 net +0.2 9cell 5.93; cal -3.3 net +2.5 9cell 3.96 party 8.8 H2H1 upheld (8/8); wave flat; tracking +0.3 vs 0.0 (inside 3); Z1 0.0 Z3 -0.75 beat B; F2 3/3
 forecast_pending,FT10-B calibrated 14B,TBD,34.2,55.6,,registered 2026-10-14 pre-field; target = first E/YouGov wave fielding after the push (expected Oct 16-19)
 forecast_pending_raw,FT10 raw 14B,TBD,33.3,56.5,,seventh straight 33-35; engine change since FT9 -0.3 raw / -0.5 cal
 forecast_pending,FT10-Y ygdk (YouGov party mix + not-sure fix),TBD,37.5,56.9,,topline +-5 and net +-8 bars; H2H-Y vs B
