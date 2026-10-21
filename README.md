@@ -116,6 +116,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Oct 10–12, 2026 | Oct 8, pre-field | ygdk (our answers re-weighted to YouGov's party mix + the not-sure fix) · poll-only rules Z1, Z3 | ygdk 2/2 (topline **0.0** · net +4.5), H2H-Y UPHELD (beat B by 3.3) · Z1 38 (0.0) 2/2 · Z3 37.25 (−0.75) 2/2 | **PASS** | [verdict](verdict-ft9-2026-10-15.md) |
 | Oct 10–12, 2026 | Oct 8, pre-field | raw+dk (C) · no-anchor (D) · direction_dk (E) · ballot (F, F2) · YouGov-weighted companion | **C PASS 3/3**, dk head-to-head UPHELD · D expected FAIL met (−9.5) · **E direction_dk PASS −3.2** (registered expectation FAIL: wrong; direction fell 3) · F cal margin −1.7 + party 11.2 hit, D-share −8.7 miss · **F2 PASS 3/3** (D-share −2.1 · margin 0.0 · party 5.2), H2H-F2 UPHELD · companion 36.5 (−1.5) | measurements | [verdict](verdict-ft9-2026-10-15.md) |
 | first wave to field after the FT10 push (expected Oct 16–19) | Oct 14, pre-field | FT9's arms, maps and bars unchanged on a fresh anchor; the model version now pinned in every pass | approval 33.3 / 34.2 (seventh straight 33–35; engine change since FT9 −0.3 / −0.5); ygdk 37.5; Z1 38, Z3 37.25; direction_dk 23.9; ballot F2 44.2 D | *pending* | [protocol](ft10/ft10-registration.md) |
+| first wave to field after the FT11 push (expected Oct 23–26) | Oct 21, pre-field | FT10's arms, maps and bars unchanged on a fresh anchor; the model pin now through a separate entry point, and invalid answer rows refused | approval 33.4 / 34.2 (eighth straight 33–35; engine change since FT10 +0.1 / 0.0); ygdk 37.3; Z1 38, Z3 36.75; direction_dk 23.6; ballot F2 44.1 D | *pending* | [protocol](ft11/ft11-registration.md) |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
@@ -179,6 +180,7 @@ of the last four polls published before the push.
 | FT8 | Oct 2–5 | 38 | 34.4 (−3.6) | 35 (−3.0) | 36 (−2.0) | 37 (−1.0) |
 | FT9 | Oct 10–12 | 38 | 34.7 (−3.3) | 38 (0.0) | 38 (0.0) | 37.25 (−0.75) |
 | FT10 | Oct 16–19 (pending) | — | 34.2 | 38 | known at scoring | 37.25 |
+| FT11 | Oct 23–26 (pending) | — | 34.2 | 38 | known at scoring | 36.75 |
 | **Mean abs. error, 9 waves** | | | **2.60** | 2.11 | 1.67 | 1.61 |
 
 **Read plainly: on the approval topline the engine does not beat simple poll rules.** It

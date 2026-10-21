@@ -89,6 +89,11 @@ forecast_pending_raw,FT10 raw 14B,TBD,33.3,56.5,,seventh straight 33-35; engine 
 forecast_pending,FT10-Y ygdk (YouGov party mix + not-sure fix),TBD,37.5,56.9,,topline +-5 and net +-8 bars; H2H-Y vs B
 measurement_pending,FT10-E direction_dk right-direction,TBD,23.9,67.2,,measurement; fifth public test
 measurement_pending,FT10-YG YouGov-weighted frame (measurement; not counted),TBD,36.0,54.0,,companion; party 31/33 + RV re-weight of FT10 rows
+forecast_pending,FT11-B calibrated 14B,TBD,34.2,55.8,,registered 2026-10-21 pre-field; target = first E/YouGov wave fielding after the push (expected Oct 23-26)
+forecast_pending_raw,FT11 raw 14B,TBD,33.4,56.7,,eighth straight 33-35; engine change since FT10 +0.1 raw / 0.0 cal
+forecast_pending,FT11-Y ygdk (YouGov party mix + not-sure fix),TBD,37.3,57.2,,topline +-5 and net +-8 bars; H2H-Y vs B
+measurement_pending,FT11-E direction_dk right-direction,TBD,23.6,67.5,,measurement; sixth public test
+measurement_pending,FT11-YG YouGov-weighted frame (measurement; not counted),TBD,35.9,54.4,,companion; party 31/33 + RV re-weight of FT11 rows
 forecast_pending,HH2 approval_cal (approve),TBD,41.2,52.5,,registered 2026-10-06 pre-field; target = first Harvard CAPS/Harris wave fielding after the push; party 16.1/33.3/71.6
 forecast_pending_raw,HH2 approval raw,TBD,36.8,56.8,,same emission; party 28.6/34.2/47.1
 forecast_pending,HH2 direction_dk (right track / wrong track),TBD,27.0,63.0,,DK solved to 10.0 (Sep wave)
