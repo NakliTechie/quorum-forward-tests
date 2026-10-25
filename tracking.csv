@@ -84,11 +84,14 @@ forecast_scored,FT9-C raw+dk (PASS 3/3; dk H2H upheld),2026-10-12,35.1,59.2,,NS 
 measurement_scored,FT9-E direction_dk right-direction (PASS -3.2),2026-10-12,23.8,67.3,,measurement; registered expectation (about -6 FAIL) wrong: direction fell 30->27; raw -8.4; persistence +3.0
 measurement_scored,FT9-YG YouGov-weighted frame (measurement; not counted),2026-10-12,36.5,53.7,,topline -1.5 net +4.2 (B -3.3 / +2.5)
 FT9,2026-10-08,2026-10-10/12,PASS,raw -4.4 net +0.2 9cell 5.93; cal -3.3 net +2.5 9cell 3.96 party 8.8 H2H1 upheld (8/8); wave flat; tracking +0.3 vs 0.0 (inside 3); Z1 0.0 Z3 -0.75 beat B; F2 3/3
-forecast_pending,FT10-B calibrated 14B,TBD,34.2,55.6,,registered 2026-10-14 pre-field; target = first E/YouGov wave fielding after the push (expected Oct 16-19)
-forecast_pending_raw,FT10 raw 14B,TBD,33.3,56.5,,seventh straight 33-35; engine change since FT9 -0.3 raw / -0.5 cal
-forecast_pending,FT10-Y ygdk (YouGov party mix + not-sure fix),TBD,37.5,56.9,,topline +-5 and net +-8 bars; H2H-Y vs B
-measurement_pending,FT10-E direction_dk right-direction,TBD,23.9,67.2,,measurement; fifth public test
-measurement_pending,FT10-YG YouGov-weighted frame (measurement; not counted),TBD,36.0,54.0,,companion; party 31/33 + RV re-weight of FT10 rows
+published,Oct 19-20 (RV base),2026-10-20,40,59,1501,yougov.com/en-us/articles/55795 tabs table 11 (AjDiUmp) — REGISTERED VOTERS; approval +2 on the week; fielded Mon-Tue
+forecast_scored,FT10-B calibrated 14B (FAIL topline -5.8; 3/4),2026-10-20,34.2,55.6,,registered 2026-10-14 pre-field; scored 2026-10-25; H2H1 upheld; tracking: engine -0.5 vs poll +2.0
+forecast_scored_raw,FT10 raw 14B (FAIL 1/3),2026-10-20,33.3,56.5,,registered 2026-10-14 pre-field; scored 2026-10-25; topline -6.7 net -4.2 9cell 7.11
+forecast_scored,FT10-Y ygdk (PASS 2/2; H2H-Y upheld),2026-10-20,37.5,56.9,,topline -2.5 net -0.4 (B -5.8 / -2.4); 9cell 2.68 party 11.8 reported
+forecast_scored,FT10-C raw+dk (FAIL 1/3; dk H2H upheld),2026-10-20,34.9,59.3,,NS 9.2->4.7 topline -5.1 9cell 6.20
+measurement_scored,FT10-E direction_dk right-direction (PASS -4.1),2026-10-20,23.9,67.2,,measurement; registered expectation (about -6 FAIL) wrong again: direction 27->28; raw -9.3; persistence -1.0
+measurement_scored,FT10-YG YouGov-weighted frame (measurement; not counted),2026-10-20,36.0,54.0,,topline -4.0 net +1.0 (B -5.8 / -2.4)
+FT10,2026-10-14,2026-10-19/20,FAIL,raw -6.7 net -4.2 9cell 7.11; cal -5.8 net -2.4 9cell 5.21 party 11.7 H2H1 upheld (5/8); wave moved +2; tracking -0.5 vs +2.0 (inside 3); Z1 -2.0 Z3 -2.75 beat B; ygdk -2.5 PASS; F2 3/3
 forecast_pending,FT11-B calibrated 14B,TBD,34.2,55.8,,registered 2026-10-21 pre-field; target = first E/YouGov wave fielding after the push (expected Oct 23-26)
 forecast_pending_raw,FT11 raw 14B,TBD,33.4,56.7,,eighth straight 33-35; engine change since FT10 +0.1 raw / 0.0 cal
 forecast_pending,FT11-Y ygdk (YouGov party mix + not-sure fix),TBD,37.3,57.2,,topline +-5 and net +-8 bars; H2H-Y vs B

@@ -1,0 +1,64 @@
+{
+ "wave": "Economist/YouGov October 19-20 2026",
+ "field_dates": "2026-10-19/2026-10-20",
+ "n": 1501,
+ "base": "U.S. Registered Voters (1,501) — seventh consecutive RV-base wave; no adult-citizen column published in the tab report (frame note as FT4)",
+ "source": {
+  "article": "https://yougov.com/en-us/articles/55795 (YouGov article 55795, published 2026-10-22)",
+  "toplines_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_w3mdCDG.pdf",
+  "tabs_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_AjDiUmp.pdf",
+  "tabs_table": "11 (page 17); direction table 1 (page 3); congressional vote table 27 (page 38)",
+  "note": "Fielded Monday to Tuesday, Oct 19-20 (Quorum wave id w1019, an alias of the UQ1 protocol id w1020, study record R10). Toplines and tab report both carry this wave's header (October 19–20, 2026 - 1501 U.S. Registered Voters), read 2026-10-25 IST. Approval totals print 100%. The party block prints two likely-voter columns (Strict, Loose). Ballot asked with named district candidates (n=1,496). Party approval was transcribed and checked first (09:31 IST) and used by E52-F before this file was complete (Chirag's override, docs/reviews/2026-10-25-e52f-w1026-confirm2-pre-codex.md); the House-ballot table was read only after the UQ1 w1019 forecasts were pushed (58d99d5, 15:49 IST)."
+ },
+ "topline": {
+  "Approve": 40.0,
+  "Disapprove": 59.0,
+  "Not sure": 1.0
+ },
+ "party": {
+  "Dem": 5.0,
+  "Ind": 23.0,
+  "Rep": 87.0
+ },
+ "sex": {
+  "Male": 46.0,
+  "Female": 35.0
+ },
+ "age": {
+  "18-29": 36.0,
+  "30-44": 36.0,
+  "45-64": 43.0,
+  "65+": 43.0
+ },
+ "race": {
+  "White": 46.0,
+  "Black": 14.0,
+  "Hispanic": 32.0
+ },
+ "direction": {
+  "topline": {
+   "Right direction": 28.0,
+   "Wrong track": 66.0,
+   "Not sure": 6.0
+  },
+  "party": {
+   "Dem": 6.0,
+   "Ind": 18.0,
+   "Rep": 57.0
+  }
+ },
+ "house_ballot": {
+  "topline": {
+   "Dem": 45.0,
+   "Rep": 40.0,
+   "Other": 2.0,
+   "Not sure": 6.0,
+   "Will not vote": 6.0
+  },
+  "party": {
+   "Dem": 91.0,
+   "Ind": 46.0,
+   "Rep": 3.0
+  }
+ }
+}
