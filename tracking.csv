@@ -104,3 +104,8 @@ forecast_scored_raw,HH2 direction raw right track (MISS -9.9),2026-10-26,21.1,49
 forecast_scored,HH2 ballot calibrated D share (hit +1.4),2026-10-26,53.4,46.6,,published 52/48 among likely voters this month; persistence 2.0
 forecast_scored_raw,HH2 ballot raw D share (MISS -4.8),2026-10-26,47.2,52.8,,same emission
 HH2,2026-10-06,2026-10-24/26,FAIL 7/10,approve raw -2.2 cal +2.2; net raw 0.0 cal +8.7 MISS; right track raw -9.9 MISS dk -4.0; ballot raw -4.8 MISS cal +1.4; cal party 6.27; H2H UPHELD
+forecast_pending,FT12-B calibrated 14B,TBD,34.5,55.6,,registered 2026-10-28 pre-field; target = first E/YouGov wave fielding after the push (expected Oct 30-Nov 2)
+forecast_pending_raw,FT12 raw 14B,TBD,33.5,56.5,,ninth straight 33-35; engine change since FT11 +0.1 raw / +0.3 cal
+forecast_pending,FT12-Y ygdk (YouGov party mix + not-sure fix),TBD,37.6,56.8,,topline +-5 and net +-8 bars; H2H-Y vs B
+measurement_pending,FT12-E direction_dk right-direction,TBD,23.7,67.4,,measurement; seventh public test
+measurement_pending,FT12-YG YouGov-weighted frame (measurement; not counted),TBD,36.2,54.0,,companion; party 31/33 + RV re-weight of FT12 rows
