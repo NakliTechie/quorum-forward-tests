@@ -20,7 +20,9 @@ it tracks). Last week's poll carried forward, and each of the three simple poll 
 calibrated engine on the topline. The arithmetic is in [`verdict-ft10-2026-10-25.md`](verdict-ft10-2026-10-25.md).
 A second
 polling house scored for the first time on Sep 26–28: Harvard CAPS/Harris HH1 hit 5 of 8 as registered, and its
-calibrated companion passed 3 of 3 ([`hh1/verdict-hh1-2026-10-01.md`](hh1/verdict-hh1-2026-10-01.md)). One scored wave is one wave: a quarter
+calibrated companion passed 3 of 3 ([`hh1/verdict-hh1-2026-10-01.md`](hh1/verdict-hh1-2026-10-01.md)). Its second wave
+(Oct 24–26) scored HH2 7 of 10: calibrated approval +2.2 and party cuts within 7 again, with the calibrated net,
+raw right track and raw ballot missing ([`hh2/verdict-hh2-2026-10-28.md`](hh2/verdict-hh2-2026-10-28.md)). One scored wave is one wave: a quarter
 of registered forecasts (weekly waves, a second polling house, 40+ scored quantities) runs
 before any broader claim is made.
 
@@ -134,6 +136,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 |---|---|---|---|---|---|
 | September 2026 (Sep 26–28, 2,200 RV) | Aug 29, pre-field (`4881748`) | HH1 raw + house-adjusted | **5 of 8**: approve raw −4.7, adjusted +2.5 · net raw −5.8, **adjusted +8.4 miss** · **right track −10.5 miss** · ballot D −3.4 · **adjusted party MAE 14.2 miss** · head-to-head (adjusted beats raw) upheld | **FAIL** | [verdict](hh1/verdict-hh1-2026-10-01.md) · [protocol](hh1/hh1-registration.md) |
 | September 2026 | Sep 3, pre-field (`b35d880`) | HH1-B companions | **approval_cal PASS 3/3** (approve 0.0 · net +3.6 · party 1.47) · cal+house 1/3 (+7.2 · +17.9 · 7.67) · direction_dk −4.2 hit · ballot_cal +2.4 hit · head-to-heads 1 and 3 upheld, 2 not upheld (as registered) | companion, reported | [verdict](hh1/verdict-hh1-2026-10-01.md) · [protocol](hh1/hh1b-registration.md) |
+| October 2026 (Oct 24–26, 2,700 RV) | Oct 6, pre-field (`e3ed905`) | HH2 raw + calibrated (house offset dropped) | **7 of 10**: approve raw −2.2, cal +2.2 · net raw 0.0, **cal +8.7 miss** · **right track raw −9.9 miss**, direction_dk −4.0 · **ballot D raw −4.8 miss**, cal +1.4 (ballot printed among likely voters) · cal party MAE 6.27 · head-to-head (cal party beats raw) upheld | **FAIL** | [verdict](hh2/verdict-hh2-2026-10-28.md) · [protocol](hh2/hh2-registration.md) |
 
 ### The November 3, 2026 midterm — national House popular-vote margin · the capstone
 

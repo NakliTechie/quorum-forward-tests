@@ -1,0 +1,33 @@
+{
+ "poll": "Harvard CAPS/Harris Poll, October 2026",
+ "field_dates": "2026-10-24/2026-10-26",
+ "n": 2700,
+ "base": "U.S. registered voters, online opt-in panels (The Harris Poll and HarrisX), weighted; MoE +/-1.9. The generic ballot is printed among likely voters this month (see note)",
+ "source": {
+  "landing": "https://harvardharrispoll.com/key-results-october-2026/",
+  "key_results_pdf": "https://harvardharrispoll.com/assets/uploads/2026/09/HHP_Oct2026_KeyResults.pdf",
+  "pages": "method p.2; right track p.4 (M1); approval p.8 (M3ALT); generic ballot p.20 (CON2026B)",
+  "note": "Landing page dated 2026-10-27; key-results deck (PDF Last-Modified 2026-10-27 17:29 UTC) headed 'Field Dates: October 24-26, 2026', read 2026-10-28 IST. Fielding began after HH2's public push (2026-10-06): the HH2 target. Party columns as printed: approval and ballot use DEM / GOP / IND/OTH (IND/OTH entered as Ind); right track uses GOP / DEM / IND. Approval from the p.8 table (Approve NET 39, Disapprove NET 59); Don't know read from the stacked bar's Oct 26 segment (3%). Right track, wrong track and Don't know read from the p.4 trend chart's Oct 26 points (31 / 59 / 10); party from the p.4 table. The generic ballot on p.20 is labelled 'Among Likely Voters' (52 / 48; party DEM 98 / GOP 5 / IND/OTH 56) and prints 'Sep: 51%' for September, where HH1's September file recorded 50 from that month's deck; HH2 forecast the registered-voter frame, so the ballot is scored on the base as printed and the difference is disclosed in the verdict."
+ },
+ "approval": {
+  "topline": {"Approve": 39.0, "Disapprove": 59.0, "Don't know": 3.0},
+  "party": {"Dem": 9.0, "Ind": 27.0, "Rep": 77.0}
+ },
+ "direction": {
+  "topline": {"Right track": 31.0, "Wrong track": 59.0, "Don't know": 10.0},
+  "party": {"Dem": 13.0, "Ind": 19.0, "Rep": 59.0}
+ },
+ "generic_ballot": {
+  "topline": {"Democrat": 52.0, "Republican": 48.0},
+  "party": {"Dem": 98.0, "Ind": 56.0, "Rep": 5.0}
+ },
+ "previous_wave": {
+  "wave": "Harvard CAPS/Harris September 2026 (fielded Sep 26-28, n=2,200 RV)",
+  "approve": 42.0,
+  "disapprove": 55.0,
+  "right_track": 35.0,
+  "ballot_dem": 50.0,
+  "approval_party": {"Dem": 15.0, "Ind": 32.0, "Rep": 75.0},
+  "source": "HH2's registered benchmark ('same as last month's poll', fixed 2026-10-06 from the September 26-28 wave: approve 42, net -13, right track 35, Democrat share 50, party approve 15 / 32 / 75); disapprove 55 from hh1/published-2026-09-26-28.json."
+ }
+}
