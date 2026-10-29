@@ -1,0 +1,64 @@
+{
+  "wave": "Economist/YouGov October 23-26 2026",
+  "field_dates": "2026-10-23/2026-10-26",
+  "n": 1440,
+  "base": "U.S. Registered Voters (1,440), eighth consecutive RV-base wave; no adult-citizen column printed in the tab report (frame note as FT4)",
+  "source": {
+    "article": "not recorded when the PDFs were read (a search on 2026-10-29 did not find it); the two PDFs below carry the wave's own header 'October 23-26, 2026 - 1440 U.S. Registered Voters'",
+    "toplines_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_cBbOP9t.pdf",
+    "tabs_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_AdxdJpN.pdf",
+    "tabs_table": "approval table 44; direction table 1 (page 3); congressional vote table 12 (page 17)",
+    "note": "Fielded Friday to Monday, Oct 23-26 (Quorum wave id w1026). Approval and direction were transcribed 2026-10-28 07:1x IST by quorum.uq1.tabreport and used by E52-F w1026 before this file was complete; the House-ballot table was read only after the UQ1 w1026 forecasts were pushed (38a2d95, 2026-10-29 11:38 IST). Ballot asked with named district candidates, unweighted n 1,430; the Democratic-candidate row by party ID is the party block (Dem 93, Ind 44, Rep 6). Totals print 99 to 101 from rounding."
+  },
+  "topline": {
+    "Approve": 39.0,
+    "Disapprove": 58.0,
+    "Not sure": 2.0
+  },
+  "party": {
+    "Dem": 4.0,
+    "Ind": 27.0,
+    "Rep": 81.0
+  },
+  "sex": {
+    "Male": 45.0,
+    "Female": 34.0
+  },
+  "age": {
+    "18-29": 35.0,
+    "30-44": 33.0,
+    "45-64": 44.0,
+    "65+": 42.0
+  },
+  "race": {
+    "White": 44.0,
+    "Black": 15.0,
+    "Hispanic": 38.0
+  },
+  "direction": {
+    "topline": {
+      "Right direction": 29.0,
+      "Wrong track": 63.0,
+      "Not sure": 8.0
+    },
+    "party": {
+      "Dem": 5.0,
+      "Ind": 19.0,
+      "Rep": 58.0
+    }
+  },
+  "house_ballot": {
+    "topline": {
+      "Dem": 46.0,
+      "Rep": 40.0,
+      "Other": 2.0,
+      "Not sure": 6.0,
+      "Will not vote": 6.0
+    },
+    "party": {
+      "Dem": 93.0,
+      "Ind": 44.0,
+      "Rep": 6.0
+    }
+  }
+}

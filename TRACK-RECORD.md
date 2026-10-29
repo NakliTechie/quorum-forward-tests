@@ -4,7 +4,7 @@ Every forecast here was published with hashes BEFORE its target poll began
 fielding; verdicts are scored by committed scripts against the published wave
 and appended pass or fail at the same volume. Generated from the experiment register by a committed script — not hand-edited.
 
-**Core tally: 70 of 80 registered claims across 10 scored waves** (FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8 · FT8 7/8 · FT9 8/8 · FT10 5/8), as of `verdict-ft10-2026-10-25.md`. Each dated verdict names its
+**Core tally: 76 of 88 registered claims across 11 scored waves** (FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8 · FT8 7/8 · FT9 8/8 · FT10 5/8 · FT11 6/8), as of `verdict-ft11-2026-10-29.md`. Each dated verdict names its
 misses and prints the persistence benchmark (last wave re-used) beside every quantity.
 
 ## FT1 + FT1-B
@@ -26,6 +26,11 @@ misses and prints the persistence benchmark (last wave re-used) beside every qua
 
 - Registered pre-field; verdict scored 2026-10-25 — dated file [`verdict-ft10-2026-10-25.md`](verdict-ft10-2026-10-25.md) (protocol hash untouched).
 - Verdict: **raw FAIL (1/3) · calibrated FAIL (3/4)**
+
+## FT11
+
+- Registered pre-field; verdict scored 2026-10-29 — dated file [`verdict-ft11-2026-10-29.md`](verdict-ft11-2026-10-29.md) (protocol hash untouched).
+- Verdict: **raw FAIL (1/3) · calibrated PASS (4/4)**
 
 ## FT4
 
@@ -74,6 +79,6 @@ misses and prints the persistence benchmark (last wave re-used) beside every qua
 - GS1 as registered: **0 of 2** scored claims hit; 2 party claims pending until Gallup publishes its party figures.
 
 ---
-*Scored public verdicts: 10 E/YouGov waves (a wave's raw+calibrated pair counts once) + 2 Harvard CAPS/Harris waves + 1 Gallup wave.*
+*Scored public verdicts: 11 E/YouGov waves (a wave's raw+calibrated pair counts once) + 2 Harvard CAPS/Harris waves + 1 Gallup wave.*
 
 *Corrections to earlier verdict text, and why the movement bar was replaced from FT8, are listed in `ERRATA.md` (originals unchanged).*
