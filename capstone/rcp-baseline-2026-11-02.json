@@ -1,0 +1,26 @@
+{
+  "_doc": "Head-to-head baseline named in capstone-registration.md: the RealClearPolitics '2026 Generic Congressional Vote' average as displayed on November 2, 2026 (D - R spread), captured by screenshot + archive.org snapshot that day. The screenshot and page copies are kept in the private Quorum repository (RCP's content); their sha256 hashes are below.",
+  "page": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+  "captured_at": "2026-11-02T18:07:03+05:30",
+  "captured_at_utc": "2026-11-02T12:37:03Z",
+  "rcp_average": {
+    "poll_dates": "10/9 - 10/30",
+    "democrats": 52.0,
+    "republicans": 43.1,
+    "spread": "Democrats +8.9"
+  },
+  "registered_baseline_margin_d_minus_r": 8.9,
+  "two_party_form_for_information_only": 9.36,
+  "quorum_registered_forecast_two_party_margin": 8.54,
+  "quorum_forecast_commit": "50d1d42",
+  "archive_org_snapshot": "https://web.archive.org/web/20261102062050/https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+  "archive_org_snapshot_row": "RCP Average, 10/9 - 10/30, 52.0, 43.1, Democrats +8.9",
+  "which_capture_counts": "This capture (18:07 IST, 07:37 US Eastern, both November 2) is the registered baseline, declared before any later capture. At scoring the last archive.org snapshot dated November 2 (US Eastern) is also listed and disclosed if it differs; the baseline stays +8.9.",
+  "private_files_sha256": {
+    "rcp-2026-11-02-1807ist.png": "8c1b9209edc45533a876451366d2817955ecf3a47ca82af184befa25c1da1384",
+    "rcp-2026-11-02-1807ist.txt": "b260ccf600d054230fe0cc24cff21e4dbceaa042dee1bbb2c6b2f87c1b3fea42",
+    "rcp-2026-11-02-1807ist.dom.html.gz": "0c3b77a2f5a7f8545881cba2ee59b345bb27be4265439639a0dd11cc50c61098",
+    "wayback-20261102062050.html.gz": "1c8cbef6b1ad82b00c2544f6576aba544d636908ae6d5d7d6ea7ac74fccacd83"
+  },
+  "scored": "once, against the certified national House popular vote (Cook / FEC, at least 99% counted), expected mid-December 2026"
+}

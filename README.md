@@ -147,7 +147,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 
 | Registered | Quantity | Forecast | Bar / head-to-head | Verdict | Detail |
 |---|---|---|---|---|---|
-| Sep 11, 2026, pre-election | two-party House vote, D − R | **D+8.54** (D 54.27 / R 45.73) | ±3.0 · beats the RealClearPolitics generic-ballot average as of Nov 2 | *scored Dec 2026, when ≥ 99% counted* | [registration](capstone/capstone-registration.md) · [forecast](capstone/forecast-capstone-2026-09-11.json) · [rows](capstone/rows-capstone-2026-09-11.jsonl) |
+| Sep 11, 2026, pre-election | two-party House vote, D − R | **D+8.54** (D 54.27 / R 45.73) | ±3.0 · beats the RealClearPolitics generic-ballot average as of Nov 2, captured Nov 2: **D+8.9** (52.0 / 43.1) | *scored Dec 2026, when ≥ 99% counted* | [registration](capstone/capstone-registration.md) · [forecast](capstone/forecast-capstone-2026-09-11.json) · [rows](capstone/rows-capstone-2026-09-11.jsonl) · [RCP baseline](capstone/rcp-baseline-2026-11-02.json) |
 
 One number, one bar, scored once. Turnout is a declared 2022-CPS reweight (the table and
 its script are in `capstone/`); the anchor-date sensitivity of the number (±1.5) is
