@@ -1,0 +1,166 @@
+{
+  "overall": {
+    "D": 38.14,
+    "R": 32.12,
+    "D_two_party": 54.28,
+    "weight_share": 1.0,
+    "n_profiles": 3170
+  },
+  "groups": {
+    "Women": {
+      "D": 41.88,
+      "R": 29.34,
+      "D_two_party": 58.81,
+      "weight_share": 0.5133,
+      "n_profiles": 1557
+    },
+    "Men": {
+      "D": 33.86,
+      "R": 35.45,
+      "D_two_party": 48.85,
+      "weight_share": 0.4772,
+      "n_profiles": 1568
+    },
+    "Age 18-29": {
+      "D": 42.18,
+      "R": 26.54,
+      "D_two_party": 61.38,
+      "weight_share": 0.1265,
+      "n_profiles": 615
+    },
+    "Age 65+": {
+      "D": 36.12,
+      "R": 34.83,
+      "D_two_party": 50.91,
+      "weight_share": 0.2897,
+      "n_profiles": 727
+    },
+    "White": {
+      "D": 33.07,
+      "R": 37.62,
+      "D_two_party": 46.79,
+      "weight_share": 0.6798,
+      "n_profiles": 1574
+    },
+    "Black": {
+      "D": 57.94,
+      "R": 11.87,
+      "D_two_party": 82.99,
+      "weight_share": 0.1003,
+      "n_profiles": 437
+    },
+    "Hispanic": {
+      "D": 46.09,
+      "R": 22.9,
+      "D_two_party": 66.8,
+      "weight_share": 0.1251,
+      "n_profiles": 585
+    },
+    "Asian": {
+      "D": 45.12,
+      "R": 24.77,
+      "D_two_party": 64.55,
+      "weight_share": 0.0475,
+      "n_profiles": 358
+    },
+    "College graduate": {
+      "D": 42.02,
+      "R": 29.1,
+      "D_two_party": 59.09,
+      "weight_share": 0.4365,
+      "n_profiles": 1130
+    },
+    "No college degree": {
+      "D": 35.02,
+      "R": 34.6,
+      "D_two_party": 50.3,
+      "weight_share": 0.5596,
+      "n_profiles": 2025
+    },
+    "White college graduate": {
+      "D": 38.79,
+      "R": 32.67,
+      "D_two_party": 54.28,
+      "weight_share": 0.3154,
+      "n_profiles": 516
+    },
+    "White no college degree": {
+      "D": 28.07,
+      "R": 41.94,
+      "D_two_party": 40.1,
+      "weight_share": 0.3635,
+      "n_profiles": 1053
+    },
+    "Income under $50,000": {
+      "D": 40.21,
+      "R": 28.9,
+      "D_two_party": 58.19,
+      "weight_share": 0.3033,
+      "n_profiles": 1075
+    },
+    "Income $100,000 or more": {
+      "D": 38.03,
+      "R": 33.25,
+      "D_two_party": 53.35,
+      "weight_share": 0.3176,
+      "n_profiles": 626
+    },
+    "Democrats": {
+      "D": 69.72,
+      "R": 4.26,
+      "D_two_party": 94.24,
+      "weight_share": 0.2991,
+      "n_profiles": 988
+    },
+    "Republicans": {
+      "D": 4.54,
+      "R": 69.27,
+      "D_two_party": 6.15,
+      "weight_share": 0.2997,
+      "n_profiles": 765
+    },
+    "Independents": {
+      "D": 40.54,
+      "R": 24.62,
+      "D_two_party": 62.22,
+      "weight_share": 0.2768,
+      "n_profiles": 913
+    }
+  },
+  "lean": {
+    "Women": 4.53,
+    "Men": -5.43,
+    "Age 18-29": 7.1,
+    "Age 65+": -3.37,
+    "White": -7.49,
+    "Black": 28.71,
+    "Hispanic": 12.52,
+    "Asian": 10.27,
+    "College graduate": 4.81,
+    "No college degree": -3.98,
+    "White college graduate": 0.0,
+    "White no college degree": -14.18,
+    "Income under $50,000": 3.91,
+    "Income $100,000 or more": -0.93,
+    "Democrats": 39.96,
+    "Republicans": -48.13,
+    "Independents": 7.94
+  },
+  "gaps": {
+    "Gender (women - men)": 9.96,
+    "Age (18-29 - 65+)": 10.47,
+    "Education (college - no degree)": 8.79,
+    "White education (college - no degree)": 14.18,
+    "Black - White": 36.2,
+    "Hispanic - White": 20.01
+  },
+  "inputs": {
+    "rows-capstone-2026-09-11.jsonl": "e5228474c36754380df26cb930ed2c537f53b2f593b1f8ef394f082e2b2e28a9",
+    "capstone-turnout-2022.json": "6fba47cdcfc1df7a39b1e1919a1bc314e26871e4247d400e6e84ea477db8fd06"
+  },
+  "calibration": {
+    "a": 2.7534,
+    "b": 0.4401,
+    "family": "HOUSE_BALLOT_NS"
+  }
+}

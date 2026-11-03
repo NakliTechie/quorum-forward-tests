@@ -148,6 +148,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Registered | Quantity | Forecast | Bar / head-to-head | Verdict | Detail |
 |---|---|---|---|---|---|
 | Sep 11, 2026, pre-election | two-party House vote, D − R | **D+8.54** (D 54.27 / R 45.73) | ±3.0 · beats the RealClearPolitics generic-ballot average as of Nov 2, captured Nov 2: **D+8.9** (52.0 / 43.1) | *scored Dec 2026, when ≥ 99% counted* | [registration](capstone/capstone-registration.md) · [forecast](capstone/forecast-capstone-2026-09-11.json) · [rows](capstone/rows-capstone-2026-09-11.jsonl) · [RCP baseline](capstone/rcp-baseline-2026-11-02.json) |
+| Nov 3, 2026, before polls close (numbers fixed Sep 11) | two-party House vote in 17 voter groups (women, 18-29, Black, college graduates ...) | women 58.8 · men 48.9 · White 46.8 · Black 83.0 · Hispanic 66.8 · college 59.1 · no degree 50.3 (D share) | group error ≤ 6.0 · lean error ≤ 4.0 · beats 2022 leans | *scored Nov 5 against AP VoteCast* | [registration](capstone/groups-registration-2026-11-03.md) · [numbers](capstone/groups-forecast-2026-11-03.json) |
 
 One number, one bar, scored once. Turnout is a declared 2022-CPS reweight (the table and
 its script are in `capstone/`); the anchor-date sensitivity of the number (±1.5) is
