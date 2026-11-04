@@ -4,7 +4,7 @@ Quorum is an experiment in predicting public opinion and elections with a langua
 fine-tuned open model (Qwen3-14B) about 3,170 voter profiles built from real survey demographics. We ask each profile how it
 would vote, then weight and add up the answers. This page lists what we said, when we said it, and how to check it.
 
-*Last updated 2026-11-04, 11:10 IST. Early comparisons below will change as votes are counted.*
+*Last updated 2026-11-04, 11:00 IST. Early comparisons below will change as votes are counted.*
 
 ![Our projections for the 2026 US House](capstone/images/projections-card.png)
 
