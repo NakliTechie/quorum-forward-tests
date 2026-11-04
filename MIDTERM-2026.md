@@ -4,7 +4,7 @@ Quorum is an experiment in predicting public opinion and elections with a langua
 fine-tuned open model (Qwen3-14B) about 3,170 voter profiles built from real survey demographics. We ask each profile how it
 would vote, then weight and add up the answers. This page lists what we said, when we said it, and how to check it.
 
-*Last updated 2026-11-04, 11:00 IST. Early comparisons below will change as votes are counted.*
+*Last updated 2026-11-04, 11:20 IST. Early comparisons below will change as votes are counted.*
 
 ![Our projections for the 2026 US House](capstone/images/projections-card.png)
 
@@ -34,7 +34,8 @@ That was our error, and [its log](capstone/seats/exposure.md) records it.
 
 This is an informal early read, not a score. The official group score uses a capture on Nov 5.
 
-- **House control:** NBC and CBS projected Democrats to win. NBC's election-night estimate was 248 seats to 187.
+- **House control:** NBC and CBS projected Democrats to win. NBC's seat estimate moved from 248 to 187 at 22:35 ET to 255 to 180 at 00:46 ET, with 219 to 120 called.
+- **Seats:** that estimate is above our 80% range of 227 to 242, so our 234 is looking low. On our table, 255 seats needs a national margin near +13. If the margin is lower than that, the table is under-counting a wave of this size. We can't tell which until there is a national vote total.
 - **National margin:** no national vote total yet. The early AP Voter Poll implies about D +10, which is a survey, not a count.
 - **Voter groups:** on the [table as printed at 22:34 ET](https://abcnews.com/Elections/polls-2026-us-house-election-results-analysis), group error is 3.44 and lean error 3.35, both inside their bars.
 - **Biggest misses:** ages 18-29 (61.4 against 74.2), Black voters (83.0 against 90.8), Asian voters (64.5 against 70.7). The age gap is far too narrow: 10.5 against 25.7.
