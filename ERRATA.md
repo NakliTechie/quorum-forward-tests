@@ -48,3 +48,25 @@ engines on every quantity that wave. It lost on net: persistence 3.0 against our
 **5. FT3 date.** The track record said "Registered 2026-08-24". FT3 was committed privately on
 Aug 24 and pushed publicly on **Aug 26**, before its target (Aug 28–31) began fielding, as
 `forward-test-3.md`'s registration-mechanism note records. `TRACK-RECORD.md` now says so.
+
+## 2026-11-04 — the survey named in the voter-group scoring rule
+
+**What was wrong.** `capstone/groups-registration-2026-11-03.md` names its source as "AP VoteCast" and
+calls it a survey of "about 100,000 voters". We wrote both from earlier years and did not check them
+before registering.
+
+**What is right.** AP's 2026 survey is the AP Voter Poll: about 80,000 voters in all 50 states, conducted
+by SSRS for The Associated Press, ABC News, CBS News, CNN, FOX News Media, NBC News and Versant
+([AP article, Nov 3, via PBS](https://www.pbs.org/newshour/politics/ap-voter-poll-how-key-demographic-groups-voted-in-the-2026-midterms)).
+
+**What changes.** No forecast number, bar or scoring step changes. The rule's source order (AP or Fox
+News, then NBC, then CNN) now leads to one shared survey: ABC News and NBC News print the same rows.
+AP's article prints only some groups, the Fox News address we tried returned a 404, and CNN is unavailable
+from our location. We therefore capture the full table from
+[ABC News](https://abcnews.com/Elections/polls-2026-us-house-election-results-analysis) in the registered
+window, November 5, 12:00 to 18:00 IST, and name that page in the verdict.
+
+**What we did before this entry.** This entry was written after the polls closed. We read ABC's table as it
+stood on November 4 at 09:04 IST and ran it through the registered scorer as an informal early read. The
+forecast numbers and the rule were already public, so that read could not change them. The registered score
+uses the November 5 capture. The original registration file is unchanged.
