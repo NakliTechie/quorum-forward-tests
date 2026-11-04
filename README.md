@@ -8,6 +8,8 @@ question, using an open-weight language model conditioned on real demographic fr
 only way to know whether such a thing works is to make it commit in advance, in public.
 That is what this repository is for.
 
+**Here for the 2026 midterms? Start with [our projections and how to check them](MIDTERM-2026.md).**
+
 **Running tally: 76 of 88 core registered claims hit across eleven scored waves
 (FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8 · FT8 7/8 · FT9 8/8 · FT10 5/8 · FT11 6/8).** Misses:
 the raw engine's 9-cell bar on seven waves (FT3–6, FT8, FT10 and FT11), the raw engine's topline on three (FT5, FT10 and
@@ -148,6 +150,7 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Registered | Quantity | Forecast | Bar / head-to-head | Verdict | Detail |
 |---|---|---|---|---|---|
 | Sep 11, 2026, pre-election | two-party House vote, D − R | **D+8.54** (D 54.27 / R 45.73) | ±3.0 · beats the RealClearPolitics generic-ballot average as of Nov 2, captured Nov 2: **D+8.9** (52.0 / 43.1) | *scored Dec 2026, when ≥ 99% counted* | [registration](capstone/capstone-registration.md) · [forecast](capstone/forecast-capstone-2026-09-11.json) · [rows](capstone/rows-capstone-2026-09-11.jsonl) · [RCP baseline](capstone/rcp-baseline-2026-11-02.json) |
+| Nov 4, 2026, **after polls closed** (a conversion, not a forecast) | Democratic House seats at the registered margin | **about 234** (80% range 227 to 242) | none registered | *compared with the final seat count* | [overview](capstone/seats/README.md) · [method](capstone/seats/method.md) · [what the agent saw](capstone/seats/exposure.md) |
 | Nov 3, 2026, before polls close (numbers fixed Sep 11) | two-party House vote in 17 voter groups (women, 18-29, Black, college graduates ...) | women 58.8 · men 48.9 · White 46.8 · Black 83.0 · Hispanic 66.8 · college 59.1 · no degree 50.3 (D share) | group error ≤ 6.0 · lean error ≤ 4.0 · beats 2022 leans | *scored Nov 5 against the AP Voter Poll ([errata](ERRATA.md))* | [registration](capstone/groups-registration-2026-11-03.md) · [numbers](capstone/groups-forecast-2026-11-03.json) |
 
 One number, one bar, scored once. Turnout is a declared 2022-CPS reweight (the table and
