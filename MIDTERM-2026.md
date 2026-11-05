@@ -4,9 +4,13 @@ Quorum is an experiment in predicting public opinion and elections with a langua
 fine-tuned open model (Qwen3-14B) about 3,170 voter profiles built from real survey demographics. We ask each profile how it
 would vote, then weight and add up the answers. This page lists what we said, when we said it, and how to check it.
 
-*Last updated 2026-11-04, 11:20 IST. Early comparisons below will change as votes are counted.*
+*Last updated 2026-11-05, 09:00 IST. Early comparisons below will change as votes are counted.*
 
 ![Our projections for the 2026 US House](capstone/images/projections-card.png)
+
+## Read this first: the date in the prompt moved our number
+
+We found this on Nov 5, after the election. The words "September 11" in the prompt lift our national number by about 2.6 points. The same setup with any other date we tried says about D +6, and that is what the engine said in every other run this season. The registered D +8.54 stands and is scored in December. If it lands close, part of that closeness comes from the date, not from skill. At D +6 the seat table gives about 225, not 234. [The evidence is here](capstone/date-sensitivity/README.md).
 
 ## What we projected
 
@@ -49,6 +53,7 @@ This is an informal early read, not a score. The official group score uses a cap
 | Polling average to beat | Nov 2, 2026 | [commit `84a2091`](https://github.com/NakliTechie/quorum-forward-tests/commit/84a2091) · [captured figures](capstone/rcp-baseline-2026-11-02.json) |
 | Voter-group scoring rule | Nov 3, 2026 | [commit `b4dd863`](https://github.com/NakliTechie/quorum-forward-tests/commit/b4dd863) · [rule](capstone/groups-registration-2026-11-03.md) · [numbers](capstone/groups-forecast-2026-11-03.json) |
 | Correction to that rule | Nov 4, 2026 | [errata](ERRATA.md): we named the survey wrongly. No number changed. |
+| Date finding | Nov 5, 2026 | [evidence](capstone/date-sensitivity/README.md) · [errata](ERRATA.md) |
 | Seat conversion | Nov 4, 2026 | [overview](capstone/seats/README.md) · [method and backtest](capstone/seats/method.md) · [what the agent saw](capstone/seats/exposure.md) · [seats by margin](capstone/seats/seats_by_margin.csv) · [seats by state](capstone/seats/seats_by_state_at_8.54.csv) |
 | Weekly poll record | Aug to Oct 2026 | [track record](TRACK-RECORD.md) · [every test and verdict](README.md) · [checksums](SHA256SUMS) |
 
@@ -59,7 +64,7 @@ weights and part of the forecast code are private, so the forecasts themselves c
 ## Caveats
 
 - **One election is one data point.** A hit or a miss on the national number proves little by itself.
-- **The news context mattered.** The same setup five days earlier gave D +6.0, so the number carries about ±1.5 points of date noise.
+- **The date in the prompt mattered.** Our registration put date noise at about ±1.5 points. The real effect was larger and came from one date: see the top of this page.
 - **Turnout is a lookup.** We reweighted to 2022 turnout. It is not a model of the 2026 electorate.
 - **Simple rules beat us on weekly approval.** We hit 76 of 88 registered claims, but copying recent polls was closer on the headline number: 1.64 to 1.77 points off, against our 3.09.
 - **The engine is noisy.** Rerunning identical cases moved answers by a median of 1.3 points in one test.

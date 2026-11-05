@@ -8,7 +8,7 @@ question, using an open-weight language model conditioned on real demographic fr
 only way to know whether such a thing works is to make it commit in advance, in public.
 That is what this repository is for.
 
-**Here for the 2026 midterms? Start with [our projections and how to check them](MIDTERM-2026.md).**
+**Here for the 2026 midterms? Start with [our projections and how to check them](MIDTERM-2026.md).** **Note:** the date in the prompt [moved our national number](capstone/date-sensitivity/README.md).
 
 **Running tally: 76 of 88 core registered claims hit across eleven scored waves
 (FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8 · FT8 7/8 · FT9 8/8 · FT10 5/8 · FT11 6/8).** Misses:

@@ -70,3 +70,12 @@ window, November 5, 12:00 to 18:00 IST, and name that page in the verdict.
 stood on November 4 at 09:04 IST and ran it through the registered scorer as an informal early read. The
 forecast numbers and the rule were already public, so that read could not change them. The registered score
 uses the November 5 capture. The original registration file is unchanged.
+
+## 2026-11-05 — what moved the capstone number
+
+**What was wrong.** `capstone/capstone-registration.md`, disclosure 6, puts a 2.5-point swing between the Sep 6 and Sep 11 runs down to "news-valence steering", and says the forecast carries roughly ±1.5 points of anchor-date noise.
+
+**What is right.** Changing only the date in the prompt moved the margin 2.56 and 2.66 points on today's software, and changing the petrol price did almost nothing. The nine other weekly runs gave D +5.9 to +6.7. Evidence: `capstone/date-sensitivity/README.md`.
+
+**What changes.** The registered forecast, its bar and its December score do not change. The registration file is unchanged.
+

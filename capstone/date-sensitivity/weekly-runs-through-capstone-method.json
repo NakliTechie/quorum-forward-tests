@@ -1,0 +1,132 @@
+[
+ {
+  "run": "FT4",
+  "anchor": "Sep 2",
+  "D_two_party": 53.36,
+  "margin": 6.72,
+  "seats": [
+   227,
+   221,
+   235
+  ],
+  "group_error": 3.4,
+  "lean_error": 3.13
+ },
+ {
+  "run": "FT5",
+  "anchor": "Sep 6",
+  "D_two_party": 52.98,
+  "margin": 5.96,
+  "seats": [
+   225,
+   218,
+   232
+  ],
+  "group_error": 3.61,
+  "lean_error": 3.17
+ },
+ {
+  "run": "Capstone",
+  "anchor": "Sep 11",
+  "D_two_party": 54.28,
+  "margin": 8.56,
+  "seats": [
+   235,
+   227,
+   242
+  ],
+  "group_error": 3.44,
+  "lean_error": 3.35
+ },
+ {
+  "run": "FT6",
+  "anchor": "Sep 16",
+  "D_two_party": 53.34,
+  "margin": 6.68,
+  "seats": [
+   227,
+   221,
+   235
+  ],
+  "group_error": 3.45,
+  "lean_error": 3.13
+ },
+ {
+  "run": "FT7",
+  "anchor": "Sep 24",
+  "D_two_party": 53.06,
+  "margin": 6.12,
+  "seats": [
+   225,
+   218,
+   232
+  ],
+  "group_error": 3.51,
+  "lean_error": 3.11
+ },
+ {
+  "run": "FT8",
+  "anchor": "Sep 29",
+  "D_two_party": 52.97,
+  "margin": 5.94,
+  "seats": [
+   225,
+   218,
+   232
+  ],
+  "group_error": 3.56,
+  "lean_error": 3.13
+ },
+ {
+  "run": "FT9",
+  "anchor": "Oct 8",
+  "D_two_party": 53.03,
+  "margin": 6.06,
+  "seats": [
+   225,
+   218,
+   232
+  ],
+  "group_error": 3.61,
+  "lean_error": 3.23
+ },
+ {
+  "run": "FT10",
+  "anchor": "Oct 14",
+  "D_two_party": 53.23,
+  "margin": 6.46,
+  "seats": [
+   226,
+   220,
+   234
+  ],
+  "group_error": 3.53,
+  "lean_error": 3.21
+ },
+ {
+  "run": "FT11",
+  "anchor": "Oct 21",
+  "D_two_party": 53.15,
+  "margin": 6.3,
+  "seats": [
+   226,
+   219,
+   233
+  ],
+  "group_error": 3.45,
+  "lean_error": 3.08
+ },
+ {
+  "run": "FT12",
+  "anchor": "Oct 28",
+  "D_two_party": 53.04,
+  "margin": 6.08,
+  "seats": [
+   225,
+   218,
+   232
+  ],
+  "group_error": 3.5,
+  "lean_error": 3.09
+ }
+]
