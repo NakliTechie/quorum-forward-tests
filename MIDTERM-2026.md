@@ -4,7 +4,7 @@ Quorum is an experiment in predicting public opinion and elections with a langua
 fine-tuned open model (Qwen3-14B) about 3,170 voter profiles built from real survey demographics. We ask each profile how it
 would vote, then weight and add up the answers. This page lists what we said, when we said it, and how to check it.
 
-*Last updated 2026-11-05, 09:30 IST. Early comparisons below will change as votes are counted.*
+*Last updated 2026-11-05, 10:10 IST. Early comparisons below will change as votes are counted.*
 
 ![Our projections for the 2026 US House](capstone/images/projections-card.png)
 
@@ -39,8 +39,8 @@ That was our error, and [its log](capstone/seats/exposure.md) records it.
 This is an informal early read, not a score. The official group score uses a capture on Nov 5.
 
 - **House control:** NBC and CBS projected Democrats to win. NBC's seat estimate has moved from 248 to 187 on election night to 259 to 176, with 242 to 151 called and 42 uncalled at 22:52 ET on Nov 4.
-- **Seats:** our 234 was too low. Democrats have already reached the top of our 80% range of 227 to 242, and more seats are uncalled. On our table, 259 seats needs a national margin near +13.6. If the margin is lower than that, the table is under-counting a wave of this size. We can't tell which until there is a national vote total.
-- **National margin:** no national vote total yet. The early AP Voter Poll implies about D +10, which is a survey, not a count.
+- **Seats:** our 234 was too low. Democrats have already reached the top of our 80% range of 227 to 242, and more seats are uncalled. At D +13 the same seat table gives about 256 (range 246 to 266), which contains NBC's 259. So the miss looks like it came from our national margin, not the seat table.
+- **National margin:** no official total yet. NPR reads the AP Voter Poll as at least D +13, and Yahoo reports a projected margin of about 13. These are not counts. If the margin ends near 13, our D +8.54 misses its ±3 bar by about 1.5 points, and the polling average (+8.9) is slightly closer than we are.
 - **Voter groups:** on the [table as printed at 22:34 ET](https://abcnews.com/Elections/polls-2026-us-house-election-results-analysis), group error is 3.44 and lean error 3.35, both inside their bars.
 - **Biggest misses:** ages 18-29 (61.4 against 74.2), Black voters (83.0 against 90.8), Asian voters (64.5 against 70.7). The age gap is far too narrow: 10.5 against 25.7.
 - **Closest:** women (58.8 against 59.2) and Republicans. The gender gap is close: 9.9 against 9.2.
