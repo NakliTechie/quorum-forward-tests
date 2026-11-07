@@ -1,0 +1,93 @@
+{
+  "source": "AP Voter Poll (SSRS) as printed by ABC News, page updated Nov. 5 1:18 AM ET, captured 2026-11-05 12:13 IST (06:43 UTC) in the registered window. No overall row is printed; overall is the mean of five implied tables.",
+  "groups_scored": 17,
+  "survey_overall_D_two_party": 56.16,
+  "level_error": {
+    "Women": -0.79,
+    "Men": -2.17,
+    "Age 18-29": -13.11,
+    "Age 65+": 0.91,
+    "White": -3.21,
+    "Black": -7.92,
+    "Hispanic": 1.49,
+    "Asian": -7.17,
+    "College graduate": -5.2,
+    "No college degree": 1.32,
+    "White college graduate": -6.33,
+    "White no college degree": 0.71,
+    "Income under $50,000": 0.03,
+    "Income $100,000 or more": -2.77,
+    "Democrats": -3.76,
+    "Republicans": 0.09,
+    "Independents": 1.8
+  },
+  "lean_error": {
+    "Women": 1.09,
+    "Men": -0.29,
+    "Age 18-29": -11.23,
+    "Age 65+": 2.79,
+    "White": -1.33,
+    "Black": -6.04,
+    "Hispanic": 3.37,
+    "Asian": -5.29,
+    "College graduate": -3.32,
+    "No college degree": 3.2,
+    "White college graduate": -4.45,
+    "White no college degree": 2.58,
+    "Income under $50,000": 1.91,
+    "Income $100,000 or more": -0.89,
+    "Democrats": -1.88,
+    "Republicans": 1.97,
+    "Independents": 3.68
+  },
+  "level_mae": 3.46,
+  "lean_mae": 3.25,
+  "level_bar": 6.0,
+  "lean_bar": 4.0,
+  "level_pass": true,
+  "lean_pass": true,
+  "gaps": {
+    "Gender (women - men)": {
+      "ours": 9.96,
+      "survey": 8.58
+    },
+    "Age (18-29 - 65+)": {
+      "ours": 10.47,
+      "survey": 24.49
+    },
+    "Education (college - no degree)": {
+      "ours": 8.79,
+      "survey": 15.31
+    },
+    "White education (college - no degree)": {
+      "ours": 14.18,
+      "survey": 21.21
+    },
+    "Black - White": {
+      "ours": 36.2,
+      "survey": 40.91
+    },
+    "Hispanic - White": {
+      "ours": 20.01,
+      "survey": 15.31
+    }
+  },
+  "head_to_head": {
+    "baseline": "Fallback named in the rule: Pew Research Center, 2022 validated voters (Voting patterns in the 2022 elections, 2023-07-12). No 2022 table of the AP Voter Poll exists, and AP's VoteCast 2022 table could not be reached. Only groups with both D and R printed in the page text are used. Overall is the 2022 national House count (R+2.8). Pew's non-leaning independents differ from the AP row, and Pew's party rows include leaners.",
+    "groups": 9,
+    "ours_lean_mae": 3.07,
+    "persistence_lean_mae": 2.65,
+    "persistence_lean_error": {
+      "Women": -0.5,
+      "Men": 1.46,
+      "White": -0.58,
+      "Black": 11.57,
+      "Hispanic": 2.88,
+      "Asian": 3.86,
+      "College graduate": -0.14,
+      "No college degree": 1.03,
+      "Independents": -1.79
+    },
+    "upheld": false
+  }
+}

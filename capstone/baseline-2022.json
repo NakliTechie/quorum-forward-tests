@@ -1,0 +1,53 @@
+{
+  "source": "Fallback named in the rule: Pew Research Center, 2022 validated voters (Voting patterns in the 2022 elections, 2023-07-12). No 2022 table of the AP Voter Poll exists, and AP's VoteCast 2022 table could not be reached. Only groups with both D and R printed in the page text are used. Overall is the 2022 national House count (R+2.8). Pew's non-leaning independents differ from the AP row, and Pew's party rows include leaners.",
+  "overall": [
+    47.8,
+    50.6
+  ],
+  "groups": {
+    "Women": [
+      51,
+      48
+    ],
+    "Men": [
+      44,
+      54
+    ],
+    "Age 18-29": null,
+    "Age 65+": null,
+    "White": [
+      41,
+      57
+    ],
+    "Black": [
+      93,
+      5
+    ],
+    "Hispanic": [
+      60,
+      39
+    ],
+    "Asian": [
+      68,
+      32
+    ],
+    "College graduate": [
+      56,
+      43
+    ],
+    "No college degree": [
+      42,
+      57
+    ],
+    "White college graduate": null,
+    "White no college degree": null,
+    "Income under $50,000": null,
+    "Income $100,000 or more": null,
+    "Democrats": null,
+    "Republicans": null,
+    "Independents": [
+      49,
+      47
+    ]
+  }
+}

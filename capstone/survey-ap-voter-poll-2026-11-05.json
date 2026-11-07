@@ -1,0 +1,99 @@
+{
+  "source": "AP Voter Poll (SSRS) as printed by ABC News, page updated Nov. 5 1:18 AM ET, captured 2026-11-05 12:13 IST (06:43 UTC) in the registered window. No overall row is printed; overall is the mean of five implied tables.",
+  "overall": [
+    55.26,
+    43.14
+  ],
+  "implied_tables": {
+    "gender": [
+      55.09,
+      43.43
+    ],
+    "race": [
+      55.26,
+      42.82
+    ],
+    "age": [
+      55.55,
+      43.5
+    ],
+    "education": [
+      55.05,
+      42.95
+    ],
+    "party": [
+      55.36,
+      43.0
+    ]
+  },
+  "groups": {
+    "Women": [
+      59,
+      40
+    ],
+    "Men": [
+      50,
+      48
+    ],
+    "Age 18-29": [
+      73,
+      25
+    ],
+    "Age 65+": [
+      50,
+      50
+    ],
+    "White": [
+      49,
+      49
+    ],
+    "Black": [
+      90,
+      9
+    ],
+    "Hispanic": [
+      64,
+      34
+    ],
+    "Asian": [
+      71,
+      28
+    ],
+    "College graduate": [
+      63,
+      35
+    ],
+    "No college degree": [
+      48,
+      50
+    ],
+    "White college graduate": [
+      60,
+      39
+    ],
+    "White no college degree": [
+      39,
+      60
+    ],
+    "Income under $50,000": [
+      57,
+      41
+    ],
+    "Income $100,000 or more": [
+      55,
+      43
+    ],
+    "Democrats": [
+      98,
+      2
+    ],
+    "Republicans": [
+      6,
+      93
+    ],
+    "Independents": [
+      58,
+      38
+    ]
+  }
+}
