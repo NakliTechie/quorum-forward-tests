@@ -10,18 +10,16 @@ That is what this repository is for.
 
 **Here for the 2026 midterms? Start with [our projections and how to check them](MIDTERM-2026.md).** **Note:** the date in the prompt [moved our national number](capstone/date-sensitivity/README.md).
 
-**Running tally: 76 of 88 core registered claims hit across eleven scored waves
-(FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8 · FT8 7/8 · FT9 8/8 · FT10 5/8 · FT11 6/8).** Misses:
+**Running tally: 84 of 96 core registered claims hit across twelve scored waves
+(FT1 8/8 · FT2 8/8 · FT3 7/8 · FT4 7/8 · FT5 5/8 · FT6 7/8 · FT7 8/8 · FT8 7/8 · FT9 8/8 · FT10 5/8 · FT11 6/8 · FT12 8/8).** Misses:
 the raw engine's 9-cell bar on seven waves (FT3–6, FT8, FT10 and FT11), the raw engine's topline on three (FT5, FT10 and
 FT11), and the calibrated engine's topline on the two weeks approval printed 40: Sep 11–14 (calibrated −5.4 against ±5)
-and Oct 19–20 (calibrated −5.8). On Oct 23–26 approval slipped 1 point to 39, and the calibrated engine passed all four
-bars, its topline at −4.8 against ±5, a margin of 0.2. The engine's level stayed where it has sat for nine
-registrations (32.6–34.7); the raw engine missed the topline (−5.6) and the 9-cell bar (6.76). The re-weighted arm
-(our answers re-weighted to YouGov's party mix) passed at −1.7, and the ballot arm with "Other" capped at 3% passed all
-three ballot bars for the third week. The tracking measure passed only because the poll moved less than 3: the season
-slope of the engine on the poll is 0.126 (1 would mean it tracks). Last week's poll carried forward, and each of the
-three simple poll rules below, again beat the calibrated engine on the topline. The arithmetic is in
-[`verdict-ft11-2026-10-29.md`](verdict-ft11-2026-10-29.md). A second
+and Oct 19–20 (calibrated −5.8). FT12 was scored against the Nov 4–6 poll, the first after the election, with its
+disclosures in the verdict: a sample of 3,166, two weeks after the last poll, and a recalled House vote. Approval fell 3
+points to 36, down to where the engine sits, so every core claim hit (calibrated −1.5, raw −2.5) and the calibrated
+engine beat all three simple poll rules for once. The engine did not move with the poll: it rose 0.3 while the poll fell
+3, so the tracking measure failed on all four arms, and the season slope of the engine on the poll is 0.081 (1 would
+mean it tracks). The arithmetic is in [`verdict-ft12-2026-11-08.md`](verdict-ft12-2026-11-08.md). A second
 polling house scored for the first time on Sep 26–28: Harvard CAPS/Harris HH1 hit 5 of 8 as registered, and its
 calibrated companion passed 3 of 3 ([`hh1/verdict-hh1-2026-10-01.md`](hh1/verdict-hh1-2026-10-01.md)). Its second wave
 (Oct 24–26) scored HH2 7 of 10: calibrated approval +2.2 and party cuts within 7 again, with the calibrated net,
@@ -129,7 +127,10 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Oct 23–26, 2026 | Oct 21, pre-field | 14B calibrated | 4/4 bars (topline −4.8, inside ±5 by 0.2 · net −2.6 · 9-cell 5.04 · party 8.9) + head-to-head upheld; tracking: engine 0.0 vs poll −1.0, inside 3 — season slope 0.126; Z1, Z2, Z3 and last week's poll all beat it on the topline (H2H-Z not upheld, as registered) | **PASS** | [verdict](verdict-ft11-2026-10-29.md) |
 | Oct 23–26, 2026 | Oct 21, pre-field | ygdk (our answers re-weighted to YouGov's party mix + the not-sure fix) · poll-only rules Z1, Z3 | ygdk 2/2 (topline −1.7 · net −0.9), H2H-Y UPHELD (beat B by 3.1) · Z1 38 (−1.0) 2/2 · Z3 36.75 (−2.25) 2/2 | **PASS** | [verdict](verdict-ft11-2026-10-29.md) |
 | Oct 23–26, 2026 | Oct 21, pre-field | raw+dk (C) · no-anchor (D) · direction_dk (E) · ballot (F, F2) · YouGov-weighted companion | **C PASS 3/3** (9-cell 5.92), dk head-to-head UPHELD · D expected FAIL met (−10.5) · **E direction_dk FAIL −5.4** (registered expectation about −6 FAIL: met; direction rose 1 to 29) · F cal margin −0.5 + party 10.0 hit, D-share −8.5 miss · **F2 PASS 3/3** (D-share −1.9 · margin +1.3 · party 5.9), H2H-F2 UPHELD · companion 35.9 (−3.1) | measurements | [verdict](verdict-ft11-2026-10-29.md) |
-| first wave to field after the FT12 push (expected Oct 30–Nov 2) | Oct 28, pre-field | FT11's arms, maps and bars unchanged on a fresh anchor, registered after the Oct 23–26 poll published; the box now runs under a Quorum-only AWS role | approval 33.5 / 34.5 (ninth straight 33–35; engine change since FT11 +0.1 / +0.3); ygdk 37.6; Z1 39, Z3 38.75; direction_dk 23.7; ballot F2 44.0 D | *pending* | [protocol](ft12/ft12-registration.md) |
+| Nov 4–6, 2026 (RV base, 3,166; first poll after the election; approval −3 over two weeks) | Oct 28, pre-field | 14B raw | 3/3 bars (topline −2.5 · net +3.0 · 9-cell 4.39) | **PASS** | [verdict](verdict-ft12-2026-11-08.md) · [protocol](ft12/ft12-registration.md) |
+| Nov 4–6, 2026 | Oct 28, pre-field | 14B calibrated | 4/4 bars (topline −1.5 · net +4.9 · 9-cell 2.42 · party 8.6) + head-to-head upheld; tracking: engine +0.3 vs poll −3.0, **outside 3** — season slope 0.081; beat Z1, Z2 and Z3 on the topline (H2H-Z upheld, as the registration's conditional said) | **PASS** | [verdict](verdict-ft12-2026-11-08.md) |
+| Nov 4–6, 2026 | Oct 28, pre-field | ygdk (our answers re-weighted to YouGov's party mix + the not-sure fix) · poll-only rules Z1, Z3 | ygdk 2/2 (topline +1.6 · net +6.8), H2H-Y not upheld (1.6 against B's 1.5) · Z1 39 (+3.0) 2/2 · Z3 38.75 (+2.75) 2/2 | **PASS** | [verdict](verdict-ft12-2026-11-08.md) |
+| Nov 4–6, 2026 | Oct 28, pre-field | raw+dk (C) · no-anchor (D) · direction_dk (E) · ballot (F, F2) · YouGov-weighted companion | **C PASS 3/3** (9-cell 4.50), dk head-to-head UPHELD · D expected FAIL met (−7.5) · **E direction_dk PASS +1.7** (direction fell 7 to 22) · ballot scored against a recalled vote, not an intention: F cal margin −5.7, D-share −14.6, party 14.8, all miss · **F2 2/3** (margin −3.9 · party 8.5 · D-share −8.0 miss), H2H-F2 UPHELD · companion 36.2 (+0.2) | measurements | [verdict](verdict-ft12-2026-11-08.md) |
 
 ### Gallup — satisfaction with the way things are going · monthly
 
@@ -154,8 +155,8 @@ Every verdict links to the frozen protocol carrying its arithmetic.
 | Nov 3, 2026, before polls close (numbers fixed Sep 11) | two-party House vote in 17 voter groups (women, 18-29, Black, college graduates ...) | women 58.8 · men 48.9 · White 46.8 · Black 83.0 · Hispanic 66.8 · college 59.1 · no degree 50.3 (D share) | group error ≤ 6.0 · lean error ≤ 4.0 · beats 2022 leans | *scored Nov 5 against the AP Voter Poll ([errata](ERRATA.md))* | [registration](capstone/groups-registration-2026-11-03.md) · [numbers](capstone/groups-forecast-2026-11-03.json) |
 
 One number, one bar, scored once. Turnout is a declared 2022-CPS reweight (the table and
-its script are in `capstone/`); the anchor-date sensitivity of the number (±1.5) is
-disclosed in the registration, not discovered after.
+its script are in `capstone/`). The registration put the anchor-date sensitivity at ±1.5; after the
+election we found that the date in the prompt moves the number about 2.6 points ([date sensitivity](capstone/date-sensitivity/README.md), [errata](ERRATA.md)).
 
 ### Coming next — each gated on the published entry rule
 
@@ -197,17 +198,17 @@ of the last four polls published before the push.
 | FT9 | Oct 10–12 | 38 | 34.7 (−3.3) | 38 (0.0) | 38 (0.0) | 37.25 (−0.75) |
 | FT10 | Oct 19–20 | 40 | 34.2 (−5.8) | 38 (−2.0) | 38 (−2.0) | 37.25 (−2.75) |
 | FT11 | Oct 23–26 | 39 | 34.2 (−4.8) | 38 (−1.0) | 40 (+1.0) | 36.75 (−2.25) |
-| FT12 | Oct 30–Nov 2 (pending) | — | 34.5 | 39 | known at scoring | 38.75 |
-| **Mean abs. error, 11 waves** | | | **3.09** | 2.00 | 1.64 | 1.77 |
+| FT12 | Nov 4–6 | 36 | 34.5 (−1.5) | 39 (+3.0) | 39 (+3.0) | 38.75 (+2.75) |
+| **Mean abs. error, 12 waves** | | | **2.96** | 2.08 | 1.75 | 1.85 |
 
 **Read plainly: on the approval topline the engine does not beat simple poll rules.** It
-beat Z1 in 3 of 11 waves and Z2 and Z3 in 2 of 11. Its mean error (3.09) is behind Z1 (2.00),
-Z2 (1.64) and Z3 (1.77). On each of the last four waves (FT8–FT11) all three rules beat it, including FT11,
-where the engine passed its own ±5 bar. The engine wins when the poll has spiked and
-falls back toward the engine's fixed level (FT6). It loses when the poll sits above that level
+beat Z1 in 4 of 12 waves and Z2 and Z3 in 3 of 12. Its mean error (2.96) is behind Z1 (2.08),
+Z2 (1.75) and Z3 (1.85). On FT8–FT11 all three rules beat it, including FT11, where the engine
+passed its own ±5 bar. The engine wins when the poll falls back toward the engine's fixed level
+(FT6, and FT12, when approval fell 3 points to 36). It loses when the poll sits above that level
 (FT3–FT5, FT8–FT11). A retrodiction over the 22 waves before FT1 (known answers, frozen pipeline; not in
 this repository) put the calibrated engine at 1.59 against Z2's 1.77. Forward, the order has
-reversed. Z2 also beat the engine on party error in each of FT4–FT11 (verdict files). The
+reversed. Z2 also beat the engine on party error in each of FT4–FT12 (verdict files). The
 engine's case therefore rests on what these rules cannot do at all: questions with no recent
 poll to carry forward.
 

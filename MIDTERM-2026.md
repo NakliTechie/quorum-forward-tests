@@ -4,13 +4,13 @@ Quorum is an experiment in predicting public opinion and elections with a langua
 fine-tuned open model (Qwen3-14B) about 3,170 voter profiles built from real survey demographics. We ask each profile how it
 would vote, then weight and add up the answers. This page lists what we said, when we said it, and how to check it.
 
-*Last updated 2026-11-07, 23:45 IST. The voter-group test is scored. The seat and margin read below is early and will change as votes are counted.*
+*Last updated 2026-11-08, 21:30 IST (the date follow-up and the weekly tally). The voter-group test is scored. The seat and margin read below is early and will change as votes are counted.*
 
 ![Our projections for the 2026 US House](capstone/images/projections-card.png)
 
 ## Read this first: the date in the prompt moved our number
 
-We found this on Nov 5, after the election. The words "September 11" in the prompt lift our national number by about 2.6 points. The same setup with any other date we tried says about D +6, and that is what the engine said in every other run this season. The registered D +8.54 stands and is scored in December. If it lands close, part of that closeness comes from the date, not from skill. At D +6 the seat table gives about 225, not 234. [The evidence is here](capstone/date-sensitivity/README.md).
+We found this on Nov 5, after the election. The words "September 11" in the prompt lift our national number by about 2.6 points. The same setup with any other date we tried says about D +6, and that is what the engine said in every other run this season. The registered D +8.54 stands and is scored in December. If it lands close, part of that closeness comes from the date, not from skill. At D +6 the seat table gives about 225, not 234. A follow-up on Nov 7 found that the lift does not need the text's sentence about the war, by a narrow margin, and that January 6 and December 7 did not lift the number. [The evidence is here](capstone/date-sensitivity/README.md).
 
 ## What we projected
 
@@ -78,7 +78,7 @@ weights and part of the forecast code are private, so the forecasts themselves c
 - **One election is one data point.** A hit or a miss on the national number proves little by itself.
 - **The date in the prompt mattered.** Our registration put date noise at about ±1.5 points. The real effect was larger and came from one date: see the top of this page.
 - **Turnout is a lookup.** We reweighted to 2022 turnout. It is not a model of the 2026 electorate.
-- **Simple rules beat us on weekly approval.** We hit 76 of 88 registered claims, but copying recent polls was closer on the headline number: 1.64 to 1.77 points off, against our 3.09.
+- **Simple rules beat us on weekly approval.** We hit 84 of 96 registered claims, but copying recent polls was closer on the headline number over twelve weeks: 1.75 to 2.08 points off, against our 2.96.
 - **The engine is noisy.** Rerunning identical cases moved answers by a median of 1.3 points in one test.
 - **Seats are after the fact.** The method missed by 5.35 seats on average across four past elections, under-counted Democrats by about 4, and has never been tested above a margin of +8.7.
 - **We have no state detail.** The simulated voters carry four regions, not states.

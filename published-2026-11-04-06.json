@@ -1,0 +1,20 @@
+{
+ "wave": "Economist/YouGov November 4-6 2026",
+ "field_dates": "2026-11-04/2026-11-06",
+ "n": 3166,
+ "base": "U.S. Registered Voters (3,166), ninth consecutive RV-base wave; no adult-citizen column printed in the tab report (frame note as FT4). The first wave after the Nov 3 election, with about twice the usual sample.",
+ "source": {
+  "article": "YouGov's article for the Nov 4-6 poll links econTabReport_SuXgTtZ.pdf in its text; the toplines and crosstabs links at its foot point to the Oct 23-26 files, so the two files below were checked by their title pages ('November 4-6, 2026 - 3166 U.S. Registered Voters')",
+  "toplines_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_5a6y297.pdf",
+  "tabs_pdf": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_SuXgTtZ.pdf",
+  "tabs_table": "approval table 70; direction table 1 (page 2); congressional vote table 16 (page 17)",
+  "note": "Fielded Wednesday to Friday, Nov 4-6 (Quorum wave id w1106; it fills UQ1 study slot w1109 under study-record R16). Both PDFs were created Sat Nov 7 09:22 IST by their metadata. No number in this file was read before the w1106 UQ1 study forecast was pushed (dc66a59, 2026-11-08 16:04 IST); the three tables were transcribed after that by quorum.uq1.tabreport with the R17 block-2 header (the report prints House Vote where earlier ones printed the likely-voter screens), with no parse error, and the toplines file prints the same toplines. FT12 was registered and pushed on Oct 28, before this wave fielded; no wave began fielding between the push and Nov 4. The ballot is a recalled vote after the election, not an intention: 'In the elections for U.S. Congress in November, who did you vote for in the district where you live?', asked of voters (unweighted n 2,750); its 'I did not vote' row is stored as 'Will not vote'. The Democratic-candidate row by party ID is the party block (Dem 94, Ind 57, Rep 6). Totals print 99 to 101 from rounding."
+ },
+ "topline": {"Approve": 36.0, "Disapprove": 62.0, "Not sure": 2.0},
+ "party": {"Dem": 3.0, "Ind": 23.0, "Rep": 75.0},
+ "sex": {"Male": 41.0, "Female": 32.0},
+ "age": {"18-29": 30.0, "30-44": 31.0, "45-64": 37.0, "65+": 43.0},
+ "race": {"White": 41.0, "Black": 17.0, "Hispanic": 32.0},
+ "direction": {"topline": {"Right direction": 22.0, "Wrong track": 66.0, "Not sure": 12.0}, "party": {"Dem": 17.0, "Ind": 14.0, "Rep": 33.0}},
+ "house_ballot": {"topline": {"Dem": 52.0, "Rep": 41.0, "Other": 2.0, "Not sure": 0.0, "Will not vote": 5.0}, "party": {"Dem": 94.0, "Ind": 57.0, "Rep": 6.0}}
+}
