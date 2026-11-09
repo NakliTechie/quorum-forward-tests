@@ -67,7 +67,7 @@ That was our error, and [its log](capstone/seats/exposure.md) records it.
 | Date finding | Nov 5, 2026 | [evidence](capstone/date-sensitivity/README.md) · [errata](ERRATA.md) |
 | Seat conversion | Nov 4, 2026 | [overview](capstone/seats/README.md) · [method and backtest](capstone/seats/method.md) · [what the agent saw](capstone/seats/exposure.md) · [seats by margin](capstone/seats/seats_by_margin.csv) · [seats by state](capstone/seats/seats_by_state_at_8.54.csv) |
 | Early seat and margin read | Nov 7, 2026 | [read](capstone/seats/results-read-2026-11-07.md) · [results by state](capstone/seats/results_by_state_2026-11-07.csv) · [seats by state at D +13.0](capstone/seats/seats_by_state_at_13.0.csv) |
-| Weekly poll record | Aug to Oct 2026 | [track record](TRACK-RECORD.md) · [every test and verdict](README.md) · [checksums](SHA256SUMS) |
+| Weekly poll record | Aug to Oct 2026 | [track record](TRACK-RECORD.md) · [every test and verdict](SCOREBOARD.md) · [checksums](SHA256SUMS) |
 
 Files are hashed in `SHA256SUMS`, and corrections go in new dated entries, never edits. Commit dates are set by the author, so
 treat them as our record, which the hashes and GitHub's push history support. The seat code runs from this repository. The model
