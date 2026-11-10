@@ -1,0 +1,159 @@
+{
+  "topline": {
+    "Democrat": 54.6,
+    "Republican": 45.4,
+    "Positive": 54.6,
+    "Negative": 45.4,
+    "Net": 9.2,
+    "_n_cells": 3170,
+    "_weight_share": 1.0
+  },
+  "by": {
+    "party": {
+      "Dem": {
+        "Democrat": 89.0,
+        "Republican": 11.0,
+        "Positive": 89.0,
+        "Negative": 11.0,
+        "Net": 78.0,
+        "_n_cells": 988,
+        "_weight_share": 0.3333
+      },
+      "Ind": {
+        "Democrat": 68.3,
+        "Republican": 31.7,
+        "Positive": 68.3,
+        "Negative": 31.7,
+        "Net": 36.6,
+        "_n_cells": 913,
+        "_weight_share": 0.2828
+      },
+      "Rep": {
+        "Democrat": 10.2,
+        "Republican": 89.8,
+        "Positive": 10.2,
+        "Negative": 89.8,
+        "Net": -79.6,
+        "_n_cells": 765,
+        "_weight_share": 0.3535
+      }
+    },
+    "sex": {
+      "Female": {
+        "Democrat": 58.5,
+        "Republican": 41.5,
+        "Positive": 58.5,
+        "Negative": 41.5,
+        "Net": 17.0,
+        "_n_cells": 1557,
+        "_weight_share": 0.5062
+      },
+      "Male": {
+        "Democrat": 50.0,
+        "Republican": 50.0,
+        "Positive": 50.0,
+        "Negative": 50.0,
+        "Net": 0.0,
+        "_n_cells": 1568,
+        "_weight_share": 0.485
+      }
+    },
+    "age": {
+      "18-29": {
+        "Democrat": 61.5,
+        "Republican": 38.5,
+        "Positive": 61.5,
+        "Negative": 38.5,
+        "Net": 23.0,
+        "_n_cells": 615,
+        "_weight_share": 0.1827
+      },
+      "30-44": {
+        "Democrat": 56.8,
+        "Republican": 43.2,
+        "Positive": 56.8,
+        "Negative": 43.2,
+        "Net": 13.6,
+        "_n_cells": 1022,
+        "_weight_share": 0.3209
+      },
+      "45-64": {
+        "Democrat": 50.7,
+        "Republican": 49.3,
+        "Positive": 50.7,
+        "Negative": 49.3,
+        "Net": 1.4,
+        "_n_cells": 784,
+        "_weight_share": 0.25
+      },
+      "65+": {
+        "Democrat": 50.2,
+        "Republican": 49.8,
+        "Positive": 50.2,
+        "Negative": 49.8,
+        "Net": 0.4,
+        "_n_cells": 727,
+        "_weight_share": 0.2425
+      }
+    },
+    "race": {
+      "Black": {
+        "Democrat": 81.2,
+        "Republican": 18.8,
+        "Positive": 81.2,
+        "Negative": 18.8,
+        "Net": 62.4,
+        "_n_cells": 437,
+        "_weight_share": 0.1072
+      },
+      "Hispanic": {
+        "Democrat": 65.2,
+        "Republican": 34.8,
+        "Positive": 65.2,
+        "Negative": 34.8,
+        "Net": 30.4,
+        "_n_cells": 585,
+        "_weight_share": 0.1615
+      },
+      "Other": {
+        "Democrat": 60.5,
+        "Republican": 39.5,
+        "Positive": 60.5,
+        "Negative": 39.5,
+        "Net": 21.0,
+        "_n_cells": 574,
+        "_weight_share": 0.1158
+      },
+      "White": {
+        "Democrat": 46.0,
+        "Republican": 54.0,
+        "Positive": 46.0,
+        "Negative": 54.0,
+        "Net": -8.0,
+        "_n_cells": 1574,
+        "_weight_share": 0.6154
+      }
+    }
+  },
+  "instrument": {
+    "key": "hh_generic_ballot",
+    "question": "If the congressional election were held today would you be more likely to vote for a Democrat or a Republican for Congress?",
+    "options": [
+      "Democrat",
+      "Republican"
+    ],
+    "provenance": "verbatim (HH toplines, question CON2026B; two published rows summing to 100, no undecided \u2014 forced-choice convention declared; docs/harvard-harris-recon.md)"
+  },
+  "calibration": {
+    "a": 2.7534,
+    "b": 0.4401,
+    "family": "HOUSE_BALLOT_NS"
+  },
+  "anchor_sha256": "0a15cd3f094c817f3cc839ee1a4aa1dac374523e3ad4718f63d1c8e0b8cf7257",
+  "anchor_text": "Context: Today is November 10, 2026. Donald Trump is in the second year of his second term as President of the United States. The United States has been at war with Iran since February 2026; a memorandum of understanding to end the war was signed in June, its 60-day deadline for a final deal expired in August, and strikes and attacks have continued since. Gasoline averages $4.01 a gallon nationally; inflation is 3.7% over the past year while average wages grew 3.1%.",
+  "frame": {
+    "source": "W161 recomposed to Harvard-Harris printed party targets (quorum-forward-tests/hh1/frame_hh.csv)",
+    "n_profiles": 3170
+  },
+  "source_rows_sha256": "9acf25a12a7582e9913b7d555c9c1d6423dd211dcf2fb7ff5946efd500fbed92"
+}

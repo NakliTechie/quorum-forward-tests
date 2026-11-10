@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-11-10T02:21:01+00:00",
+  "argv": [
+    "/home/ubuntu/sky_workdir/quorum/twin/forecast.py",
+    "--frame-csv",
+    "hh3-in/frame_hh.csv",
+    "--anchor",
+    "hh3-in/anchor-ft13.txt",
+    "--instrument",
+    "hh_generic_ballot",
+    "--hf-id",
+    "/home/ubuntu/.cache/huggingface/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "--adapter",
+    "/adapters/14b",
+    "--max-model-len",
+    "4096",
+    "--out",
+    "results-hh3-a2/hh_generic_ballot"
+  ],
+  "commit": "f0a2fbe678e1ef656ca66400ffedbf4a606dd5f9+dirty",
+  "python": "3.10.13",
+  "params": {
+    "harness": "forecast_v1",
+    "instrument": "hh_generic_ballot",
+    "anchor_sha256": "0a15cd3f094c817f3cc839ee1a4aa1dac374523e3ad4718f63d1c8e0b8cf7257",
+    "hf_id": "/home/ubuntu/.cache/huggingface/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "adapter": "/adapters/14b",
+    "stub": false,
+    "platt": null,
+    "platt_family": null,
+    "n_profiles": 3170
+  },
+  "datasets": [
+    {
+      "path": "hh3-in/anchor-ft13.txt",
+      "sha256": "913c6645db67402d199b023c1d9afaf0b4cb881b54bf1b143acd64084c5e1a26"
+    },
+    {
+      "path": "hh3-in/frame_hh.csv",
+      "sha256": "6653915b47277578d2170c275c57699fe6538e93d347cd5ba990d112a2bd5743"
+    }
+  ]
+}

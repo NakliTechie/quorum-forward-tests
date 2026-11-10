@@ -120,3 +120,9 @@ forecast_pending_raw,FT13 raw 14B,TBD,32.7,55.8,,first raw below 33 since FT3; e
 forecast_pending,FT13-Y ygdk (YouGov party mix + not-sure fix),TBD,36.7,57.0,,topline +-5 and net +-8 bars; H2H-Y vs B
 measurement_pending,FT13-E direction_dk right-direction,TBD,23.2,67.7,,measurement
 measurement_pending,FT13-YG YouGov-weighted frame (measurement; not counted),TBD,35.0,53.7,,companion; party 31/33 + RV re-weight of FT13 rows
+forecast_pending,HH3 approval_cal (approve),TBD,37.8,54.6,,registered 2026-11-10 pre-field; target = first Harvard CAPS/Harris wave fielding after the push; party 14.8/31.3/65.1
+forecast_pending_raw,HH3 approval raw,TBD,35.2,57.1,,same emission; party 27.6/33.4/44.2
+forecast_pending,HH3 direction_dk (right track / wrong track),TBD,25.9,64.1,,DK solved to 10.0 (Oct wave)
+forecast_pending_raw,HH3 direction raw (right track / wrong track),TBD,20.1,49.6,,raw DK 30.3
+forecast_pending,HH3 ballot_cal (Dem / Rep share),TBD,54.6,45.4,,two-row CON2026B; scored on the House question the ballot scoring rule picks; benchmark Oct wave 52
+forecast_pending_raw,HH3 ballot raw (Dem / Rep share),TBD,47.7,52.3,,same emission
