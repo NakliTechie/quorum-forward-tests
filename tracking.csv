@@ -115,3 +115,8 @@ forecast_scored,FT12-C raw+dk (PASS 3/3; dk H2H upheld),2026-11-06,35.1,59.3,,NS
 measurement_scored,FT12-E direction_dk right-direction (PASS +1.7),2026-11-06,23.7,67.4,,measurement; registered expectation (about -6 FAIL) condition unmet: direction 29->22; raw -3.5; persistence +7.0
 measurement_scored,FT12-YG YouGov-weighted frame (measurement; not counted),2026-11-06,36.2,54.0,,topline +0.2 net +8.2 (B -1.5 / +4.9)
 FT12,2026-10-28,2026-11-04/06,PASS,raw -2.5 net +3.0 9cell 4.39; cal -1.5 net +4.9 9cell 2.42 party 8.6 H2H1 upheld (8/8); wave moved -3 over two weeks; tracking +0.3 vs -3.0 (outside 3); Z1 +3.0 Z3 +2.75 B beat both; ygdk +1.6 PASS; F2 2/3 (ballot is a recalled vote)
+forecast_pending,FT13-B calibrated 14B,TBD,33.3,55.2,,registered 2026-11-10 pre-field; target = first E/YouGov wave fielding after the push (expected Nov 13-16)
+forecast_pending_raw,FT13 raw 14B,TBD,32.7,55.8,,first raw below 33 since FT3; engine change since FT12 -0.8 raw / -1.2 cal
+forecast_pending,FT13-Y ygdk (YouGov party mix + not-sure fix),TBD,36.7,57.0,,topline +-5 and net +-8 bars; H2H-Y vs B
+measurement_pending,FT13-E direction_dk right-direction,TBD,23.2,67.7,,measurement
+measurement_pending,FT13-YG YouGov-weighted frame (measurement; not counted),TBD,35.0,53.7,,companion; party 31/33 + RV re-weight of FT13 rows

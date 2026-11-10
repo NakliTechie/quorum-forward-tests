@@ -24,6 +24,7 @@ of the last four polls published before the push.
 | FT10 | Oct 19–20 | 40 | 34.2 (−5.8) | 38 (−2.0) | 38 (−2.0) | 37.25 (−2.75) |
 | FT11 | Oct 23–26 | 39 | 34.2 (−4.8) | 38 (−1.0) | 40 (+1.0) | 36.75 (−2.25) |
 | FT12 | Nov 4–6 | 36 | 34.5 (−1.5) | 39 (+3.0) | 39 (+3.0) | 38.75 (+2.75) |
+| FT13 | Nov 13–16 (pending) | — | 33.3 | 36 | known at scoring | 38.25 |
 | **Mean abs. error, 12 waves** | | | **2.96** | 2.08 | 1.75 | 1.85 |
 
 **Read plainly: on the approval topline the engine does not beat simple poll rules.** It
