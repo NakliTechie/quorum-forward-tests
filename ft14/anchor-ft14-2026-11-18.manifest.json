@@ -1,0 +1,12 @@
+{
+ "date": "2026-11-18",
+ "protocol": "anchor-protocol v1 (FT4)",
+ "wiki_page": "2026 in the United States",
+ "wiki_revid": 1386344048,
+ "cpi_cite": "BLS series CUUR0000SA0, 2026-09 vs 2025-09",
+ "ahe_cite": "BLS series CES0500000003, 2026-10 vs 2025-10",
+ "gas_cite": "AAA national average 2026-11-17 ($3.7818, gasprices.aaa.com 'Price as of 11/17/26', read 2026-11-18 IST)",
+ "election_rule": "none within 12 months (next 2028-11-07); slot empty",
+ "sentences": 4,
+ "sha256": "0d5c45cb59fa76e2008a783fbf54f67472201a3d3a01b714a33e0f73c62a323f"
+}

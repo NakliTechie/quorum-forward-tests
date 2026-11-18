@@ -126,3 +126,8 @@ forecast_pending,HH3 direction_dk (right track / wrong track),TBD,25.9,64.1,,DK 
 forecast_pending_raw,HH3 direction raw (right track / wrong track),TBD,20.1,49.6,,raw DK 30.3
 forecast_pending,HH3 ballot_cal (Dem / Rep share),TBD,54.6,45.4,,two-row CON2026B; scored on the House question the ballot scoring rule picks; benchmark Oct wave 52
 forecast_pending_raw,HH3 ballot raw (Dem / Rep share),TBD,47.7,52.3,,same emission
+forecast_pending,FT14-B calibrated 14B,TBD,33.6,55.0,,registered 2026-11-18 pre-field; target = first E/YouGov wave fielding after the push (expected about Nov 20-23)
+forecast_pending_raw,FT14 raw 14B,TBD,32.9,55.8,,engine change since FT13 +0.2 raw / +0.3 cal
+forecast_pending,FT14-Y ygdk (YouGov party mix + not-sure fix),TBD,37.0,56.6,,topline +-5 and net +-8 bars; H2H-Y vs B
+measurement_pending,FT14-E direction_dk right-direction,TBD,23.4,67.6,,measurement
+measurement_pending,FT14-YG YouGov-weighted frame (measurement; not counted),TBD,35.4,53.4,,companion; party 31/33 + RV re-weight of FT14 rows

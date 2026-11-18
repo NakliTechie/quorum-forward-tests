@@ -60,9 +60,10 @@ it with the seat conversion and the voter-group test, and says how to check each
 
 ## Latest verdicts
 
-Open: FT13, registered Nov 10 before its target poll (the next Economist/YouGov wave, expected to field
-Nov 13–16), on a fresh anchor without the election sentence. Calibrated approval 33.3, raw 32.7, ygdk 36.7; the
-poll rules Z1 36 and Z3 38.25 ([registration](ft13/ft13-registration.md)). HH3, registered the same day on the same
+Open: FT13, registered Nov 10; its target poll fielded Nov 13–16 and its verdict follows the main test's forecast
+on that poll. Calibrated approval 33.3, raw 32.7, ygdk 36.7; Z1 36, Z3 38.25 ([registration](ft13/ft13-registration.md)).
+FT14, registered Nov 18 for the next wave: calibrated 33.6, raw 32.9, ygdk 37.0; Z1 35, Z3 35.5
+([registration](ft14/ft14-registration.md)). HH3, registered the same day on the same
 anchor for the next Harvard CAPS/Harris poll: calibrated approval 37.8, direction (don't-know fixed) 25.9, House
 ballot (calibrated) 54.6 D, scored on whatever House question that poll prints ([registration](hh3/hh3-registration.md)).
 
